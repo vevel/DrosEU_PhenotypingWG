@@ -9,6 +9,7 @@ output:
     toc_depth: 5
     toc_float: true
     theme: yeti
+  css: website.css
 ---
 
 Author contributions can be found [here](https://docs.google.com/spreadsheets/d/1SkiqZlpZlEs1nf6JJUakREYS4mpghSmgb_0QlL8o3ek/edit#gid=1616763697)
