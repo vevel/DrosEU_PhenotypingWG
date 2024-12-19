@@ -2,7 +2,8 @@
 **"Continent-wide Differentiation of Fitness Traits and Patterns of Climate Adaptation among European Populations of _Drosophila melanogaster_"**
 
 Welcome to the GitHub repository accompanying the manuscript **"Continent-wide Differentiation of Fitness Traits and Patterns of Climate Adaptation among European Populations of _Drosophila melanogaster_."**  
-This repository contains supporting information, including data, analysis scripts, and supplementary materials relevant to the study.
+\
+This repository contains supporting information, including data, analyses scripts, and supplementary materials relevant to the study.
 
 ## Website for Supporting Information
 
@@ -11,23 +12,24 @@ To explore the supporting materials in a user-friendly format, please visit the 
 
 ## Repository Contents
 
-This repository includes the following main resources :
+This repository includes the following main resources:
 - **Data**: Raw datasets used in the analyses.
-- **Info Tables**: Information tables and figures for SI. 
-- **Figures**: Relevant code and figures for the main text. 
-- **Code**: Code for reproducing the results and figures presented in the manuscript.
-- **Functions**: Functions for correlations , meta and survial analyses.
-- **Linear Models**: Linear model output files for every trait and model.
-- **Meta Analyses**: Meta analyses output files for every trait and model.
-- **PCA**: PCA data files and results. 
-- **Phenotype folders**: Each phenotype folder contains relevant figures and tables. 
-  
+- **Info Tables**: Information tables and figures included in the supplementary information.
+- **Figures**: Relevant code and figures for the main text.
+- **Code**: Scripts for reproducing the results and figures presented in the manuscript.
+- **Functions**: Custom functions for correlations, meta-analyses, and survival analyses.
+- **Linear Models**: Output files for linear models applied to each trait and model.
+- **Meta Analyses**: Output files for meta-analyses conducted for each trait and model.
+- **PCA**: PCA data files and results.
+- **Phenotype Folders**: Each folder contains phenotype-specific figures and tables.
+
 ## Citation
 
 If you use this repository in your work, please cite the manuscript:  
-> **"Continent-wide Differentiation of Fitness Traits and Patterns of Climate Adaptation among European Populations of _Drosophila melanogaster_."**  
-> DOI_coming_soon
+> **Durmaz Mitchell et. al "Continent-wide Differentiation of Fitness Traits and Patterns of Climate Adaptation among European Populations of _Drosophila melanogaster_."**  
+> DOI: *Coming Soon*
 
 ## Contact
 
-For questions or feedback, please contact me at [esra@bmb.sdu.dk].
+For questions or feedback, please contact me at:  
+**esra@bmb.sdu.dk**

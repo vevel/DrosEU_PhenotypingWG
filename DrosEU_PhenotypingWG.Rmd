@@ -14,6 +14,8 @@ output:
 
 Author contributions can be found [here](https://docs.google.com/spreadsheets/d/1SkiqZlpZlEs1nf6JJUakREYS4mpghSmgb_0QlL8o3ek/edit#gid=1616763697)
 
+Contents of the repository, raw data, tables, figures and scripts can be found [here](https://github.com/esradm/DrosEU_PhenotypingWG)
+
 Correspondence: esra@bmb.sdu.dk; thomas.flatt@unifr.ch 
 
 Short Running Title: Phenomic Analysis of European _D. melanogaster_
