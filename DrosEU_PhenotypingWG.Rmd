@@ -139,7 +139,7 @@ Measurements were performed in 3, 5 and 5 batches for the HC, KH and BO labs, re
 ### Thorax length
 ##### Kozeretska, Posnien, Ritchie and Schmidt Labs
 
-Flies used for measurements of thorax length were reared in 2 batches by the IK and in 1 batch by all other labs. NP kept the flies at -20°C for 5-14 days prior to mounting. Bodies / thoraces of 5- to 10-day-old flies (per isofemale line and sex, on average ~40 individuals for the IK and MR labs, and ~10 individuals for the NP and PS labs) were placed onto a double-sided sticky tape attached to a microscope slide or taped directly to the slide. Bodies were laid out on their right side, and photographs of thoraces were taken using a digital camera connected to a dissecting microscope (NP lab: QImaging MicroPublisher 5.0 digital camera mounted to a Leica M205 FA stereo microscope; MR lab: Leica DFC295 camera attached to a Leica M60 microscope; IK lab: a digital single-lens reflex (DSLR) Sigeta MCMOS 5100 5.1Mp USB 2.0 camera mounted on a MBS-10 stereo microscope, PS lab: Olympus DP73 digital camera mounted on a Leica MZ9.5 stereo microscope). Within each lab always the same magnification (50x) and resolution were used to increase reproducibility; a scale bar inserted on each photo or a software (PS lab) allowed transforming (square) pixels into (square) µm. Thorax length was defined as the distance from the anterior margin of the thorax to the posterior tip of the scutellum and was measured using the ‘Straight Line’ tool in ImageJ/Fiji (https://ﬁji.sc/) (Figure XA).
+Flies used for measurements of thorax length were reared in 2 batches by the IK and in 1 batch by all other labs. NP kept the flies at -20°C for 5-14 days prior to mounting. Bodies / thoraces of 5- to 10-day-old flies (per isofemale line and sex, on average ~40 individuals for the IK and MR labs, and ~10 individuals for the NP and PS labs) were placed onto a double-sided sticky tape attached to a microscope slide or taped directly to the slide. Bodies were laid out on their right side, and photographs of thoraces were taken using a digital camera connected to a dissecting microscope (NP lab: QImaging MicroPublisher 5.0 digital camera mounted to a Leica M205 FA stereo microscope; MR lab: Leica DFC295 camera attached to a Leica M60 microscope; IK lab: a digital single-lens reflex (DSLR) Sigeta MCMOS 5100 5.1Mp USB 2.0 camera mounted on a MBS-10 stereo microscope, PS lab: Olympus DP73 digital camera mounted on a Leica MZ9.5 stereo microscope). Within each lab always the same magnification (50x) and resolution were used to increase reproducibility; a scale bar inserted on each photo or a software (PS lab) allowed transforming (square) pixels into (square) µm. Thorax length was defined as the distance from the anterior margin of the thorax to the posterior tip of the scutellum and was measured using the ‘Straight Line’ tool in ImageJ/Fiji (https://ﬁji.sc/) (Figure S1A).
 
 ### Wing area
 ##### Onder, Posnien, Ritchie and Stamenkovic-Radak Labs
@@ -181,7 +181,7 @@ Lifespan (i.e., the duration of adult lifespan, in days) was measured for at lea
 #### Population level measurements
 
 ##### Flatt Lab
-In contrast to the JP and EP labs, the TF lab assayed adult lifespan at the population level, not at the level of isofemale lines nested in populations. 24-hour cohorts of adult flies were kept in 1L demography cages (see Tatar et al., 2001 for details of cage design), with 10 replicate cages per population (each cage contained 5 flies per line and sex for each of the populations; see supplementary Table xx for a detailed list of lines). Age at death was scored when changing vials (containing 5 mL of food) on the cages, at first every second day for the first 3 weeks of the experiment, and thereafter on Mondays, Wednesdays and Fridays, until all individuals in the experiment had died. Flies that had escaped or which had died from non-natural causes during the course of the assay were marked as censored for subsequent analysis.
+In contrast to the JP and EP labs, the TF lab assayed adult lifespan at the population level, not at the level of isofemale lines nested in populations. 24-hour cohorts of adult flies were kept in 1L demography cages (see Tatar et al., 2001 for details of cage design), with 10 replicate cages per population (each cage contained 5 flies per line and sex for each of the populations; see https://github.com/esradm/DrosEU_PhenotypingWG/tree/main/SummaryTables for a detailed list of lines). Age at death was scored when changing vials (containing 5 mL of food) on the cages, at first every second day for the first 3 weeks of the experiment, and thereafter on Mondays, Wednesdays and Fridays, until all individuals in the experiment had died. Flies that had escaped or which had died from non-natural causes during the course of the assay were marked as censored for subsequent analysis.
 
 ### Cold-shock mortality
 ##### Gonzalez, Kozeretska and Vieira Labs
@@ -199,7 +199,7 @@ Measurements of chill-coma recovery time (CCRT) were performed in 27 and 11 batc
 Heat-shock mortality was measured for at least 15 isofemale lines per population. Single sex groups of fifteen 5- to 7-day-old flies were placed into empty vials inside a incubator set at 37ºC and the number of dead flies was scored for 7 hours every 30 minutes in the JV lab, or for 8 - 8.5 hours approximately every 45 minutes (for a total of 10-11 observations) in the JP lab. For each isofemale line, 5 replicates were assayed per sex. Replicates were measured in 32 batches (blocks) for the JV lab, and in 9 batches (blocks) during a single day for the JP lab. Heat-shock mortality was estimated for each vial as the proportion of dead flies, i.e. the number of dead flies divided by the number of assayed flies.
 
 ### Reproductive diapause
-##### Bergland, Flatt and Schlotterer Labs
+##### Bergland, Flatt and Schlötterer Labs
 
 To induce adult reproductive diapause (or dormancy), 2-hour-old virgin females (on average 15 flies per isofemale line per population) were exposed to standard diapause-inducing conditions (Saunders et al., 1989), i.e., 12°C and 10:14 hours light:dark, during 3 weeks. Flies were transferred to new vials once per week. After 3 weeks under diapause conditions, flies were kept at -80ºC until dissection. Both ovaries were examined; an individual was classified as diapausing if all oocytes < stage 10 and if no mature eggs were present; individuals were classified as non-diapausing if at least one oocyte was > stage 10 or if mature eggs were present.
 
@@ -216,8 +216,6 @@ Eclosion rhythmicity was measured at the population level using outcrossed isofe
 
 ### Pigmentation
 ##### Abbott, Gibert and Schmidt Labs
-
-Abbott, Gibert and Schmidt Labs
 
 For each line, ten 13- to 15-day-old females, either alive or preserved in 95% ethanol, were air dried and placed on their left side, with photographs taken using a dissecting microscope  (PG lab: Axio Imager Z1, Zeiss; JA lab: Nikon SMZ1270, PS lab: Olympus DP73 digital camera mounted on a Leica MZ9.5 stereo microscope). Images were analyzed with ImageJ 1.46r, using the “Area Fraction” measurement tool. “Area Fraction” measures the percentage of pixels in a selected area highlighted in red using the “Threshold” tool, yielding an estimate of the percentage of dark pigmentation on the three terminal tergites of the abdomen (tergites 4, 5 and 6). The same tergites were scored by the PS lab using the procedure described in David et al. (1990); pigmentation scores were multiplied by 10 in order for them to be converted into pigmentation percentages similar to those measured by the JA and PG labs.
 
@@ -247,6 +245,8 @@ Trait ~ Population + (1|Line:Population) + (1|Batch) + (1|Replicate:Line:Populat
 To keep the number of factors (and interactions) in the models small, and because we were not specifically interested in quantifying sexual dimorphism, the sexes were analyzed separately. Proportional data (e.g., for traits such as viability, pigmentation and cold-shock mortality) were arcsine-square-root transformed prior to analysis. Diapause and parasitoid resistance data were analyzed with binomial generalized linear mixed-effect models (glmer function from the afex package version 1.0-1) with Population as a fixed effect and Line nested within Population as a random effect. The number of flies scored and the number of flies emerging in control vials served as weights for diapause and parasitoid resistance, respectively. In two cases (locomotor activity ‒ absolute phase measured by the ET lab and viability measured by the PS lab) we used linear (fixed-effects) models instead of linear mixed-effect models because of singularity issues or lack of line replication. For the 95 linear mixed-effect models marginal R2 values (proportion of variance explained by Population) were extracted using the r2_nakagawa function from the performance package (v.0.10.2) (Nakagawa & Schielzeth, 2013). For the two linear models mentioned above we extracted R2 values from the model summaries. Population estimates and associated standard errors were extracted from all 97 model outputs by using the emmeans function from the emmeans package (v.1.7.1-1). Line random coefficients and associated standard errors were derived from Line random effects extracted from model outputs using the extract_random_effects function from the mixedup package (v.0.3.9) (Clark, 2022). Population coefficients were subsequently added to Line random effects to obtain Line random coefficients. Standard errors for the Line random coefficients were calculated as follows: 
 sqrt(Population_SE^2 + Line_random_effect_SE^2)).
 
+We note that in some cases (e.g., for CCRT) Q-Q plots indicated departures from normality. In spite of this, we did not do anything special to deal with such cases as ANOVA/linear models are known to be extremely robust to departures from non-normality. Blanca et al. (2017), for example, conducted a comprehensive, systematic Monte-Carlo simulation study (using a wide variety of common, non-normal distributions) and found that, under a very broad range of conditions (actually in 100% of all simulated cases), non-normality did not present any problems, with F-tests being completely robust in terms of Type 1 error. Thus, we trust/assume that our analyses are likely robust despite non-normality, however, we can of course not prove that non-normality might not have inflated the Type 1 error rate in these cases.
+
 ### Analyses of survival and mortality data
 In addition to using linear mixed-effects models for analyzing time-to-event data (i.e., for lifespan, cold-shock mortality, chill-coma recovery time, heat-shock mortality, starvation resistance), we also used mixed-effects Cox models (i.e., Cox regression; proportional hazard analysis) implemented in the coxme package in R to analyze these traits.
 ### Analyses of locomotor activity
@@ -259,7 +259,7 @@ Eclosion events were processed into 1 hour bins. Phase and period were calculate
 Based on the Wolbachia infection status of the isofemale lines as determined by the methods described above, we tested for phenotypic effects of Wolbachia presence in all investigated populations. To do so, we focused on isofemale lines that were unambiguously identified as being Wolbachia-infected (wol+) or uninfected (wol-) with both PCR approaches described above. The populations from Finland and Russia were excluded as all lines from these locations were Wolbachia-infected. Moreover, we only included lines that were assayed in all labs investigating a given phenotype. Finally, we only considered populations with at least three isofemale lines of each infection type (wol+, wol-). For each trait, we fitted linear mixed-effects models using the lme4 package in R (Bates et al., 2015) to test for the fixed effects of Population and of Wolbachia infection status on phenotypic variation. Whenever possible, we also included the factors Sex and Protein to carbohydrate ratio (P:C-ratio) of the laboratory fly food. To account for the fact that the latter factor is confounded by lab identity, we additionally included the random factor Lab in our models. Moreover, we fitted the random factors Line (nested within population) and Experimental batch (nested within lab) to account for biological and technical replication. To test for significance of the fixed factors and all possible interactions, we employed Type-III analysis of deviance using the R package car.
 
 ### Heritability estimates; genotypic, environmental and phenotypic variances
-For each trait and lab, we estimated broad-sense heritability (H2, i.e., the total genotypic variance divided by the phenotypic variance) as “isofemale heritability” (intraclass correlation) by assuming that isofemale lines faithfully represent distinct genotypes (see Parsons, 1983; Hoffmann & Parsons, 1988; Falconer & Mackay, 1996; David et al., 2005). To do so, we estimated phenotypic and genotypic (as well as environmental) variances using linear mixed-effects models with the lmer function in the lme4 package in R (Bates et al., 2015); the models had the following form: Y = L + e, where Y is the phenotypic trait, L represents the random effect of genotype (i.e., the Line IDs), and e is the error. 
+For each trait and lab, we estimated an upper limit to the broad-sense heritability (H2, i.e., the total genotypic variance divided by the phenotypic variance), the so-called “isofemale heritability” (i.e., the intraclass correlation), by assuming that isofemale lines faithfully represent distinct genotypes (see Parsons, 1983; Hoffmann & Parsons, 1988; Falconer & Mackay, 1996; Lynch & Walsh 1998; David et al., 2005). To do so, we estimated phenotypic and genotypic (as well as environmental) variances using linear mixed-effects models with the lmer function in the lme4 package in R (Bates et al., 2015); the models had the following form: Y = L + e, where Y is the phenotypic trait, L represents the random effect of genotype (i.e., the Line IDs), and e is the error. 
 
 ### Correlations between trait values measured by different labs
 To assess the extent of reproducibility (repeatability) of trait estimates across labs, we estimated pairwise Pearson’s correlations between trait values estimated by different labs that had measured the same trait. Input trait values for these analyses consisted of Line random coefficients extracted from linear mixed-effect models (see above); correlations were calculated only for traits that had been measured in more than two labs.
@@ -2526,7 +2526,7 @@ knitr::include_graphics("ChillComa/p_CCRT_M_pop_Vieira.pdf")
 
 _Females_
 ```{r}
-coxme_anova$CCRT_F_coxme_Mensch
+coxme_anova$CCRT_F_Mensch_coxme_pop
 ```
 
 ```{r, echo=FALSE}
@@ -2535,7 +2535,7 @@ knitr::include_graphics("SurvivalAnalyses/ChillComa/p_CCRT_F_Mensch_survival_cur
 
 _Males_
 ```{r}
-coxme_anova$CCRT_M_coxme_Mensch
+coxme_anova$CCRT_M_Mensch_coxme_pop
 ```
 
 ```{r, echo=FALSE}
@@ -2546,7 +2546,7 @@ knitr::include_graphics("SurvivalAnalyses/ChillComa/p_CCRT_M_Mensch_survival_cur
 
 _Females_
 ```{r}
-coxme_anova$CCRT_F_coxme_Vieira
+coxme_anova$CCRT_F_Vieira_coxme_pop
 ```
 
 ```{r, echo=FALSE}
@@ -2555,7 +2555,7 @@ knitr::include_graphics("SurvivalAnalyses/ChillComa/p_CCRT_F_Vieira_survival_cur
 
 _Males_
 ```{r}
-coxme_anova$CCRT_M_coxme_Vieira
+coxme_anova$CCRT_M_Vieira_coxme_pop
 ```
 
 ```{r, echo=FALSE}
@@ -3921,20 +3921,9 @@ dir.create(file.path("ParasitoidResistance"), showWarnings = FALSE)
 ```
 
 
-
 #### Contributors
 
 Hrcek Lab: Vincent Montbel, Somayeh Rasouli Dogaheh, Jan Hrcek
-
-#### Generalized Dissimilarity Model (GDM) _to_be_fixed_
-
-We used the WorldClim database (www.worldclim.org) which includes 19 bioclimatic variables, monthly precipitation, minimum, maximum and average monthly temperature, wind, vapor and solar radiation. Those variables that are identified as important in the model are shown in table 1 (_Refer to Results V_).
-
-The generalized dissimilarity model here after GDM is a matrix regression technique (Ferrier et al., 2007) to analyze and predict primarily beta diversity patterns. However, it was shown that GDM could be used to explore relationship between morphological traits variation and environmental variation (Thomassen et al., 2010; Baldassarre et al., 2013).
-
-In GDM we use matrix correlation among biotic and environmental dissimilarity plus geographic distance between sample sites to predict biotic dissimilarity across landscape. One of the advantages of GDM is that it can fit nonlinear relationship of variables by the help of I-spline function. GDM consists of two steps; in the first step using all pairwise combinations of sampling sites, it fits dissimilarities in predictor variables (environmental variables) to dissimilarities in response variables (phenotypic variables). In this step all environmental predictors with sum of I-spline coefficients of zero were removed then the remaining environmental data were permuted and introduced in the random order to the model. GDM were fitted with these permuted data, and the result of deviance explained by this model compared with deviance explained by GDM fitted to unpermuted data. Predictors importance is calculated based on the difference in deviance explained between permuted model and unpermuted model. In this step backward elimination could be used so that less important predictors were dropped from the model (Ferrier et al., 2007). In the final step, using the result of above procedures spatial prediction of response variables pattern across the entire range of study areas were made.
-
-For each response variable we ran four different models. Ful model that includes environmental and geographic distance as predictor variables. To examine possible correlation between geographic distance and environmental dissimilarity, we ran two additional models each selecting only one of them (geographic distance and environmental dissimilarity) as predator variables. We also ran a random model to compare with fitted models to make sure null hypothesis were not rejected randomly. To run random model, we produced random values of environmental variables for each location and as we have few locations, we produced 100000 random models. Then we used mean deviance explained by these random models and compared them with full, environment and geographic distance models. If the difference between deviance explained by random model were lower than any other three models, we consider the relationship of response variables with predictor variables not random (Thomassen et al., 2010; Baldassarre et al., 2013).
 
 
 ## 2.2 - Meta-Analyses
@@ -5119,9 +5108,15 @@ knitr::include_graphics("SDM_Maxent_worldclime/SDM_4_Rmd/DrosEU_PhenotypingWG_Pa
 ```
 
 
-## GDM
+## Generalized Dissimilarity Model (GDM)
 
-_**Please refer to /GDM folder for details.**_
+We used the WorldClim database (www.worldclim.org) which includes 19 bioclimatic variables, monthly precipitation, minimum, maximum and average monthly temperature, wind, vapor and solar radiation. Those variables that are identified as important in the model are shown in table 1 (_Refer to Results V_).
+
+The generalized dissimilarity model here after GDM is a matrix regression technique (Ferrier et al., 2007) to analyze and predict primarily beta diversity patterns. However, it was shown that GDM could be used to explore relationship between morphological traits variation and environmental variation (Thomassen et al., 2010; Baldassarre et al., 2013).
+
+In GDM we use matrix correlation among biotic and environmental dissimilarity plus geographic distance between sample sites to predict biotic dissimilarity across landscape. One of the advantages of GDM is that it can fit nonlinear relationship of variables by the help of I-spline function. GDM consists of two steps; in the first step using all pairwise combinations of sampling sites, it fits dissimilarities in predictor variables (environmental variables) to dissimilarities in response variables (phenotypic variables). In this step all environmental predictors with sum of I-spline coefficients of zero were removed then the remaining environmental data were permuted and introduced in the random order to the model. GDM were fitted with these permuted data, and the result of deviance explained by this model compared with deviance explained by GDM fitted to unpermuted data. Predictors importance is calculated based on the difference in deviance explained between permuted model and unpermuted model. In this step backward elimination could be used so that less important predictors were dropped from the model (Ferrier et al., 2007). In the final step, using the result of above procedures spatial prediction of response variables pattern across the entire range of study areas were made.
+
+For each response variable we ran four different models. Ful model that includes environmental and geographic distance as predictor variables. To examine possible correlation between geographic distance and environmental dissimilarity, we ran two additional models each selecting only one of them (geographic distance and environmental dissimilarity) as predator variables. We also ran a random model to compare with fitted models to make sure null hypothesis were not rejected randomly. To run random model, we produced random values of environmental variables for each location and as we have few locations, we produced 100000 random models. Then we used mean deviance explained by these random models and compared them with full, environment and geographic distance models. If the difference between deviance explained by random model were lower than any other three models, we consider the relationship of response variables with predictor variables not random (Thomassen et al., 2010; Baldassarre et al., 2013).
 
 
 ```{r echo=FALSE}
@@ -5244,6 +5239,8 @@ knitr::include_graphics("GDM/GDM_Worldclim/WA_R_M/WA_R_M_vapr06_i-spline.jpeg")
 
 - Bates D, Mächler M, Bolker B, Walker S. 2015. Fitting Linear Mixed-Effects Models Using lme4. Journal of Statistical Software 67:1-48.
 
+- Blanca MJ, Alarcón R, Arnau J, Bono R, Bendayan R. 2017. Non-normal data: Is ANOVA still a valid option? Psicothema 29:552-557.
+
 - Bookstein FL. 1996. Biometrics, biomathematics and the morphometric synthesis. Bulletin of Mathematical Biology 58:313-365.
 
 - Clark M. 2022. mixedup: Miscellaneous functions for mixed models. R package version 0.3.9, https://m-clark.github.io/mixedup.
@@ -5265,6 +5262,8 @@ knitr::include_graphics("GDM/GDM_Worldclim/WA_R_M/WA_R_M_vapr06_i-spline.jpeg")
 - Klingenberg CP. 2011. MorphoJ: an integrated software package for geometric morphometrics. Molecular Ecology Resources 11:353-357.
 
 - Lê S, Josse J, Husson F. 2008. FactoMineR: an R package for multivariate analysis. Journal of Statistical Software 25:1–18.
+
+- Lynch M, Walsh B. 1998. Genetics and Analysis of Quantitative traits. Sinauer, Sunderland, MA.
 
 - Machado HE, Bergland AO, Taylor R, Tilk S, Behrman E, Dyer K, Fabian DK, Flatt T, González J, Karasov TL et al. 2021. Broad geographic sampling reveals the shared basis and environmental correlates of seasonal adaptation in Drosophila. eLife 10: e67577.
 
