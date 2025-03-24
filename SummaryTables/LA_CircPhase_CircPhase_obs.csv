@@ -1,4 +1,4 @@
-"Lab","Diet","Sex","Population","Line","ReplicateVial","Observation_count","Batch_count","Batch_ids"
+"Lab","Diet","Sex","Population","Line","Replicate","Observation_count","Batch_count","Batch_ids"
 "Tauber","NS","M","AK","AK1","Tauber_1_AK1_M_9",5,1,"1"
 "Tauber","NS","M","AK","AK1","Tauber_2_AK1_M_2",5,1,"2"
 "Tauber","NS","M","AK","AK2","Tauber_1_AK2_M_9",3,1,"1"

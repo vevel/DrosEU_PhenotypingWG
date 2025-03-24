@@ -1,4 +1,4 @@
-"Supervisor.PI","Diet","Batch","Population","Line","ReplicateVialOld","ReplivateVial","Treatment","FliesNonInfected","FliesInfected","FliesControl","HostResistance","Virulence","Lethality","Country","Latitude","Longitude","Altitude"
+"Supervisor.PI","Diet","Batch","Population","Line","ReplicateVialOld","ReplicateVial","Treatment","FliesNonInfected","FliesInfected","FliesControl","HostResistance","Virulence","Lethality","Country","Latitude","Longitude","Altitude"
 "Hrcek","NS",1,"AK","AK1",7,"Hrcek_1_AK1_7","parasitoid",35,25,63,0.555555556,0.396825397,0.047619048,"Finland",61.1,23.52,88
 "Hrcek","NS",1,"AK","AK1",10,"Hrcek_1_AK1_10","parasitoid",21,4,63,0.333333333,0.063492063,0.603174603,"Finland",61.1,23.52,88
 "Hrcek","NS",1,"AK","AK1",8,"Hrcek_1_AK1_8","parasitoid",21,28,63,0.333333333,0.444444444,0.222222222,"Finland",61.1,23.52,88

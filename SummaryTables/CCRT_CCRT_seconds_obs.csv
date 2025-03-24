@@ -1,4 +1,4 @@
-"Lab","Diet","Sex","Population","Line","ReplicateVial","Observation_count","Batch_count","Batch_ids"
+"Lab","Diet","Sex","Population","Line","Replicate","Observation_count","Batch_count","Batch_ids"
 "Mensch","S","F","AK","AK1","Mensch_1_AK1_F_1",6,1,"1"
 "Mensch","S","F","AK","AK10","Mensch_3_AK10_F_1",6,1,"3"
 "Mensch","S","F","AK","AK11","Mensch_8_AK11_F_1",6,1,"8"

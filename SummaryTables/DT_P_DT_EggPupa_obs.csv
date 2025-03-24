@@ -1,4 +1,4 @@
-"Lab","Diet","Sex","Population","Line","ReplicateVial","Observation_count","Batch_count","Batch_ids"
+"Lab","Diet","Sex","Population","Line","Replicate","Observation_count","Batch_count","Batch_ids"
 "Schmidt","NS",NA,"AK","AK1","Schmidt_1_AK1_1",43,1,"1"
 "Schmidt","NS",NA,"AK","AK10","Schmidt_1_AK10_1",26,1,"1"
 "Schmidt","NS",NA,"AK","AK11","Schmidt_1_AK11_1",19,1,"1"

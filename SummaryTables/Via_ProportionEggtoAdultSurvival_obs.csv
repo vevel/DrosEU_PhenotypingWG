@@ -1,4 +1,4 @@
-"Lab","Diet","Sex","Population","Line","ReplicateVial","Observation_count","Batch_count","Batch_ids"
+"Lab","Diet","Sex","Population","Line","Replicate","Observation_count","Batch_count","Batch_ids"
 "Gibert","NS",NA,"AK","AK1","Gibert_1_AK1_1",1,1,"1"
 "Gibert","NS",NA,"AK","AK1","Gibert_1_AK1_2",1,1,"1"
 "Gibert","NS",NA,"AK","AK1","Gibert_1_AK1_3",1,1,"1"

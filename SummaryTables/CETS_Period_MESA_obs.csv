@@ -1,4 +1,4 @@
-"Lab","Diet","Sex","Population","Line","ReplicateVial","Observation_count","Batch_count","Batch_ids"
+"Lab","Diet","Sex","Population","Line","Replicate","Observation_count","Batch_count","Batch_ids"
 "Wegener","NS",NA,"AK","mixed population",NA,4,1,"2"
 "Wegener","NS",NA,"GI","mixed population",NA,4,2,"2; 3"
 "Wegener","NS",NA,"KA","mixed population",NA,4,2,"2; 3"

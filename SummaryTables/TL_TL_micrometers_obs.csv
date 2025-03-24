@@ -1,4 +1,4 @@
-"Lab","Diet","Sex","Population","Line","ReplicateVial","Observation_count","Batch_count","Batch_ids"
+"Lab","Diet","Sex","Population","Line","Replicate","Observation_count","Batch_count","Batch_ids"
 "Kozeretska","NS","F","AK","AK1","Kozeretska_1_AK1_1",20,1,"1"
 "Kozeretska","NS","F","AK","AK1","Kozeretska_2_AK1_1",20,1,"2"
 "Kozeretska","NS","F","AK","AK10","Kozeretska_1_AK10_1",20,1,"1"

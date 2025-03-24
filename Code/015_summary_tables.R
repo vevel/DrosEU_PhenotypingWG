@@ -9,7 +9,7 @@ setwd("~/Work/UNIFR/GitHub/DrosEU_PhenotypingWG/")
 library(tidyverse)
 
 ##### laod data and fucntions
-droseu <- readRDS("Data/droseu_master_list_2022-05-02.rds")
+droseu <- readRDS("Data/droseu_master_list_2025-03-24.rds")
 pops <- readRDS("InfoTables/DrosEU_Populations.rds")
 traits <- read.csv("InfoTables/trait_names.csv")
 
@@ -35,7 +35,7 @@ for (i in seq_along(droseu_long)){
   if (!"Line" %in% colnames(d)) d$Line <- NA
   if (!"Batch" %in% colnames(d)) d$Batch <- NA
   if (!"Sex" %in% colnames(d)) d$Sex <- NA
-  if (!"ReplicateVial" %in% colnames(d)) d$Replicate <- NA
+  if (!"Replicate" %in% colnames(d)) d$Replicate <- NA
   if (!"Individual" %in% colnames(d)) d$Individual <- NA
   d <- d[, colnames(d) %in% c(common_var, trait_var)]
   d <- pivot_longer(d, cols = -all_of(common_var), names_to = "Trait_name", values_to = "Value")
@@ -68,7 +68,7 @@ for (i in seq_along(droseu_trait)) {
   x <- droseu_trait[[i]]
 
   n_obs <- x %>%
-    group_by(Lab, Diet, Sex, Population, Line, ReplicateVial) %>%
+    group_by(Lab, Diet, Sex, Population, Line, Replicate) %>%
     summarise(
       Observation_count = n(),
       Batch_count = length(unique(Batch)),
@@ -78,8 +78,8 @@ for (i in seq_along(droseu_trait)) {
   n_reps <- x %>%
     group_by(Lab, Diet, Sex, Population, Line) %>%
     summarise(
-      Replicate_count = length(unique(ReplicateVial)),
-      Replicate_ids = paste(sort(unique(ReplicateVial)), collapse = "; "),
+      Replicate_count = length(unique(Replicate)),
+      Replicate_ids = paste(sort(unique(Replicate)), collapse = "; "),
       Observation_count = n(),
       Batch_count = length(unique(Batch)),
       Batch_ids = paste(sort(unique(Batch)), collapse = "; ")
@@ -90,8 +90,8 @@ for (i in seq_along(droseu_trait)) {
     summarise(
       Line_count = length(unique(Line)),
       Line_ids = paste(sort(unique(Line)), collapse = "; "),
-      Replicate_count = length(unique(ReplicateVial)),
-      Replicate_ids = paste(sort(unique(ReplicateVial)), collapse = "; "),
+      Replicate_count = length(unique(Replicate)),
+      Replicate_ids = paste(sort(unique(Replicate)), collapse = "; "),
       Observation_count = n(),
       Batch_count = length(unique(Batch)),
       Batch_ids = paste(sort(unique(Batch)), collapse = "; ")
@@ -104,8 +104,8 @@ for (i in seq_along(droseu_trait)) {
       Population_ids = paste(sort(unique(Population)), collapse = "; "),
       Line_count = length(unique(Line)),
       Line_ids = paste(sort(unique(Line)), collapse = "; "),
-      Replicate_count = length(unique(ReplicateVial)),
-      Replicate_ids = paste(sort(unique(ReplicateVial)), collapse = "; "),
+      Replicate_count = length(unique(Replicate)),
+      Replicate_ids = paste(sort(unique(Replicate)), collapse = "; "),
       Observation_count = n(),
       Batch_count = length(unique(Batch)),
       Batch_ids = paste(sort(unique(Batch)), collapse = "; ")
@@ -120,8 +120,8 @@ for (i in seq_along(droseu_trait)) {
       Population_ids = paste(sort(unique(Population)), collapse = "; "),
       Line_count = length(unique(Line)),
       Line_ids = paste(sort(unique(Line)), collapse = "; "),
-      Replicate_count = length(unique(ReplicateVial)),
-      Replicate_ids = paste(sort(unique(ReplicateVial)), collapse = "; "),
+      Replicate_count = length(unique(Replicate)),
+      Replicate_ids = paste(sort(unique(Replicate)), collapse = "; "),
       Observation_count = n(),
       Batch_count = length(unique(Batch)),
       Batch_ids = paste(sort(unique(Batch)), collapse = "; ")
@@ -134,8 +134,8 @@ for (i in seq_along(droseu_trait)) {
       Population_ids = paste(sort(unique(Population)), collapse = "; "),
       Line_count = length(unique(Line)),
       Line_ids = paste(sort(unique(Line)), collapse = "; "),
-      Replicate_count = length(unique(ReplicateVial)),
-      Replicate_ids = paste(sort(unique(ReplicateVial)), collapse = "; "),
+      Replicate_count = length(unique(Replicate)),
+      Replicate_ids = paste(sort(unique(Replicate)), collapse = "; "),
       Observation_count = n()
     )
 
