@@ -24,16 +24,16 @@ csvBatchReaderToList3 <- function(dir, ...) {
 
 ##### batch load all the .csv files, make sure that the path matches the most up to date directory
 
-droseu <- csvBatchReaderToList3(dir = "Data/MasterSheets_May22_git", pattern = "*.csv", full.names = F)
+droseu <- csvBatchReaderToList3(dir = "Data/MasterSheets_Mar25_git", pattern = "*.csv", full.names = F)
 
 
 
 ##### change the variables that are common to all traits
 
 droseu <- lapply(droseu, mutate, 
-                 Supervisor.PI = as.factor(Supervisor.PI), 
-                 Diet = as.factor(Diet),  
-                 Batch = as.factor(Batch), 
+                 Supervisor.PI = as.factor(Supervisor.PI),
+                 Diet = as.factor(Diet),
+                 Batch = as.factor(Batch),
                  Population = as.factor(Population),
                  Population_Lat = factor(Population, levels = c("YE","RE","GI","MU","MA","UM","KA","VA","AK")),
                  Population_Lon = factor(Population, levels = c("RE","GI","KA","MU","MA","AK","UM","YE","VA")),
@@ -72,7 +72,7 @@ for (i in 1:length(droseu)) {
 
 # female only traits: dia, pgm, pgm2, fec
 # male only traits: la
-# mixed sex traits: cet, dtp, via
+# mixed sex traits: cet, dtp, via, pr
 
 droseu$dia$Sex <- sub("FALSE", "F", droseu$dia$Sex)
 droseu$fec$Sex <- sub("FALSE", "F", droseu$fec$Sex)
@@ -99,7 +99,9 @@ droseu$dia <- droseu$dia %>%
 ##### define all the trait variables
 
 
-var_list <- c("CCRT_seconds", "ZT_hours_MESA", "ZT_hours_LSPR", "Period_MESA", "Period_LSPR", "Rhythmicity_LSPR_amplitude", "Rhythmicity_JTK_p_BH_corrected", "CSM_PropDead_ED", "Prop_Max_Stage7", "Prop_Max_Stage8", "Prop_Max_Stage9", "DT_EggAdult", "DT_EggPupa", "DW_micrograms", "NumberOfAdultsEclosed", "TimeDeath_min", "Period", "CircPhase", "AbsPhase", "ND", "Activity", "LSL_AgeAtDeath_days", "LSM_AgeAtDeath_days", "LSP_AgeAtDeath_days", "PercT4", "PercT5", "PercT6", "TotalPerc", "ScoreT4", "ScoreT5", "ScoreT6", "TotalScore", "AgeAtDeath_hours", "TL_micrometers", "ProportionEggtoAdultSurvival", "CentroidSizeLeft_micrometers", "CentroidSizeRight_micrometers")
+var_list <- c("CCRT_seconds", "ZT_hours_MESA", "ZT_hours_LSPR", "Period_MESA", "Period_LSPR", "Rhythmicity_LSPR_amplitude", "Rhythmicity_JTK_p_BH_corrected", "CSM_PropDead_ED", "Prop_Max_Stage7", "Prop_Max_Stage8", "Prop_Max_Stage9", "DT_EggAdult", "DT_EggPupa", "DW_micrograms", "NumberOfAdultsEclosed", "TimeDeath_min", "Period", "CircPhase", "AbsPhase", "ND", "Activity", "LSL_AgeAtDeath_days", "LSM_AgeAtDeath_days", "LSP_AgeAtDeath_days", "PercT4", "PercT5", "PercT6", "TotalPerc", "ScoreT4", "ScoreT5", "ScoreT6", "TotalScore", "AgeAtDeath_hours", "TL_micrometers", "ProportionEggtoAdultSurvival", "CentroidSizeLeft_micrometers", "CentroidSizeRight_micrometers", "FliesNonInfected", "FliesInfected", "FliesControl",	"HostResistance",	"Virulence",	"Lethality")
+
+
 
 ##### turn all trait variables to numeric
 
@@ -250,7 +252,7 @@ droseu <- lapply(droseu, inner_join, col_plot)
 
 ##### save the data
 
-saveRDS(droseu, file = "Data/droseu_master_list_2022-05-02.rds")
+saveRDS(droseu, file = "Data/droseu_master_list_2025-03-24.rds")
 
 
 
