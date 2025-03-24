@@ -1,4 +1,4 @@
-"Lab","Diet","Sex","Population","Line","ReplicateVial","Observation_count","Batch_count","Batch_ids"
+"Lab","Diet","Sex","Population","Line","Replicate","Observation_count","Batch_count","Batch_ids"
 "Vieira","S","F","AK","AK1","Vieira_5_AK1_F_1",20,1,"5"
 "Vieira","S","F","AK","AK1","Vieira_5_AK1_F_2",20,1,"5"
 "Vieira","S","F","AK","AK1","Vieira_5_AK1_F_3",19,1,"5"

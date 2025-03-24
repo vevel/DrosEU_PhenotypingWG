@@ -1,4 +1,4 @@
-"Lab","Diet","Sex","Population","Line","ReplicateVial","Observation_count","Batch_count","Batch_ids"
+"Lab","Diet","Sex","Population","Line","Replicate","Observation_count","Batch_count","Batch_ids"
 "Billeter","NS","F","AK","AK1",NA,5,1,"1"
 "Billeter","NS","F","AK","AK10",NA,5,1,"1"
 "Billeter","NS","F","AK","AK11",NA,5,1,"1"

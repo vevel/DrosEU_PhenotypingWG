@@ -1,4 +1,4 @@
-"Lab","Diet","Sex","Population","Line","ReplicateVial","Observation_count","Batch_count","Batch_ids"
+"Lab","Diet","Sex","Population","Line","Replicate","Observation_count","Batch_count","Batch_ids"
 "Bergland","S","F","AK","AK1",NA,1,1,"3"
 "Bergland","S","F","AK","AK10",NA,1,1,"1"
 "Bergland","S","F","AK","AK11",NA,1,1,"3"

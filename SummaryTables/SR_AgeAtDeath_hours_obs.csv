@@ -1,4 +1,4 @@
-"Lab","Diet","Sex","Population","Line","ReplicateVial","Observation_count","Batch_count","Batch_ids"
+"Lab","Diet","Sex","Population","Line","Replicate","Observation_count","Batch_count","Batch_ids"
 "Gonzalez","S","F","AK","AK1","Gonzalez_1_AK1_F_1",11,1,"1"
 "Gonzalez","S","F","AK","AK1","Gonzalez_2_AK1_F_2",12,1,"2"
 "Gonzalez","S","F","AK","AK1","Gonzalez_3_AK1_F_3",13,1,"3"
