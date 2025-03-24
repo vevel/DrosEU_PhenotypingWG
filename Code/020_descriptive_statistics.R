@@ -26,11 +26,11 @@ setwd("~/Work/UNIFR/GitHub/DrosEU_PhenotypingWG/")
 #source("Functions/lab_correlations_functions.R")
 
 ##### load data
-droseu <- readRDS("Data/droseu_master_list_2022-05-02.rds")
+droseu <- readRDS("Data/droseu_master_list_2025-03-24.rds")
 
 ##### create output directory
 desc_dir <- "DescriptiveStatistics"
-dir.create(desc_dir, showWarnings = F) 
+dir.create(desc_dir, showWarnings = F)
 
 
 ##### define functions
@@ -66,7 +66,7 @@ names(droseu)[names(droseu) == "VIA"] <- "Via"
 
 ##### define trait and common variables
 
-trait_var <- c("CCRT_seconds", "ZT_hours_MESA", "ZT_hours_LSPR", "Period_MESA", "Period_LSPR", "Rhythmicity_LSPR_amplitude", "Rhythmicity_JTK_p_BH_corrected", "CSM_PropDead_ED", "Prop_Max_Stage7", "Prop_Max_Stage8", "Prop_Max_Stage9", "DT_EggAdult", "DT_EggPupa", "DW_micrograms", "NumberOfAdultsEclosed", "TimeDeath_min", "Period", "CircPhase", "AbsPhase", "ND", "Activity", "LSL_AgeAtDeath_days", "LSM_AgeAtDeath_days", "LSP_AgeAtDeath_days", "PercT4", "PercT5", "PercT6", "TotalPerc", "AgeAtDeath_hours", "TL_micrometers", "ProportionEggtoAdultSurvival", "CentroidSizeLeft_micrometers", "CentroidSizeRight_micrometers")
+trait_var <- c("CCRT_seconds", "ZT_hours_MESA", "ZT_hours_LSPR", "Period_MESA", "Period_LSPR", "Rhythmicity_LSPR_amplitude", "Rhythmicity_JTK_p_BH_corrected", "CSM_PropDead_ED", "Prop_Max_Stage7", "Prop_Max_Stage8", "Prop_Max_Stage9", "DT_EggAdult", "DT_EggPupa", "DW_micrograms", "NumberOfAdultsEclosed", "TimeDeath_min", "Period", "CircPhase", "AbsPhase", "ND", "Activity", "LSL_AgeAtDeath_days", "LSM_AgeAtDeath_days", "LSP_AgeAtDeath_days", "PercT4", "PercT5", "PercT6", "TotalPerc", "AgeAtDeath_hours", "TL_micrometers", "ProportionEggtoAdultSurvival", "CentroidSizeLeft_micrometers", "CentroidSizeRight_micrometers", "HostResistance")
 
 com_var <- c("Supervisor.PI", "Batch", "Population", "Line", "Sex", "Condition")
 
@@ -112,7 +112,7 @@ n[grep("SR_", n)] <- "SR"
 n[grep("Via_", n)] <- "Via"
 n[grep("WA_CentroidSizeLeft", n)] <- "WA_Left"
 n[grep("WA_CentroidSizeRight", n)] <- "WA_Right"
-
+n[grep("PR_", n)] <- "PR_HR"
 
 
 ##### Line level with Batch
