@@ -1,9 +1,10 @@
-Linear mixed model fit by REML. t-tests use Satterthwaite's method [
-lmerModLmerTest]
+Linear mixed model fit by REML. t-tests use
+  Satterthwaite's method [lmerModLmerTest]
 Formula: 
 TL_micrometers ~ Population + (1 | Line:Population) + (1 | Batch) +  
     (1 | ReplicateVial:Line)
-   Data: filter(droseu$tl, Supervisor.PI == "Ritchie" & Sex == "F")
+   Data: 
+filter(droseu$tl, Supervisor.PI == "Ritchie" & Sex == "F")
 
 REML criterion at convergence: 11130.8
 
@@ -21,15 +22,23 @@ Number of obs: 1059, groups:
 ReplicateVial:Line, 78; Line:Population, 26; Batch, 12
 
 Fixed effects:
-             Estimate Std. Error      df t value Pr(>|t|)    
-(Intercept)   960.090     20.942  18.949  45.845   <2e-16 ***
-PopulationGI    6.035     19.511  10.041   0.309    0.763    
-PopulationKA  -11.827     28.649  19.001  -0.413    0.684    
-PopulationMA   15.401     28.570  18.795   0.539    0.596    
-PopulationMU    8.401     32.104  16.850   0.262    0.797    
-PopulationYE   28.661     22.100  12.800   1.297    0.218    
+             Estimate Std. Error      df t value Pr(>|t|)
+(Intercept)   960.090     20.942  18.949  45.845   <2e-16
+PopulationGI    6.035     19.511  10.041   0.309    0.763
+PopulationKA  -11.827     28.649  19.001  -0.413    0.684
+PopulationMA   15.401     28.570  18.795   0.539    0.596
+PopulationMU    8.401     32.104  16.850   0.262    0.797
+PopulationYE   28.661     22.100  12.800   1.297    0.218
+                
+(Intercept)  ***
+PopulationGI    
+PopulationKA    
+PopulationMA    
+PopulationMU    
+PopulationYE    
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 Correlation of Fixed Effects:
             (Intr) PpltGI PpltKA PpltMA PpltMU

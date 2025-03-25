@@ -19,7 +19,8 @@ PopulationUM  0.03855    0.77854   0.050   0.9605
 PopulationVA  1.83066    0.77854   2.351   0.0190 *  
 PopulationYE  0.61098    0.73842   0.827   0.4083    
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 Residual standard error: 4.622 on 613 degrees of freedom
 Multiple R-squared:  0.03206,	Adjusted R-squared:  0.01943 

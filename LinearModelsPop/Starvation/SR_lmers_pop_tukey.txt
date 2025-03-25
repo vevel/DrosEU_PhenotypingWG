@@ -132,16 +132,26 @@ P value adjustment: tukey method for comparing a family of 9 estimates
 
 
 $SR_F_Onder_lmer_pop$letters
-  Population    emmean       SE  df asymp.LCL asymp.UCL  cld
-1         AK  92.65103 2.935941 Inf  86.89669  98.40537  abc
-2         GI  88.17491 3.390244 Inf  81.53015  94.81967  ab 
-3         KA  97.24237 2.935913 Inf  91.48809 102.99665   bc
-4         MA  92.37328 2.936014 Inf  86.61879  98.12776  abc
-5         MU 102.78005 2.934585 Inf  97.02837 108.53174    c
-6         RE  88.77451 3.281550 Inf  82.34279  95.20623  ab 
-7         UM  93.08143 3.185076 Inf  86.83880  99.32406  abc
-8         VA 102.60208 2.935085 Inf  96.84941 108.35474    c
-9         YE  80.13893 2.935935 Inf  74.38460  85.89326  a  
+  Population    emmean       SE  df asymp.LCL asymp.UCL
+1         AK  92.65103 2.935941 Inf  86.89669  98.40537
+2         GI  88.17491 3.390244 Inf  81.53015  94.81967
+3         KA  97.24237 2.935913 Inf  91.48809 102.99665
+4         MA  92.37328 2.936014 Inf  86.61879  98.12776
+5         MU 102.78005 2.934585 Inf  97.02837 108.53174
+6         RE  88.77451 3.281550 Inf  82.34279  95.20623
+7         UM  93.08143 3.185076 Inf  86.83880  99.32406
+8         VA 102.60208 2.935085 Inf  96.84941 108.35474
+9         YE  80.13893 2.935935 Inf  74.38460  85.89326
+   cld
+1  abc
+2  ab 
+3   bc
+4  abc
+5    c
+6  ab 
+7  abc
+8    c
+9  a  
 
 
 $SR_F_Pasyukova_lmer_pop

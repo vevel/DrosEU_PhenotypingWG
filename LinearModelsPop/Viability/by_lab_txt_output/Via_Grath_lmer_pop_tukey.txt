@@ -19,8 +19,12 @@ P value adjustment: tukey method for comparing a family of 3 estimates
 
 
 $letters
-  Population    emmean         SE       df  lower.CL  upper.CL cld
-1         AK 0.9877438 0.02906218 28.10394 0.9282225 1.0472651   a
-2         MU 0.9110075 0.02857528 26.43402 0.8523171 0.9696979   a
-3         RE 0.9281670 0.02857528 26.43402 0.8694766 0.9868575   a
+  Population    emmean         SE       df  lower.CL
+1         AK 0.9877438 0.02906218 28.10394 0.9282225
+2         MU 0.9110075 0.02857528 26.43402 0.8523171
+3         RE 0.9281670 0.02857528 26.43402 0.8694766
+   upper.CL cld
+1 1.0472651   a
+2 0.9696979   a
+3 0.9868575   a
 

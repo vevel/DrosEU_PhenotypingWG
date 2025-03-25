@@ -37,7 +37,7 @@ setwd("~/Work/UNIFR/GitHub/DrosEU_PhenotypingWG/")
 source("Code/functions.R")
 
 ##### load latest data
-droseu <- readRDS("Data/droseu_master_list_2022-05-02.rds")
+droseu <- readRDS("Data/droseu_master_list_2025-03-24.rds")
 
 ##### create output directory
 lmer_dir <- "LinearModelsPop"
@@ -982,22 +982,16 @@ dir.create(file.path(lmer_dir, out_dir), showWarnings = FALSE)
 PR_glmers_pop <- list()
 
 
-pr <- read.csv("Data/MasterSheets_Apr23_git/PR_MasterSheet_Apr23.csv") %>%
-  mutate(
-    Population = as.factor(Population),
-    Line = as.factor(Line)
-  )
-
 PR_glmers_pop$PR_HR_Hrcek_glmer_pop <- glmer(
   HostResistance ~ Population + (1 | Line:Population) + (1 | Batch),
   weights = FliesControl, family = binomial(),
-  data = filter(pr, HostResistance <= 1 & HostResistance >= 0)
+  data = filter(droseu$pr, HostResistance <= 1 & HostResistance >= 0)
 )
 
 PR_HR_null <- glmer(
   HostResistance ~ +(1 | Line:Population) + (1 | Batch),
   weights = FliesControl, family = binomial(),
-  data = filter(pr, HostResistance <= 1 & HostResistance >= 0)
+  data = filter(droseu$pr, HostResistance <= 1 & HostResistance >= 0)
 )
 
 PR_glmers_pop_anova <- list(anova(PR_glmers_pop$PR_HR_Hrcek_glmer_pop, PR_HR_null))
@@ -1262,73 +1256,3 @@ r2 <- bind_rows(
 
 saveRDS(r2, file = file.path(lmer_dir, "all_models_pop_r2.rds"))
 write.csv(r2, file = file.path(lmer_dir, "all_models_pop_r2.csv"), row.names = FALSE)
-
-
-#### MEAN VARIANCE EXPLAINED
-
-r2 <- readRDS(file.path(lmer_dir, "all_models_pop_r2.rds"))
-
-mean_r2 <- group_by(r2, Trait, Sex) %>%
-  summarize(Mean_r2 = mean(Marg_r2)) %>%
-  summarise(Mean_r2 = mean(Mean_r2)) %>%
-  arrange(Mean_r2)
-
-
-############# FIGURES TO SUMMARISE MODELS #############
-
-# r2s <- readRDS(file.path(lmer_dir, "all_models_pop_r2.rds"))
-# pvals <- readRDS(file.path(lmer_dir, "all_models_pop_pvalues.rds"))
-
-# pr2 <- inner_join(r2s, pvals) %>%
-#  mutate(
-#    Trait_sex = paste(Trait, Sex, sep = "_"),
-#    Sig = as.factor(ifelse(P < 0.05, 1, 0))
-#  )
-
-# marg_r2_pvals <- ggplot(data = pr2, aes(x = Marg_r2, y = -log10(P), fill = Sig)) +
-#  geom_point(size = 7, shape = 21, alpha = 0.5) +
-#  theme_classic() +
-#  scale_fill_manual(values = c("grey50", "red")) +
-#  theme(
-#    panel.grid.major.y = element_line(size = 0.5),
-#    legend.position = "none",
-#    axis.text = element_text(size = 20),
-#    axis.title = element_text(size = 20),
-#    plot.title = element_text(size = 22),
-#    plot.subtitle = element_text(size = 18)
-#  ) +
-#  labs(
-#    x = "Marginal R2", y = "-log(10)P",
-#    title = "Linear models P values and variance explained by Population"
-#  )
-
-# ggsave(
-#  marg_r2_pvals,
-#  filename = file.path(lmer_dir, "marginal_r2_pvalues.pdf"), width = 10, height = 10
-# )
-# ggsave(
-#  marg_r2_pvals,
-#  filename = file.path(lmer_dir, "marginal_r2_pvalues.png"), width = 10, height = 10
-# )
-
-
-
-# marg_r2 <- ggplot(data = pr2, aes(x = Marg_r2, y = Trait_sex, fill = Sig)) +
-#  geom_point(size = 7, shape = 21, alpha = 0.5) +
-#  theme_classic() +
-#  scale_fill_manual(values = c("grey50", "red")) +
-#  theme(
-#    panel.grid.major.y = element_line(size = 0.5),
-#    legend.position = "none",
-#    axis.text = element_text(size = 20),
-#    axis.title = element_text(size = 20),
-#    plot.title = element_text(size = 22),
-#    plot.subtitle = element_text(size = 18)
-#  ) +
-#  labs(
-#    x = "Marginal R2", y = "Trait",
-#    title = "Variance explained by Population – by trait"
-#  )
-
-# ggsave(marg_r2, filename = file.path(lmer_dir, "marginal_r2.pdf"), width = 10, height = 12)
-# ggsave(marg_r2, filename = file.path(lmer_dir, "marginal_r2.png"), width = 10, height = 12)

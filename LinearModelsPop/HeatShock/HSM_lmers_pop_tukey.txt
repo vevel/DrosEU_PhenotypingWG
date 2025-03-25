@@ -205,16 +205,26 @@ P value adjustment: tukey method for comparing a family of 9 estimates
 
 
 $HSM_M_Parsch_lmer_pop$letters
-  Population   emmean       SE  df asymp.LCL asymp.UCL   cld
-1         AK 382.3802 25.99502 Inf  331.4309  433.3295     d
-2         GI 285.0618 26.00070 Inf  234.1014  336.0223  abc 
-3         KA 339.6702 25.94688 Inf  288.8153  390.5252   bcd
-4         MA 387.4116 26.00468 Inf  336.4433  438.3798     d
-5         MU 352.2861 25.94719 Inf  301.4305  403.1417    cd
-6         RE 263.1354 25.95043 Inf  212.2735  313.9973  ab  
-7         UM 369.2527 26.25194 Inf  317.7999  420.7056     d
-8         VA 353.0819 26.24481 Inf  301.6430  404.5207    cd
-9         YE 257.9821 25.79415 Inf  207.4265  308.5377  a   
+  Population   emmean       SE  df asymp.LCL asymp.UCL
+1         AK 382.3802 25.99502 Inf  331.4309  433.3295
+2         GI 285.0618 26.00070 Inf  234.1014  336.0223
+3         KA 339.6702 25.94688 Inf  288.8153  390.5252
+4         MA 387.4116 26.00468 Inf  336.4433  438.3798
+5         MU 352.2861 25.94719 Inf  301.4305  403.1417
+6         RE 263.1354 25.95043 Inf  212.2735  313.9973
+7         UM 369.2527 26.25194 Inf  317.7999  420.7056
+8         VA 353.0819 26.24481 Inf  301.6430  404.5207
+9         YE 257.9821 25.79415 Inf  207.4265  308.5377
+    cld
+1     d
+2  abc 
+3   bcd
+4     d
+5    cd
+6  ab  
+7     d
+8    cd
+9  a   
 
 
 $HSM_M_Vieira_lmer_pop
@@ -278,15 +288,25 @@ P value adjustment: tukey method for comparing a family of 9 estimates
 
 
 $HSM_M_Vieira_lmer_pop$letters
-  Population   emmean        SE  df asymp.LCL asymp.UCL  cld
-1         AK 343.5972  9.406691 Inf  325.1604  362.0340    c
-2         GI 277.1857 11.169260 Inf  255.2943  299.0770  a  
-3         KA 326.7871  9.789421 Inf  307.6001  345.9740   bc
-4         MA 319.6049 10.244363 Inf  299.5263  339.6834  abc
-5         MU 306.2019  9.869304 Inf  286.8585  325.5454  ab 
-6         RE 327.2210 11.897246 Inf  303.9028  350.5392  abc
-7         UM 314.5061  9.645607 Inf  295.6011  333.4112  abc
-8         VA 320.0156 10.434026 Inf  299.5653  340.4660  abc
-9         YE 324.9949 10.458164 Inf  304.4973  345.4925   bc
+  Population   emmean        SE  df asymp.LCL asymp.UCL
+1         AK 343.5972  9.406691 Inf  325.1604  362.0340
+2         GI 277.1857 11.169260 Inf  255.2943  299.0770
+3         KA 326.7871  9.789421 Inf  307.6001  345.9740
+4         MA 319.6049 10.244363 Inf  299.5263  339.6834
+5         MU 306.2019  9.869304 Inf  286.8585  325.5454
+6         RE 327.2210 11.897246 Inf  303.9028  350.5392
+7         UM 314.5061  9.645607 Inf  295.6011  333.4112
+8         VA 320.0156 10.434026 Inf  299.5653  340.4660
+9         YE 324.9949 10.458164 Inf  304.4973  345.4925
+   cld
+1    c
+2  a  
+3   bc
+4  abc
+5  ab 
+6  abc
+7  abc
+8  abc
+9   bc
 
 

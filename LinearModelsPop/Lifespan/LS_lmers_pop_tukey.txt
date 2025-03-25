@@ -59,16 +59,26 @@ P value adjustment: tukey method for comparing a family of 9 estimates
 
 
 $LS_F_Flatt_lmer_pop$letters
-  Population   emmean        SE  df asymp.LCL asymp.UCL    cld
-1         AK 60.03341 0.9131886 Inf  58.24359  61.82323      e
-2         GI 42.94765 0.8945495 Inf  41.19437  44.70094  a    
-3         KA 55.42457 0.8972207 Inf  53.66605  57.18309    cd 
-4         MA 50.51950 0.9073581 Inf  48.74111  52.29789   b   
-5         MU 57.42015 0.9103180 Inf  55.63596  59.20434     de
-6         RE 45.60741 0.9038400 Inf  43.83591  47.37890  a    
-7         UM 51.67080 0.9207651 Inf  49.86613  53.47547   bc  
-8         VA 56.27109 0.9109430 Inf  54.48567  58.05650     de
-9         YE 49.66242 0.9010903 Inf  47.89632  51.42853   b   
+  Population   emmean        SE  df asymp.LCL asymp.UCL
+1         AK 60.03341 0.9131886 Inf  58.24359  61.82323
+2         GI 42.94765 0.8945495 Inf  41.19437  44.70094
+3         KA 55.42457 0.8972207 Inf  53.66605  57.18309
+4         MA 50.51950 0.9073581 Inf  48.74111  52.29789
+5         MU 57.42015 0.9103180 Inf  55.63596  59.20434
+6         RE 45.60741 0.9038400 Inf  43.83591  47.37890
+7         UM 51.67080 0.9207651 Inf  49.86613  53.47547
+8         VA 56.27109 0.9109430 Inf  54.48567  58.05650
+9         YE 49.66242 0.9010903 Inf  47.89632  51.42853
+     cld
+1      e
+2  a    
+3    cd 
+4   b   
+5     de
+6  a    
+7   bc  
+8     de
+9   b   
 
 
 $LS_F_Parsch_lmer_pop
@@ -132,16 +142,26 @@ P value adjustment: tukey method for comparing a family of 9 estimates
 
 
 $LS_F_Parsch_lmer_pop$letters
-  Population   emmean       SE  df asymp.LCL asymp.UCL   cld
-1         AK 59.62540 2.999512 Inf  53.74647  65.50434     d
-2         GI 54.90919 3.005658 Inf  49.01821  60.80017    cd
-3         KA 56.86625 3.003398 Inf  50.97970  62.75280     d
-4         MA 47.30639 3.010680 Inf  41.40556  53.20721  ab  
-5         MU 54.01385 3.003471 Inf  48.12716  59.90055   bcd
-6         RE 46.43843 3.001429 Inf  40.55574  52.32112  a   
-7         UM 49.08349 3.003928 Inf  43.19590  54.97108  abc 
-8         VA 56.42029 2.996987 Inf  50.54630  62.29428     d
-9         YE 54.59169 3.007478 Inf  48.69714  60.48624    cd
+  Population   emmean       SE  df asymp.LCL asymp.UCL
+1         AK 59.62540 2.999512 Inf  53.74647  65.50434
+2         GI 54.90919 3.005658 Inf  49.01821  60.80017
+3         KA 56.86625 3.003398 Inf  50.97970  62.75280
+4         MA 47.30639 3.010680 Inf  41.40556  53.20721
+5         MU 54.01385 3.003471 Inf  48.12716  59.90055
+6         RE 46.43843 3.001429 Inf  40.55574  52.32112
+7         UM 49.08349 3.003928 Inf  43.19590  54.97108
+8         VA 56.42029 2.996987 Inf  50.54630  62.29428
+9         YE 54.59169 3.007478 Inf  48.69714  60.48624
+    cld
+1     d
+2    cd
+3     d
+4  ab  
+5   bcd
+6  a   
+7  abc 
+8     d
+9    cd
 
 
 $LS_F_Pasyukova_lmer_pop
@@ -278,16 +298,26 @@ P value adjustment: tukey method for comparing a family of 9 estimates
 
 
 $LS_M_Flatt_lmer_pop$letters
-  Population   emmean        SE  df asymp.LCL asymp.UCL  cld
-1         AK 51.61937 0.8739402 Inf  49.90648  53.33226  a  
-2         GI 50.84481 0.8507208 Inf  49.17742  52.51219  a  
-3         KA 56.06434 0.8542942 Inf  54.38996  57.73873    c
-4         MA 53.03927 0.8501898 Inf  51.37293  54.70561  abc
-5         MU 55.64478 0.8667437 Inf  53.94600  57.34357   bc
-6         RE 50.42100 0.8510057 Inf  48.75305  52.08894  a  
-7         UM 52.35602 0.8535846 Inf  50.68303  54.02902  abc
-8         VA 52.03576 0.8795538 Inf  50.31186  53.75965  ab 
-9         YE 52.32832 0.8531422 Inf  50.65619  54.00045  abc
+  Population   emmean        SE  df asymp.LCL asymp.UCL
+1         AK 51.61937 0.8739402 Inf  49.90648  53.33226
+2         GI 50.84481 0.8507208 Inf  49.17742  52.51219
+3         KA 56.06434 0.8542942 Inf  54.38996  57.73873
+4         MA 53.03927 0.8501898 Inf  51.37293  54.70561
+5         MU 55.64478 0.8667437 Inf  53.94600  57.34357
+6         RE 50.42100 0.8510057 Inf  48.75305  52.08894
+7         UM 52.35602 0.8535846 Inf  50.68303  54.02902
+8         VA 52.03576 0.8795538 Inf  50.31186  53.75965
+9         YE 52.32832 0.8531422 Inf  50.65619  54.00045
+   cld
+1  a  
+2  a  
+3    c
+4  abc
+5   bc
+6  a  
+7  abc
+8  ab 
+9  abc
 
 
 $LS_M_Parsch_lmer_pop
