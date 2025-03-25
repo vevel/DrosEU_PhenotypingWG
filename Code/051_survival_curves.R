@@ -17,7 +17,7 @@ setwd("~/Work/UNIFR/GitHub/DrosEU_PhenotypingWG/")
 
 
 ##### load data
-droseu <- readRDS("Data/droseu_master_list_2022-05-02.rds")
+droseu <- readRDS("Data/droseu_master_list_2025-03-24.rds")
 pops <- readRDS("InfoTables/DrosEU_Populations.rds")
 
 ##### source functions
