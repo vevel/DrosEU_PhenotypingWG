@@ -1,57 +1,208 @@
-                                           95%-CI %W(random) Population
-YE_Gibert           223.5204 [220.6519; 226.3888]        2.1         YE
-YE_Hoedjes          239.2042 [236.2601; 242.1484]        2.1         YE
-YE_Schmidt          225.9375 [216.4094; 235.4657]        2.0         YE
-YE_StamenkovicRadak 246.0427 [237.1373; 254.9482]        2.0         YE
-YE_Zwaan            223.1141 [218.1703; 228.0580]        2.1         YE
-RE_Gibert           228.5836 [225.4801; 231.6871]        2.1         RE
-RE_Grath            324.2977 [315.6450; 332.9504]        2.1         RE
-RE_Hoedjes          244.4384 [241.1713; 247.7055]        2.1         RE
-RE_Schmidt          231.6509 [220.6035; 242.6982]        2.0         RE
-RE_StamenkovicRadak 259.6355 [250.1820; 269.0889]        2.0         RE
-RE_Zwaan            229.9154 [224.8531; 234.9777]        2.1         RE
-GI_Gibert           231.8760 [228.6729; 235.0792]        2.1         GI
-GI_Hoedjes          244.6466 [241.4014; 247.8919]        2.1         GI
-GI_Schmidt          243.1172 [230.1835; 256.0508]        2.0         GI
-GI_StamenkovicRadak 251.7237 [241.6027; 261.8447]        2.0         GI
-GI_Zwaan            229.3335 [224.2074; 234.4595]        2.1         GI
-MU_Gibert           227.8011 [224.9898; 230.6125]        2.1         MU
-MU_Grath            312.1476 [307.5211; 316.7740]        2.1         MU
-MU_Hoedjes          236.5314 [233.6574; 239.4054]        2.1         MU
-MU_Schmidt          226.7164 [217.1685; 236.2642]        2.0         MU
-MU_StamenkovicRadak 244.1239 [235.2691; 252.9788]        2.0         MU
-MU_Zwaan            225.5452 [220.6522; 230.4381]        2.1         MU
-MA_Gibert           225.3002 [222.4687; 228.1316]        2.1         MA
-MA_Hoedjes          239.3674 [236.4967; 242.2382]        2.1         MA
-MA_Schmidt          228.7412 [219.0758; 238.4066]        2.0         MA
-MA_StamenkovicRadak 250.4676 [241.5731; 259.3622]        2.0         MA
-MA_Zwaan            227.7554 [222.8736; 232.6372]        2.1         MA
-UM_Gibert           229.7729 [226.8304; 232.7155]        2.1         UM
-UM_Hoedjes          237.7624 [234.6893; 240.8354]        2.1         UM
-UM_Schmidt          229.1047 [218.3952; 239.8142]        2.0         UM
-UM_StamenkovicRadak 257.0830 [247.9143; 266.2516]        2.0         UM
-UM_Zwaan            225.0653 [220.1181; 230.0124]        2.1         UM
-KA_Gibert           227.2232 [224.4072; 230.0392]        2.1         KA
-KA_Hoedjes          236.1528 [233.2714; 239.0341]        2.1         KA
-KA_Schmidt          219.9134 [210.3569; 229.4698]        2.0         KA
-KA_StamenkovicRadak 234.8250 [225.9680; 243.6821]        2.0         KA
-KA_Zwaan            226.9689 [222.0981; 231.8397]        2.1         KA
-VA_Gibert           228.3832 [225.5588; 231.2076]        2.1         VA
-VA_Hoedjes          235.8261 [232.9393; 238.7130]        2.1         VA
-VA_Schmidt          250.0485 [240.3819; 259.7151]        2.0         VA
-VA_StamenkovicRadak 259.3841 [250.3707; 268.3976]        2.0         VA
-VA_Zwaan            227.7893 [222.8991; 232.6795]        2.1         VA
-AK_Gibert           226.5155 [223.7481; 229.2829]        2.1         AK
-AK_Grath            317.5672 [312.9639; 322.1706]        2.1         AK
-AK_Hoedjes          238.6853 [235.8118; 241.5588]        2.1         AK
-AK_Schmidt          226.0131 [216.7169; 235.3092]        2.0         AK
-AK_StamenkovicRadak 242.7182 [233.7341; 251.7022]        2.0         AK
-AK_Zwaan            225.7358 [220.8599; 230.6116]        2.1         AK
+                            
+YE_Gibert           223.5204
+YE_Hoedjes          239.2042
+YE_Schmidt          225.9375
+YE_StamenkovicRadak 246.0427
+YE_Zwaan            223.1141
+RE_Gibert           228.5836
+RE_Grath            324.2977
+RE_Hoedjes          244.4384
+RE_Schmidt          231.6509
+RE_StamenkovicRadak 259.6355
+RE_Zwaan            229.9154
+GI_Gibert           231.8760
+GI_Hoedjes          244.6466
+GI_Schmidt          243.1172
+GI_StamenkovicRadak 251.7237
+GI_Zwaan            229.3335
+MU_Gibert           227.8011
+MU_Grath            312.1476
+MU_Hoedjes          236.5314
+MU_Schmidt          226.7164
+MU_StamenkovicRadak 244.1239
+MU_Zwaan            225.5452
+MA_Gibert           225.3002
+MA_Hoedjes          239.3674
+MA_Schmidt          228.7412
+MA_StamenkovicRadak 250.4676
+MA_Zwaan            227.7554
+UM_Gibert           229.7729
+UM_Hoedjes          237.7624
+UM_Schmidt          229.1047
+UM_StamenkovicRadak 257.0830
+UM_Zwaan            225.0653
+KA_Gibert           227.2232
+KA_Hoedjes          236.1528
+KA_Schmidt          219.9134
+KA_StamenkovicRadak 234.8250
+KA_Zwaan            226.9689
+VA_Gibert           228.3832
+VA_Hoedjes          235.8261
+VA_Schmidt          250.0485
+VA_StamenkovicRadak 259.3841
+VA_Zwaan            227.7893
+AK_Gibert           226.5155
+AK_Grath            317.5672
+AK_Hoedjes          238.6853
+AK_Schmidt          226.0131
+AK_StamenkovicRadak 242.7182
+AK_Zwaan            225.7358
+                                  95%-CI
+YE_Gibert           [220.6519; 226.3888]
+YE_Hoedjes          [236.2601; 242.1484]
+YE_Schmidt          [216.4094; 235.4657]
+YE_StamenkovicRadak [237.1373; 254.9482]
+YE_Zwaan            [218.1703; 228.0580]
+RE_Gibert           [225.4801; 231.6871]
+RE_Grath            [315.6450; 332.9504]
+RE_Hoedjes          [241.1713; 247.7055]
+RE_Schmidt          [220.6035; 242.6982]
+RE_StamenkovicRadak [250.1820; 269.0889]
+RE_Zwaan            [224.8531; 234.9777]
+GI_Gibert           [228.6729; 235.0792]
+GI_Hoedjes          [241.4014; 247.8919]
+GI_Schmidt          [230.1835; 256.0508]
+GI_StamenkovicRadak [241.6027; 261.8447]
+GI_Zwaan            [224.2074; 234.4595]
+MU_Gibert           [224.9898; 230.6125]
+MU_Grath            [307.5211; 316.7740]
+MU_Hoedjes          [233.6574; 239.4054]
+MU_Schmidt          [217.1685; 236.2642]
+MU_StamenkovicRadak [235.2691; 252.9788]
+MU_Zwaan            [220.6522; 230.4381]
+MA_Gibert           [222.4687; 228.1316]
+MA_Hoedjes          [236.4967; 242.2382]
+MA_Schmidt          [219.0758; 238.4066]
+MA_StamenkovicRadak [241.5731; 259.3622]
+MA_Zwaan            [222.8736; 232.6372]
+UM_Gibert           [226.8304; 232.7155]
+UM_Hoedjes          [234.6893; 240.8354]
+UM_Schmidt          [218.3952; 239.8142]
+UM_StamenkovicRadak [247.9143; 266.2516]
+UM_Zwaan            [220.1181; 230.0124]
+KA_Gibert           [224.4072; 230.0392]
+KA_Hoedjes          [233.2714; 239.0341]
+KA_Schmidt          [210.3569; 229.4698]
+KA_StamenkovicRadak [225.9680; 243.6821]
+KA_Zwaan            [222.0981; 231.8397]
+VA_Gibert           [225.5588; 231.2076]
+VA_Hoedjes          [232.9393; 238.7130]
+VA_Schmidt          [240.3819; 259.7151]
+VA_StamenkovicRadak [250.3707; 268.3976]
+VA_Zwaan            [222.8991; 232.6795]
+AK_Gibert           [223.7481; 229.2829]
+AK_Grath            [312.9639; 322.1706]
+AK_Hoedjes          [235.8118; 241.5588]
+AK_Schmidt          [216.7169; 235.3092]
+AK_StamenkovicRadak [233.7341; 251.7022]
+AK_Zwaan            [220.8599; 230.6116]
+                    %W(random)
+YE_Gibert                  2.1
+YE_Hoedjes                 2.1
+YE_Schmidt                 2.0
+YE_StamenkovicRadak        2.0
+YE_Zwaan                   2.1
+RE_Gibert                  2.1
+RE_Grath                   2.1
+RE_Hoedjes                 2.1
+RE_Schmidt                 2.0
+RE_StamenkovicRadak        2.0
+RE_Zwaan                   2.1
+GI_Gibert                  2.1
+GI_Hoedjes                 2.1
+GI_Schmidt                 2.0
+GI_StamenkovicRadak        2.0
+GI_Zwaan                   2.1
+MU_Gibert                  2.1
+MU_Grath                   2.1
+MU_Hoedjes                 2.1
+MU_Schmidt                 2.0
+MU_StamenkovicRadak        2.0
+MU_Zwaan                   2.1
+MA_Gibert                  2.1
+MA_Hoedjes                 2.1
+MA_Schmidt                 2.0
+MA_StamenkovicRadak        2.0
+MA_Zwaan                   2.1
+UM_Gibert                  2.1
+UM_Hoedjes                 2.1
+UM_Schmidt                 2.0
+UM_StamenkovicRadak        2.0
+UM_Zwaan                   2.1
+KA_Gibert                  2.1
+KA_Hoedjes                 2.1
+KA_Schmidt                 2.0
+KA_StamenkovicRadak        2.0
+KA_Zwaan                   2.1
+VA_Gibert                  2.1
+VA_Hoedjes                 2.1
+VA_Schmidt                 2.0
+VA_StamenkovicRadak        2.0
+VA_Zwaan                   2.1
+AK_Gibert                  2.1
+AK_Grath                   2.1
+AK_Hoedjes                 2.1
+AK_Schmidt                 2.0
+AK_StamenkovicRadak        2.0
+AK_Zwaan                   2.1
+                    Population
+YE_Gibert                   YE
+YE_Hoedjes                  YE
+YE_Schmidt                  YE
+YE_StamenkovicRadak         YE
+YE_Zwaan                    YE
+RE_Gibert                   RE
+RE_Grath                    RE
+RE_Hoedjes                  RE
+RE_Schmidt                  RE
+RE_StamenkovicRadak         RE
+RE_Zwaan                    RE
+GI_Gibert                   GI
+GI_Hoedjes                  GI
+GI_Schmidt                  GI
+GI_StamenkovicRadak         GI
+GI_Zwaan                    GI
+MU_Gibert                   MU
+MU_Grath                    MU
+MU_Hoedjes                  MU
+MU_Schmidt                  MU
+MU_StamenkovicRadak         MU
+MU_Zwaan                    MU
+MA_Gibert                   MA
+MA_Hoedjes                  MA
+MA_Schmidt                  MA
+MA_StamenkovicRadak         MA
+MA_Zwaan                    MA
+UM_Gibert                   UM
+UM_Hoedjes                  UM
+UM_Schmidt                  UM
+UM_StamenkovicRadak         UM
+UM_Zwaan                    UM
+KA_Gibert                   KA
+KA_Hoedjes                  KA
+KA_Schmidt                  KA
+KA_StamenkovicRadak         KA
+KA_Zwaan                    KA
+VA_Gibert                   VA
+VA_Hoedjes                  VA
+VA_Schmidt                  VA
+VA_StamenkovicRadak         VA
+VA_Zwaan                    VA
+AK_Gibert                   AK
+AK_Grath                    AK
+AK_Hoedjes                  AK
+AK_Schmidt                  AK
+AK_StamenkovicRadak         AK
+AK_Zwaan                    AK
 
 Number of studies combined: k = 48
 
-                                            95%-CI     z p-value
-Random effects model 240.0269 [233.5994; 246.4544] 73.19       0
+                             
+Random effects model 240.0269
+                                   95%-CI
+Random effects model [233.5994; 246.4544]
+                         z p-value
+Random effects model 73.19       0
 
 Quantifying heterogeneity:
  tau^2 = 504.5093 [345.8972; 797.3965]; tau = 22.4613 [18.5983; 28.2382]
@@ -62,16 +213,46 @@ Test of heterogeneity:
  3293.69   47       0
 
 Results for subgroups (random effects model):
-                  k                        95%-CI     tau^2     tau       Q   I^2
-Population = YE   5 231.3565 [222.3777; 240.3352]   94.7110  9.7320   77.48 94.8%
-Population = RE   6 253.0096 [223.6041; 282.4150] 1336.2288 36.5545  457.50 98.9%
-Population = GI   5 239.4041 [231.1339; 247.6744]   75.0995  8.6660   48.53 91.8%
-Population = MU   6 245.5187 [218.6853; 272.3521] 1114.6645 33.3866 1048.53 99.5%
-Population = MA   5 234.0428 [225.1518; 242.9337]   92.6592  9.6260   66.63 94.0%
-Population = UM   5 235.4982 [224.7393; 246.2572]  138.9071 11.7859   50.69 92.1%
-Population = KA   5 229.4707 [224.1718; 234.7697]   27.7011  5.2632   27.59 85.5%
-Population = VA   5 239.7320 [227.7507; 251.7133]  176.1391 13.2717   63.14 93.7%
-Population = AK   6 246.2465 [217.5973; 274.8957] 1272.1426 35.6671 1213.84 99.6%
+                  k         
+Population = YE   5 231.3565
+Population = RE   6 253.0096
+Population = GI   5 239.4041
+Population = MU   6 245.5187
+Population = MA   5 234.0428
+Population = UM   5 235.4982
+Population = KA   5 229.4707
+Population = VA   5 239.7320
+Population = AK   6 246.2465
+                              95%-CI
+Population = YE [222.3777; 240.3352]
+Population = RE [223.6041; 282.4150]
+Population = GI [231.1339; 247.6744]
+Population = MU [218.6853; 272.3521]
+Population = MA [225.1518; 242.9337]
+Population = UM [224.7393; 246.2572]
+Population = KA [224.1718; 234.7697]
+Population = VA [227.7507; 251.7133]
+Population = AK [217.5973; 274.8957]
+                    tau^2     tau
+Population = YE   94.7110  9.7320
+Population = RE 1336.2288 36.5545
+Population = GI   75.0995  8.6660
+Population = MU 1114.6645 33.3866
+Population = MA   92.6592  9.6260
+Population = UM  138.9071 11.7859
+Population = KA   27.7011  5.2632
+Population = VA  176.1391 13.2717
+Population = AK 1272.1426 35.6671
+                      Q   I^2
+Population = YE   77.48 94.8%
+Population = RE  457.50 98.9%
+Population = GI   48.53 91.8%
+Population = MU 1048.53 99.5%
+Population = MA   66.63 94.0%
+Population = UM   50.69 92.1%
+Population = KA   27.59 85.5%
+Population = VA   63.14 93.7%
+Population = AK 1213.84 99.6%
 
 Test for subgroup differences (random effects model):
                     Q d.f. p-value
