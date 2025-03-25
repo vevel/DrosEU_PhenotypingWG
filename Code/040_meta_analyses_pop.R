@@ -144,7 +144,7 @@ all_metas_pop_list <- rdsBatchReaderToList(path = meta_dir, recursive = T, full.
 ##### define function to extract p values and other statistcics
 getPvalue <- function(x) {
     x %>% mutate(Min_lab = min(N_lab), Max_lab = max(N_lab)) %>% 
-    select(Models, Trait, Sex, Q, P, Min_lab, Max_lab) %>%
+    dplyr::select(Models, Trait, Sex, Q, P, Min_lab, Max_lab) %>%
     distinct()
 }
 
@@ -227,7 +227,7 @@ meta_pops_pvalues <- readRDS(file.path(meta_dir, "all_models_pop_meta_pvalues.rd
 
 
 ##### prepare text plotting
-stats_text <- inner_join(select(meta_pops_pvalues, Group, Q_plot, P_bonf_plot), select(meta_country, Group, N_plot, xpos, ypos_qp, ypos_n) %>% distinct())
+stats_text <- inner_join(dplyr::select(meta_pops_pvalues, Group, Q_plot, P_bonf_plot), dplyr::select(meta_country, Group, N_plot, xpos, ypos_qp, ypos_n) %>% distinct())
 
 ##### facet plot
 p_meta_CI_facet <- ggplot(data = meta_country, aes(x = Estimate, y = y, color = Country_code)) +

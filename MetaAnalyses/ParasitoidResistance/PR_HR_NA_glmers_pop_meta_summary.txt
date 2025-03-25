@@ -1,0 +1,92 @@
+                
+YE_Hrcek -1.5875
+RE_Hrcek -1.3374
+GI_Hrcek -1.8953
+MU_Hrcek -1.3969
+MA_Hrcek -0.8025
+UM_Hrcek -0.7410
+KA_Hrcek -1.7919
+VA_Hrcek -1.0486
+AK_Hrcek -1.4743
+                     95%-CI
+YE_Hrcek [-2.1481; -1.0269]
+RE_Hrcek [-1.8112; -0.8637]
+GI_Hrcek [-2.4982; -1.2925]
+MU_Hrcek [-1.9916; -0.8023]
+MA_Hrcek [-1.2665; -0.3386]
+UM_Hrcek [-1.2400; -0.2419]
+KA_Hrcek [-2.3873; -1.1966]
+VA_Hrcek [-1.5447; -0.5525]
+AK_Hrcek [-1.9748; -0.9738]
+         %W(random) Population
+YE_Hrcek       10.6         YE
+RE_Hrcek       12.2         RE
+GI_Hrcek        9.8         GI
+MU_Hrcek       10.0         MU
+MA_Hrcek       12.4         MA
+UM_Hrcek       11.7         UM
+KA_Hrcek       10.0         KA
+VA_Hrcek       11.8         VA
+AK_Hrcek       11.7         AK
+
+Number of studies combined: k = 9
+
+                            
+Random effects model -1.3158
+                                 95%-CI
+Random effects model [-1.5812; -1.0505]
+                         z
+Random effects model -9.72
+                      p-value
+Random effects model < 0.0001
+
+Quantifying heterogeneity:
+ tau^2 = 0.0919 [0.0026; 0.5346]; tau = 0.3031 [0.0508; 0.7312]
+ I^2 = 56.0% [7.1%; 79.1%]; H = 1.51 [1.04; 2.19]
+
+Test of heterogeneity:
+     Q d.f. p-value
+ 18.17    8  0.0200
+
+Results for subgroups (random effects model):
+                  k        
+Population = YE   1 -1.5875
+Population = RE   1 -1.3374
+Population = GI   1 -1.8953
+Population = MU   1 -1.3969
+Population = MA   1 -0.8025
+Population = UM   1 -0.7410
+Population = KA   1 -1.7919
+Population = VA   1 -1.0486
+Population = AK   1 -1.4743
+                            95%-CI
+Population = YE [-2.1481; -1.0269]
+Population = RE [-1.8112; -0.8637]
+Population = GI [-2.4982; -1.2925]
+Population = MU [-1.9916; -0.8023]
+Population = MA [-1.2665; -0.3386]
+Population = UM [-1.2400; -0.2419]
+Population = KA [-2.3873; -1.1966]
+Population = VA [-1.5447; -0.5525]
+Population = AK [-1.9748; -0.9738]
+                tau^2 tau    Q I^2
+Population = YE    --  -- 0.00  --
+Population = RE    --  -- 0.00  --
+Population = GI    --  -- 0.00  --
+Population = MU    --  -- 0.00  --
+Population = MA    --  -- 0.00  --
+Population = UM    --  -- 0.00  --
+Population = KA    --  -- 0.00  --
+Population = VA    --  -- 0.00  --
+Population = AK    --  -- 0.00  --
+
+Test for subgroup differences (random effects model):
+                     Q d.f.
+Between groups   18.17    8
+                 p-value
+Between groups    0.0200
+
+Details on meta-analytical method:
+- Inverse variance method
+- Restricted maximum-likelihood estimator for tau^2
+- Q-profile method for confidence interval of tau^2 and tau

@@ -1,7 +1,8 @@
-Generalized linear mixed model fit by maximum likelihood (Laplace
-  Approximation) [glmerMod]
+Generalized linear mixed model fit by maximum likelihood
+  (Laplace Approximation) [glmerMod]
  Family: binomial  ( logit )
-Formula: Prop_Max_Stage9 ~ Population + (1 | Line:Population)
+Formula: 
+Prop_Max_Stage9 ~ Population + (1 | Line:Population)
    Data: filter(dia, Supervisor.PI == pi)
 Weights: n
 
@@ -29,18 +30,28 @@ PopulationUM   2.3895     0.5290   4.517 6.26e-06 ***
 PopulationVA   1.1105     0.4836   2.297  0.02165 *  
 PopulationYE   0.9314     0.4507   2.067  0.03877 *  
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 Correlation of Fixed Effects:
-            (Intr) PpltGI PpltKA PpltMA PpltMU PpltRE PpltUM PpltVA
-PopulatinGI -0.647                                                 
-PopulatinKA -0.697  0.453                                          
-PopulatinMA -0.690  0.448  0.482                                   
-PopulatinMU -0.694  0.451  0.486  0.480                            
-PopulatinRE -0.643  0.418  0.450  0.445  0.448                     
-PopulatinUM -0.594  0.389  0.418  0.413  0.417  0.386              
-PopulatinVA -0.649  0.423  0.455  0.450  0.453  0.420  0.392       
-PopulatinYE -0.696  0.451  0.486  0.481  0.484  0.448  0.416  0.453
+            (Intr) PpltGI PpltKA PpltMA PpltMU PpltRE
+PopulatinGI -0.647                                   
+PopulatinKA -0.697  0.453                            
+PopulatinMA -0.690  0.448  0.482                     
+PopulatinMU -0.694  0.451  0.486  0.480              
+PopulatinRE -0.643  0.418  0.450  0.445  0.448       
+PopulatinUM -0.594  0.389  0.418  0.413  0.417  0.386
+PopulatinVA -0.649  0.423  0.455  0.450  0.453  0.420
+PopulatinYE -0.696  0.451  0.486  0.481  0.484  0.448
+            PpltUM PpltVA
+PopulatinGI              
+PopulatinKA              
+PopulatinMA              
+PopulatinMU              
+PopulatinRE              
+PopulatinUM              
+PopulatinVA  0.392       
+PopulatinYE  0.416  0.453
 optimizer (Nelder_Mead) convergence code: 0 (OK)
 Model failed to converge with max|grad| = 0.0116829 (tol = 0.002, component 1)
 

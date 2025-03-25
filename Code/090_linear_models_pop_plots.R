@@ -22,7 +22,7 @@ source("Code/functions.R")
 
 
 ##### load latest data
-droseu <- readRDS("Data/droseu_master_list_2022-05-02.rds")
+droseu <- readRDS("Data/droseu_master_list_2025-03-24.rds")
 pops <- readRDS("InfoTables/DrosEU_Populations.rds")
 
 ##### load tukey stats
@@ -50,7 +50,7 @@ trait_var <- c(
   "LSM_AgeAtDeath_days", "LSP_AgeAtDeath_days", "PercT4", "PercT5", "PercT6",
   "TotalPerc", "AgeAtDeath_hours", "TL_micrometers",
   "ProportionEggtoAdultSurvival", "CentroidSizeLeft_micrometers",
-  "CentroidSizeRight_micrometers"
+  "CentroidSizeRight_micrometers", "HostResistance"
 )
 
 common_var <- c("Supervisor.PI", "Batch", "Population", "Line", "Sex")

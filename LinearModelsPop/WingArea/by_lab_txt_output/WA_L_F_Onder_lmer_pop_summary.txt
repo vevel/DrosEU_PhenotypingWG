@@ -1,9 +1,10 @@
-Linear mixed model fit by REML. t-tests use Satterthwaite's method [
-lmerModLmerTest]
+Linear mixed model fit by REML. t-tests use
+  Satterthwaite's method [lmerModLmerTest]
 Formula: 
 CentroidSizeLeft_micrometers ~ Population + (1 | Line:Population) +  
     (1 | Batch) + (1 | ReplicateVial:Line)
-   Data: filter(droseu$wa, Supervisor.PI == "Onder" & Sex == "F")
+   Data: 
+filter(droseu$wa, Supervisor.PI == "Onder" & Sex == "F")
 
 REML criterion at convergence: 61105.4
 
@@ -21,26 +22,46 @@ Number of obs: 5247, groups:
 ReplicateVial:Line, 518; Line:Population, 167; Batch, 7
 
 Fixed effects:
-             Estimate Std. Error       df t value Pr(>|t|)    
-(Intercept)  2813.821     19.107   14.941 147.268  < 2e-16 ***
-PopulationGI   39.068     20.578  152.349   1.899   0.0595 .  
-PopulationKA   44.852     19.375  155.059   2.315   0.0219 *  
-PopulationMA   84.984     18.846  150.616   4.509 1.30e-05 ***
-PopulationMU   46.279     18.936  151.034   2.444   0.0157 *  
-PopulationRE  130.045     20.226  152.480   6.430 1.56e-09 ***
-PopulationUM   87.275     19.956  153.540   4.373 2.25e-05 ***
-PopulationVA   29.681     18.989  151.889   1.563   0.1201    
-PopulationYE    1.476     19.177  151.277   0.077   0.9387    
+             Estimate Std. Error       df t value Pr(>|t|)
+(Intercept)  2813.821     19.107   14.941 147.268  < 2e-16
+PopulationGI   39.068     20.578  152.349   1.899   0.0595
+PopulationKA   44.852     19.375  155.059   2.315   0.0219
+PopulationMA   84.984     18.846  150.616   4.509 1.30e-05
+PopulationMU   46.279     18.936  151.034   2.444   0.0157
+PopulationRE  130.045     20.226  152.480   6.430 1.56e-09
+PopulationUM   87.275     19.956  153.540   4.373 2.25e-05
+PopulationVA   29.681     18.989  151.889   1.563   0.1201
+PopulationYE    1.476     19.177  151.277   0.077   0.9387
+                
+(Intercept)  ***
+PopulationGI .  
+PopulationKA *  
+PopulationMA ***
+PopulationMU *  
+PopulationRE ***
+PopulationUM ***
+PopulationVA    
+PopulationYE    
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 Correlation of Fixed Effects:
-            (Intr) PpltGI PpltKA PpltMA PpltMU PpltRE PpltUM PpltVA
-PopulatinGI -0.459                                                 
-PopulatinKA -0.504  0.469                                          
-PopulatinMA -0.488  0.457  0.485                                   
-PopulatinMU -0.506  0.460  0.503  0.497                            
-PopulatinRE -0.472  0.441  0.484  0.463  0.476                     
-PopulatinUM -0.487  0.449  0.497  0.468  0.483  0.464              
-PopulatinVA -0.499  0.465  0.511  0.497  0.505  0.477  0.486       
-PopulatinYE -0.495  0.459  0.501  0.490  0.498  0.472  0.480  0.499
+            (Intr) PpltGI PpltKA PpltMA PpltMU PpltRE
+PopulatinGI -0.459                                   
+PopulatinKA -0.504  0.469                            
+PopulatinMA -0.488  0.457  0.485                     
+PopulatinMU -0.506  0.460  0.503  0.497              
+PopulatinRE -0.472  0.441  0.484  0.463  0.476       
+PopulatinUM -0.487  0.449  0.497  0.468  0.483  0.464
+PopulatinVA -0.499  0.465  0.511  0.497  0.505  0.477
+PopulatinYE -0.495  0.459  0.501  0.490  0.498  0.472
+            PpltUM PpltVA
+PopulatinGI              
+PopulatinKA              
+PopulatinMA              
+PopulatinMU              
+PopulatinRE              
+PopulatinUM              
+PopulatinVA  0.486       
+PopulatinYE  0.480  0.499

@@ -9,7 +9,7 @@ library(ggpubr)
 library(MetBrewer)
 library(lme4)
 library(afex)
-
+library(ggbeeswarm)
 
 ##### set working directory
 setwd("~/Work/UNIFR/GitHub/DrosEU_PhenotypingWG/")
@@ -20,7 +20,7 @@ dir.create("Inversions")
 ##### load data
 invs <- read.csv("./Data/DrosEU_lines_inversions_typing.csv")
 pops <- readRDS("InfoTables/DrosEU_Populations.rds")
-droseu <- readRDS("Data/droseu_master_list_2022-05-02.rds")
+droseu <- readRDS("Data/droseu_master_list_2025-03-24.rds")
 pop_comp <- read.csv("MetaAnalyses/all_models_pop_meta_compound_estimates.csv")
 line_comp <- read.csv("MetaAnalyses/all_models_line_meta_compound_random_coefs.csv")
 
@@ -333,7 +333,7 @@ ggsave(
 
 line_invs <- inner_join(
   line_comp,
-  invs %>% select(contains("In")) %>% rename(Line = line_id)
+  invs %>% dplyr::select(contains("In")) %>% rename(Line = line_id)
 ) %>%
   mutate(In2Lt = ifelse(In2Lt == 0.5 | In2Lt == 1, 1, 0)) %>%
   group_split(Trait, Sex)

@@ -1,5 +1,5 @@
-Linear mixed model fit by REML. t-tests use Satterthwaite's method [
-lmerModLmerTest]
+Linear mixed model fit by REML. t-tests use
+  Satterthwaite's method [lmerModLmerTest]
 Formula: 
 ProportionEggtoAdultSurvival_asin ~ Population + (1 | Line:Population)
    Data: filter(droseu$via, Supervisor.PI == "Hoedjes")
@@ -17,26 +17,46 @@ Random effects:
 Number of obs: 501, groups:  Line:Population, 167
 
 Fixed effects:
-              Estimate Std. Error        df t value Pr(>|t|)    
-(Intercept)    1.09520    0.03073 157.99999  35.644  < 2e-16 ***
-PopulationGI  -0.20137    0.04693 157.99999  -4.290 3.10e-05 ***
-PopulationKA  -0.06612    0.04345 157.99999  -1.522 0.130106    
-PopulationMA  -0.08792    0.04345 157.99999  -2.023 0.044720 *  
-PopulationMU  -0.04924    0.04345 157.99999  -1.133 0.258863    
-PopulationRE  -0.17978    0.04693 157.99999  -3.831 0.000184 ***
-PopulationUM  -0.10841    0.04533 157.99999  -2.392 0.017952 *  
-PopulationVA  -0.11483    0.04345 157.99999  -2.643 0.009052 ** 
-PopulationYE  -0.24862    0.04345 157.99999  -5.722 5.15e-08 ***
+              Estimate Std. Error        df t value
+(Intercept)    1.09520    0.03073 157.99999  35.644
+PopulationGI  -0.20137    0.04693 157.99999  -4.290
+PopulationKA  -0.06612    0.04345 157.99999  -1.522
+PopulationMA  -0.08792    0.04345 157.99999  -2.023
+PopulationMU  -0.04924    0.04345 157.99999  -1.133
+PopulationRE  -0.17978    0.04693 157.99999  -3.831
+PopulationUM  -0.10841    0.04533 157.99999  -2.392
+PopulationVA  -0.11483    0.04345 157.99999  -2.643
+PopulationYE  -0.24862    0.04345 157.99999  -5.722
+             Pr(>|t|)    
+(Intercept)   < 2e-16 ***
+PopulationGI 3.10e-05 ***
+PopulationKA 0.130106    
+PopulationMA 0.044720 *  
+PopulationMU 0.258863    
+PopulationRE 0.000184 ***
+PopulationUM 0.017952 *  
+PopulationVA 0.009052 ** 
+PopulationYE 5.15e-08 ***
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 Correlation of Fixed Effects:
-            (Intr) PpltGI PpltKA PpltMA PpltMU PpltRE PpltUM PpltVA
-PopulatinGI -0.655                                                 
-PopulatinKA -0.707  0.463                                          
-PopulatinMA -0.707  0.463  0.500                                   
-PopulatinMU -0.707  0.463  0.500  0.500                            
-PopulatinRE -0.655  0.429  0.463  0.463  0.463                     
-PopulatinUM -0.678  0.444  0.479  0.479  0.479  0.444              
-PopulatinVA -0.707  0.463  0.500  0.500  0.500  0.463  0.479       
-PopulatinYE -0.707  0.463  0.500  0.500  0.500  0.463  0.479  0.500
+            (Intr) PpltGI PpltKA PpltMA PpltMU PpltRE
+PopulatinGI -0.655                                   
+PopulatinKA -0.707  0.463                            
+PopulatinMA -0.707  0.463  0.500                     
+PopulatinMU -0.707  0.463  0.500  0.500              
+PopulatinRE -0.655  0.429  0.463  0.463  0.463       
+PopulatinUM -0.678  0.444  0.479  0.479  0.479  0.444
+PopulatinVA -0.707  0.463  0.500  0.500  0.500  0.463
+PopulatinYE -0.707  0.463  0.500  0.500  0.500  0.463
+            PpltUM PpltVA
+PopulatinGI              
+PopulatinKA              
+PopulatinMA              
+PopulatinMU              
+PopulatinRE              
+PopulatinUM              
+PopulatinVA  0.479       
+PopulatinYE  0.479  0.500

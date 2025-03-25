@@ -1,7 +1,8 @@
-Generalized linear mixed model fit by maximum likelihood (Laplace
-  Approximation) [glmerMod]
+Generalized linear mixed model fit by maximum likelihood
+  (Laplace Approximation) [glmerMod]
  Family: binomial  ( logit )
-Formula: Prop_Max_Stage9 ~ Population + (1 | Line:Population)
+Formula: 
+Prop_Max_Stage9 ~ Population + (1 | Line:Population)
    Data: filter(dia, Supervisor.PI == pi)
 Weights: n
 
@@ -29,15 +30,25 @@ PopulationUM   1.3774     0.4238   3.250  0.00115 **
 PopulationVA   1.0774     0.4018   2.682  0.00732 **
 PopulationYE   0.8434     0.3830   2.202  0.02766 * 
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 Correlation of Fixed Effects:
-            (Intr) PpltGI PpltKA PpltMA PpltMU PpltRE PpltUM PpltVA
-PopulatinGI -0.680                                                 
-PopulatinKA -0.729  0.496                                          
-PopulatinMA -0.702  0.478  0.513                                   
-PopulatinMU -0.697  0.474  0.508  0.491                            
-PopulatinRE -0.646  0.439  0.471  0.454  0.450                     
-PopulatinUM -0.657  0.447  0.480  0.465  0.459  0.425              
-PopulatinVA -0.693  0.471  0.506  0.491  0.484  0.448  0.459       
-PopulatinYE -0.728  0.495  0.531  0.512  0.508  0.470  0.480  0.506
+            (Intr) PpltGI PpltKA PpltMA PpltMU PpltRE
+PopulatinGI -0.680                                   
+PopulatinKA -0.729  0.496                            
+PopulatinMA -0.702  0.478  0.513                     
+PopulatinMU -0.697  0.474  0.508  0.491              
+PopulatinRE -0.646  0.439  0.471  0.454  0.450       
+PopulatinUM -0.657  0.447  0.480  0.465  0.459  0.425
+PopulatinVA -0.693  0.471  0.506  0.491  0.484  0.448
+PopulatinYE -0.728  0.495  0.531  0.512  0.508  0.470
+            PpltUM PpltVA
+PopulatinGI              
+PopulatinKA              
+PopulatinMA              
+PopulatinMU              
+PopulatinRE              
+PopulatinUM              
+PopulatinVA  0.459       
+PopulatinYE  0.480  0.506

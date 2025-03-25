@@ -1,18 +1,44 @@
-                              95%-CI %W(random) Population
-YE_Tauber 12.8272 [11.4156; 14.2388]       12.1         YE
-RE_Tauber 12.9027 [10.9399; 14.8655]        9.7         RE
-GI_Tauber 13.2238 [11.4867; 14.9610]       10.7         GI
-MU_Tauber 12.2618 [10.3296; 14.1940]        9.8         MU
-MA_Tauber 12.8658 [11.3736; 14.3580]       11.8         MA
-UM_Tauber 10.9658 [ 9.3506; 12.5809]       11.2         UM
-KA_Tauber 13.9821 [12.5157; 15.4486]       11.9         KA
-VA_Tauber 12.8733 [11.3198; 14.4268]       11.5         VA
-AK_Tauber  9.2133 [ 7.6055; 10.8212]       11.2         AK
+                 
+YE_Tauber 12.8272
+RE_Tauber 12.9027
+GI_Tauber 13.2238
+MU_Tauber 12.2618
+MA_Tauber 12.8658
+UM_Tauber 10.9658
+KA_Tauber 13.9821
+VA_Tauber 12.8733
+AK_Tauber  9.2133
+                      95%-CI
+YE_Tauber [11.4156; 14.2388]
+RE_Tauber [10.9399; 14.8655]
+GI_Tauber [11.4867; 14.9610]
+MU_Tauber [10.3296; 14.1940]
+MA_Tauber [11.3736; 14.3580]
+UM_Tauber [ 9.3506; 12.5809]
+KA_Tauber [12.5157; 15.4486]
+VA_Tauber [11.3198; 14.4268]
+AK_Tauber [ 7.6055; 10.8212]
+          %W(random) Population
+YE_Tauber       12.1         YE
+RE_Tauber        9.7         RE
+GI_Tauber       10.7         GI
+MU_Tauber        9.8         MU
+MA_Tauber       11.8         MA
+UM_Tauber       11.2         UM
+KA_Tauber       11.9         KA
+VA_Tauber       11.5         VA
+AK_Tauber       11.2         AK
 
 Number of studies combined: k = 9
 
-                                         95%-CI     z  p-value
-Random effects model 12.3532 [11.4034; 13.3029] 25.49 < 0.0001
+                            
+Random effects model 12.3532
+                                 95%-CI
+Random effects model [11.4034; 13.3029]
+                         z
+Random effects model 25.49
+                      p-value
+Random effects model < 0.0001
 
 Quantifying heterogeneity:
  tau^2 = 1.4146 [0.2701; 6.7994]; tau = 1.1894 [0.5197; 2.6076]
@@ -23,20 +49,42 @@ Test of heterogeneity:
  24.80    8  0.0017
 
 Results for subgroups (random effects model):
-                  k                     95%-CI tau^2 tau    Q I^2
-Population = YE   1 12.8272 [11.4156; 14.2388]    --  -- 0.00  --
-Population = RE   1 12.9027 [10.9399; 14.8655]    --  -- 0.00  --
-Population = GI   1 13.2238 [11.4867; 14.9610]    --  -- 0.00  --
-Population = MU   1 12.2618 [10.3296; 14.1940]    --  -- 0.00  --
-Population = MA   1 12.8658 [11.3736; 14.3580]    --  -- 0.00  --
-Population = UM   1 10.9658 [ 9.3506; 12.5809]    --  -- 0.00  --
-Population = KA   1 13.9821 [12.5157; 15.4486]    --  -- 0.00  --
-Population = VA   1 12.8733 [11.3198; 14.4268]    --  -- 0.00  --
-Population = AK   1  9.2133 [ 7.6055; 10.8212]    --  -- 0.00  --
+                  k        
+Population = YE   1 12.8272
+Population = RE   1 12.9027
+Population = GI   1 13.2238
+Population = MU   1 12.2618
+Population = MA   1 12.8658
+Population = UM   1 10.9658
+Population = KA   1 13.9821
+Population = VA   1 12.8733
+Population = AK   1  9.2133
+                            95%-CI
+Population = YE [11.4156; 14.2388]
+Population = RE [10.9399; 14.8655]
+Population = GI [11.4867; 14.9610]
+Population = MU [10.3296; 14.1940]
+Population = MA [11.3736; 14.3580]
+Population = UM [ 9.3506; 12.5809]
+Population = KA [12.5157; 15.4486]
+Population = VA [11.3198; 14.4268]
+Population = AK [ 7.6055; 10.8212]
+                tau^2 tau    Q I^2
+Population = YE    --  -- 0.00  --
+Population = RE    --  -- 0.00  --
+Population = GI    --  -- 0.00  --
+Population = MU    --  -- 0.00  --
+Population = MA    --  -- 0.00  --
+Population = UM    --  -- 0.00  --
+Population = KA    --  -- 0.00  --
+Population = VA    --  -- 0.00  --
+Population = AK    --  -- 0.00  --
 
 Test for subgroup differences (random effects model):
-                     Q d.f. p-value
-Between groups   24.80    8  0.0017
+                     Q d.f.
+Between groups   24.80    8
+                 p-value
+Between groups    0.0017
 
 Details on meta-analytical method:
 - Inverse variance method

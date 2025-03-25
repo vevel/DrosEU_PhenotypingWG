@@ -1,7 +1,8 @@
-Linear mixed model fit by REML. t-tests use Satterthwaite's method [
-lmerModLmerTest]
+Linear mixed model fit by REML. t-tests use
+  Satterthwaite's method [lmerModLmerTest]
 Formula: DT_EggAdult ~ Population + (1 | Line:Population)
-   Data: filter(droseu$dta, Supervisor.PI == "Grath" & Sex == "F")
+   Data: 
+filter(droseu$dta, Supervisor.PI == "Grath" & Sex == "F")
 
 REML criterion at convergence: 7659.8
 
@@ -16,12 +17,17 @@ Random effects:
 Number of obs: 890, groups:  Line:Population, 23
 
 Fixed effects:
-             Estimate Std. Error      df t value Pr(>|t|)    
-(Intercept)   309.626      1.722  13.465 179.800  < 2e-16 ***
-PopulationMU   -3.995      2.459  13.988  -1.624  0.12660    
-PopulationRE   11.990      3.989  18.136   3.006  0.00755 ** 
+             Estimate Std. Error      df t value Pr(>|t|)
+(Intercept)   309.626      1.722  13.465 179.800  < 2e-16
+PopulationMU   -3.995      2.459  13.988  -1.624  0.12660
+PopulationRE   11.990      3.989  18.136   3.006  0.00755
+                
+(Intercept)  ***
+PopulationMU    
+PopulationRE ** 
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 Correlation of Fixed Effects:
             (Intr) PpltMU

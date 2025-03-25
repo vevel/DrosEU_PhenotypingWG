@@ -1,103 +1,293 @@
-                              95%-CI %W(random) Line
-YE_Tauber 24.1062 [23.6238; 24.5886]        1.2 YE11
-YE_Tauber 24.1412 [23.6636; 24.6188]        1.2 YE13
-YE_Tauber 24.0872 [23.6096; 24.5648]        1.2 YE14
-YE_Tauber 24.1052 [23.6264; 24.5840]        1.2 YE15
-YE_Tauber 24.0312 [23.5524; 24.5100]        1.2 YE19
-YE_Tauber 24.1002 [23.6190; 24.5814]        1.2 YE20
-YE_Tauber 24.0762 [23.5950; 24.5574]        1.2 YE21
-YE_Tauber 24.1012 [23.6200; 24.5824]        1.2 YE22
-YE_Tauber 24.0952 [23.6152; 24.5752]        1.2 YE24
-YE_Tauber 24.0892 [23.6080; 24.5704]        1.2 YE26
-YE_Tauber 24.1092 [23.6304; 24.5880]        1.2 YE27
-YE_Tauber 24.0622 [23.5822; 24.5422]        1.2 YE33
-YE_Tauber 24.0882 [23.6070; 24.5694]        1.2 YE40
-YE_Tauber 24.1322 [23.6546; 24.6098]        1.2 YE41
-YE_Tauber 24.1022 [23.6222; 24.5822]        1.2 YE48
-YE_Tauber 24.1122 [23.6322; 24.5922]        1.2 YE49
-YE_Tauber 24.0742 [23.5954; 24.5530]        1.2 YE51
-YE_Tauber 24.0972 [23.6160; 24.5784]        1.2 YE69
-YE_Tauber 24.0812 [23.6000; 24.5624]        1.2 YE80
-RE_Tauber 24.1221 [23.5159; 24.7284]        0.9 RE10
-RE_Tauber 24.0801 [23.4748; 24.6854]        0.9 RE11
-RE_Tauber 24.0741 [23.4698; 24.6785]        0.9  RE2
-RE_Tauber 24.0751 [23.4698; 24.6804]        0.9  RE3
-RE_Tauber 24.1031 [23.4969; 24.7094]        0.9  RE4
-RE_Tauber 24.1801 [23.5776; 24.7826]        0.9  RE6
-RE_Tauber 24.1331 [23.5259; 24.7403]        0.9  RE7
-RE_Tauber 24.1061 [23.4989; 24.7133]        0.9  RE8
-GI_Tauber 23.6037 [23.0498; 24.1577]        1.0  GI1
-GI_Tauber 23.6207 [23.0657; 24.1757]        1.0  GI2
-GI_Tauber 23.6297 [23.0768; 24.1826]        1.0  GI3
-GI_Tauber 23.5957 [23.0438; 24.1476]        1.0  GI4
-GI_Tauber 23.6037 [23.0508; 24.1566]        1.0  GI5
-GI_Tauber 23.5537 [23.0028; 24.1046]        1.0  GI6
-GI_Tauber 23.6097 [23.0578; 24.1616]        1.0  GI7
-GI_Tauber 23.5857 [23.0338; 24.1376]        1.0  GI8
-GI_Tauber 23.5937 [23.0377; 24.1497]        1.0  GI9
-MU_Tauber 23.7745 [23.1759; 24.3731]        0.9  MU1
-MU_Tauber 23.8345 [23.2378; 24.4312]        0.9 MU10
-MU_Tauber 23.8275 [23.2308; 24.4242]        0.9  MU2
-MU_Tauber 23.8015 [23.2058; 24.3972]        0.9  MU3
-MU_Tauber 23.8155 [23.2159; 24.4151]        0.9  MU4
-MU_Tauber 23.8305 [23.2338; 24.4272]        0.9  MU5
-MU_Tauber 23.8185 [23.2218; 24.4152]        0.9  MU6
-MU_Tauber 23.8195 [23.2209; 24.4181]        0.9  MU7
-MU_Tauber 23.8215 [23.2229; 24.4201]        0.9  MU8
-MU_Tauber 23.7825 [23.1868; 24.3782]        0.9  MU9
-MA_Tauber 24.3586 [23.8624; 24.8547]        1.2 MA12
-MA_Tauber 24.3116 [23.8143; 24.8089]        1.2 MA13
-MA_Tauber 24.3026 [23.8064; 24.7987]        1.2 MA16
-MA_Tauber 24.3146 [23.8173; 24.8119]        1.2 MA18
-MA_Tauber 24.2996 [23.8034; 24.7957]        1.2 MA19
-MA_Tauber 24.2986 [23.8013; 24.7959]        1.2  MA3
-MA_Tauber 24.3706 [23.8722; 24.8690]        1.2  MA5
-MA_Tauber 24.2846 [23.7862; 24.7830]        1.2  MA6
-MA_Tauber 24.3216 [23.8220; 24.8211]        1.2  MA7
-MA_Tauber 24.2846 [23.7839; 24.7853]        1.2  MA9
-UM_Tauber 24.6584 [24.1339; 25.1829]        1.1 UM13
-UM_Tauber 24.6074 [24.0818; 25.1330]        1.1 UM17
-UM_Tauber 24.5564 [24.0319; 25.0809]        1.1 UM18
-UM_Tauber 24.5794 [24.0516; 25.1072]        1.1  UM2
-UM_Tauber 24.5864 [24.0608; 25.1120]        1.1  UM4
-UM_Tauber 24.5524 [24.0300; 25.0748]        1.1  UM5
-UM_Tauber 24.5784 [24.0517; 25.1051]        1.1  UM6
-UM_Tauber 24.6034 [24.0778; 25.1290]        1.1  UM7
-UM_Tauber 24.6374 [24.1139; 25.1609]        1.1  UM9
-KA_Tauber 24.6391 [24.1445; 25.1337]        1.2  KA1
-KA_Tauber 24.6451 [24.1505; 25.1397]        1.2 KA10
-KA_Tauber 24.6271 [24.1336; 25.1206]        1.2 KA11
-KA_Tauber 24.6171 [24.1213; 25.1129]        1.2 KA13
-KA_Tauber 24.5871 [24.0948; 25.0794]        1.2  KA2
-KA_Tauber 24.6771 [24.1836; 25.1706]        1.2  KA3
-KA_Tauber 24.7791 [24.2890; 25.2691]        1.2  KA5
-KA_Tauber 24.6021 [24.1132; 25.0910]        1.2  KA6
-KA_Tauber 24.6821 [24.1932; 25.1710]        1.2  KA7
-KA_Tauber 24.5751 [24.0828; 25.0674]        1.2  KA9
-VA_Tauber 23.9831 [23.4736; 24.4925]        1.1 VA11
-VA_Tauber 24.0461 [23.5344; 24.5577]        1.1 VA15
-VA_Tauber 24.0071 [23.4987; 24.5154]        1.1 VA18
-VA_Tauber 23.9971 [23.4854; 24.5087]        1.1 VA22
-VA_Tauber 23.9581 [23.4453; 24.4708]        1.1 VA26
-VA_Tauber 24.0001 [23.4851; 24.5150]        1.1 VA30
-VA_Tauber 23.9921 [23.4771; 24.5070]        1.1 VA34
-VA_Tauber 23.9811 [23.4694; 24.4927]        1.1  VA6
-VA_Tauber 24.0011 [23.4894; 24.5127]        1.1  VA9
-AK_Tauber 24.3060 [23.7831; 24.8289]        1.1  AK1
-AK_Tauber 24.2880 [23.7651; 24.8109]        1.1  AK2
-AK_Tauber 24.3140 [23.7900; 24.8380]        1.1  AK3
-AK_Tauber 24.3460 [23.8231; 24.8689]        1.1  AK4
-AK_Tauber 24.3540 [23.8311; 24.8769]        1.1  AK5
-AK_Tauber 24.3190 [23.7961; 24.8419]        1.1  AK6
-AK_Tauber 24.3480 [23.8251; 24.8709]        1.1  AK7
-AK_Tauber 24.3170 [23.7941; 24.8399]        1.1  AK8
+                 
+YE_Tauber 24.1062
+YE_Tauber 24.1412
+YE_Tauber 24.0872
+YE_Tauber 24.1052
+YE_Tauber 24.0312
+YE_Tauber 24.1002
+YE_Tauber 24.0762
+YE_Tauber 24.1012
+YE_Tauber 24.0952
+YE_Tauber 24.0892
+YE_Tauber 24.1092
+YE_Tauber 24.0622
+YE_Tauber 24.0882
+YE_Tauber 24.1322
+YE_Tauber 24.1022
+YE_Tauber 24.1122
+YE_Tauber 24.0742
+YE_Tauber 24.0972
+YE_Tauber 24.0812
+RE_Tauber 24.1221
+RE_Tauber 24.0801
+RE_Tauber 24.0741
+RE_Tauber 24.0751
+RE_Tauber 24.1031
+RE_Tauber 24.1801
+RE_Tauber 24.1331
+RE_Tauber 24.1061
+GI_Tauber 23.6037
+GI_Tauber 23.6207
+GI_Tauber 23.6297
+GI_Tauber 23.5957
+GI_Tauber 23.6037
+GI_Tauber 23.5537
+GI_Tauber 23.6097
+GI_Tauber 23.5857
+GI_Tauber 23.5937
+MU_Tauber 23.7745
+MU_Tauber 23.8345
+MU_Tauber 23.8275
+MU_Tauber 23.8015
+MU_Tauber 23.8155
+MU_Tauber 23.8305
+MU_Tauber 23.8185
+MU_Tauber 23.8195
+MU_Tauber 23.8215
+MU_Tauber 23.7825
+MA_Tauber 24.3586
+MA_Tauber 24.3116
+MA_Tauber 24.3026
+MA_Tauber 24.3146
+MA_Tauber 24.2996
+MA_Tauber 24.2986
+MA_Tauber 24.3706
+MA_Tauber 24.2846
+MA_Tauber 24.3216
+MA_Tauber 24.2846
+UM_Tauber 24.6584
+UM_Tauber 24.6074
+UM_Tauber 24.5564
+UM_Tauber 24.5794
+UM_Tauber 24.5864
+UM_Tauber 24.5524
+UM_Tauber 24.5784
+UM_Tauber 24.6034
+UM_Tauber 24.6374
+KA_Tauber 24.6391
+KA_Tauber 24.6451
+KA_Tauber 24.6271
+KA_Tauber 24.6171
+KA_Tauber 24.5871
+KA_Tauber 24.6771
+KA_Tauber 24.7791
+KA_Tauber 24.6021
+KA_Tauber 24.6821
+KA_Tauber 24.5751
+VA_Tauber 23.9831
+VA_Tauber 24.0461
+VA_Tauber 24.0071
+VA_Tauber 23.9971
+VA_Tauber 23.9581
+VA_Tauber 24.0001
+VA_Tauber 23.9921
+VA_Tauber 23.9811
+VA_Tauber 24.0011
+AK_Tauber 24.3060
+AK_Tauber 24.2880
+AK_Tauber 24.3140
+AK_Tauber 24.3460
+AK_Tauber 24.3540
+AK_Tauber 24.3190
+AK_Tauber 24.3480
+AK_Tauber 24.3170
+                      95%-CI
+YE_Tauber [23.6238; 24.5886]
+YE_Tauber [23.6636; 24.6188]
+YE_Tauber [23.6096; 24.5648]
+YE_Tauber [23.6264; 24.5840]
+YE_Tauber [23.5524; 24.5100]
+YE_Tauber [23.6190; 24.5814]
+YE_Tauber [23.5950; 24.5574]
+YE_Tauber [23.6200; 24.5824]
+YE_Tauber [23.6152; 24.5752]
+YE_Tauber [23.6080; 24.5704]
+YE_Tauber [23.6304; 24.5880]
+YE_Tauber [23.5822; 24.5422]
+YE_Tauber [23.6070; 24.5694]
+YE_Tauber [23.6546; 24.6098]
+YE_Tauber [23.6222; 24.5822]
+YE_Tauber [23.6322; 24.5922]
+YE_Tauber [23.5954; 24.5530]
+YE_Tauber [23.6160; 24.5784]
+YE_Tauber [23.6000; 24.5624]
+RE_Tauber [23.5159; 24.7284]
+RE_Tauber [23.4748; 24.6854]
+RE_Tauber [23.4698; 24.6785]
+RE_Tauber [23.4698; 24.6804]
+RE_Tauber [23.4969; 24.7094]
+RE_Tauber [23.5776; 24.7826]
+RE_Tauber [23.5259; 24.7403]
+RE_Tauber [23.4989; 24.7133]
+GI_Tauber [23.0498; 24.1577]
+GI_Tauber [23.0657; 24.1757]
+GI_Tauber [23.0768; 24.1826]
+GI_Tauber [23.0438; 24.1476]
+GI_Tauber [23.0508; 24.1566]
+GI_Tauber [23.0028; 24.1046]
+GI_Tauber [23.0578; 24.1616]
+GI_Tauber [23.0338; 24.1376]
+GI_Tauber [23.0377; 24.1497]
+MU_Tauber [23.1759; 24.3731]
+MU_Tauber [23.2378; 24.4312]
+MU_Tauber [23.2308; 24.4242]
+MU_Tauber [23.2058; 24.3972]
+MU_Tauber [23.2159; 24.4151]
+MU_Tauber [23.2338; 24.4272]
+MU_Tauber [23.2218; 24.4152]
+MU_Tauber [23.2209; 24.4181]
+MU_Tauber [23.2229; 24.4201]
+MU_Tauber [23.1868; 24.3782]
+MA_Tauber [23.8624; 24.8547]
+MA_Tauber [23.8143; 24.8089]
+MA_Tauber [23.8064; 24.7987]
+MA_Tauber [23.8173; 24.8119]
+MA_Tauber [23.8034; 24.7957]
+MA_Tauber [23.8013; 24.7959]
+MA_Tauber [23.8722; 24.8690]
+MA_Tauber [23.7862; 24.7830]
+MA_Tauber [23.8220; 24.8211]
+MA_Tauber [23.7839; 24.7853]
+UM_Tauber [24.1339; 25.1829]
+UM_Tauber [24.0818; 25.1330]
+UM_Tauber [24.0319; 25.0809]
+UM_Tauber [24.0516; 25.1072]
+UM_Tauber [24.0608; 25.1120]
+UM_Tauber [24.0300; 25.0748]
+UM_Tauber [24.0517; 25.1051]
+UM_Tauber [24.0778; 25.1290]
+UM_Tauber [24.1139; 25.1609]
+KA_Tauber [24.1445; 25.1337]
+KA_Tauber [24.1505; 25.1397]
+KA_Tauber [24.1336; 25.1206]
+KA_Tauber [24.1213; 25.1129]
+KA_Tauber [24.0948; 25.0794]
+KA_Tauber [24.1836; 25.1706]
+KA_Tauber [24.2890; 25.2691]
+KA_Tauber [24.1132; 25.0910]
+KA_Tauber [24.1932; 25.1710]
+KA_Tauber [24.0828; 25.0674]
+VA_Tauber [23.4736; 24.4925]
+VA_Tauber [23.5344; 24.5577]
+VA_Tauber [23.4987; 24.5154]
+VA_Tauber [23.4854; 24.5087]
+VA_Tauber [23.4453; 24.4708]
+VA_Tauber [23.4851; 24.5150]
+VA_Tauber [23.4771; 24.5070]
+VA_Tauber [23.4694; 24.4927]
+VA_Tauber [23.4894; 24.5127]
+AK_Tauber [23.7831; 24.8289]
+AK_Tauber [23.7651; 24.8109]
+AK_Tauber [23.7900; 24.8380]
+AK_Tauber [23.8231; 24.8689]
+AK_Tauber [23.8311; 24.8769]
+AK_Tauber [23.7961; 24.8419]
+AK_Tauber [23.8251; 24.8709]
+AK_Tauber [23.7941; 24.8399]
+          %W(random) Line
+YE_Tauber        1.2 YE11
+YE_Tauber        1.2 YE13
+YE_Tauber        1.2 YE14
+YE_Tauber        1.2 YE15
+YE_Tauber        1.2 YE19
+YE_Tauber        1.2 YE20
+YE_Tauber        1.2 YE21
+YE_Tauber        1.2 YE22
+YE_Tauber        1.2 YE24
+YE_Tauber        1.2 YE26
+YE_Tauber        1.2 YE27
+YE_Tauber        1.2 YE33
+YE_Tauber        1.2 YE40
+YE_Tauber        1.2 YE41
+YE_Tauber        1.2 YE48
+YE_Tauber        1.2 YE49
+YE_Tauber        1.2 YE51
+YE_Tauber        1.2 YE69
+YE_Tauber        1.2 YE80
+RE_Tauber        0.9 RE10
+RE_Tauber        0.9 RE11
+RE_Tauber        0.9  RE2
+RE_Tauber        0.9  RE3
+RE_Tauber        0.9  RE4
+RE_Tauber        0.9  RE6
+RE_Tauber        0.9  RE7
+RE_Tauber        0.9  RE8
+GI_Tauber        1.0  GI1
+GI_Tauber        1.0  GI2
+GI_Tauber        1.0  GI3
+GI_Tauber        1.0  GI4
+GI_Tauber        1.0  GI5
+GI_Tauber        1.0  GI6
+GI_Tauber        1.0  GI7
+GI_Tauber        1.0  GI8
+GI_Tauber        1.0  GI9
+MU_Tauber        0.9  MU1
+MU_Tauber        0.9 MU10
+MU_Tauber        0.9  MU2
+MU_Tauber        0.9  MU3
+MU_Tauber        0.9  MU4
+MU_Tauber        0.9  MU5
+MU_Tauber        0.9  MU6
+MU_Tauber        0.9  MU7
+MU_Tauber        0.9  MU8
+MU_Tauber        0.9  MU9
+MA_Tauber        1.2 MA12
+MA_Tauber        1.2 MA13
+MA_Tauber        1.2 MA16
+MA_Tauber        1.2 MA18
+MA_Tauber        1.2 MA19
+MA_Tauber        1.2  MA3
+MA_Tauber        1.2  MA5
+MA_Tauber        1.2  MA6
+MA_Tauber        1.2  MA7
+MA_Tauber        1.2  MA9
+UM_Tauber        1.1 UM13
+UM_Tauber        1.1 UM17
+UM_Tauber        1.1 UM18
+UM_Tauber        1.1  UM2
+UM_Tauber        1.1  UM4
+UM_Tauber        1.1  UM5
+UM_Tauber        1.1  UM6
+UM_Tauber        1.1  UM7
+UM_Tauber        1.1  UM9
+KA_Tauber        1.2  KA1
+KA_Tauber        1.2 KA10
+KA_Tauber        1.2 KA11
+KA_Tauber        1.2 KA13
+KA_Tauber        1.2  KA2
+KA_Tauber        1.2  KA3
+KA_Tauber        1.2  KA5
+KA_Tauber        1.2  KA6
+KA_Tauber        1.2  KA7
+KA_Tauber        1.2  KA9
+VA_Tauber        1.1 VA11
+VA_Tauber        1.1 VA15
+VA_Tauber        1.1 VA18
+VA_Tauber        1.1 VA22
+VA_Tauber        1.1 VA26
+VA_Tauber        1.1 VA30
+VA_Tauber        1.1 VA34
+VA_Tauber        1.1  VA6
+VA_Tauber        1.1  VA9
+AK_Tauber        1.1  AK1
+AK_Tauber        1.1  AK2
+AK_Tauber        1.1  AK3
+AK_Tauber        1.1  AK4
+AK_Tauber        1.1  AK5
+AK_Tauber        1.1  AK6
+AK_Tauber        1.1  AK7
+AK_Tauber        1.1  AK8
 
 Number of studies combined: k = 92
 
-                                         95%-CI
-Random effects model 24.1757 [24.1132; 24.2382]
-                          z p-value
-Random effects model 758.50       0
+                            
+Random effects model 24.1757
+                                 95%-CI
+Random effects model [24.1132; 24.2382]
+                          z
+Random effects model 758.50
+                     p-value
+Random effects model       0
 
 Quantifying heterogeneity:
  tau^2 = 0.0225 [0.0016; 0.0608]; tau = 0.1501 [0.0397; 0.2465]
@@ -108,196 +298,291 @@ Test of heterogeneity:
  121.84   91  0.0171
 
 Results for subgroups (random effects model):
-              k                     95%-CI tau^2 tau
-Line = YE11   1 24.1062 [23.6238; 24.5886]    --  --
-Line = YE13   1 24.1412 [23.6636; 24.6188]    --  --
-Line = YE14   1 24.0872 [23.6096; 24.5648]    --  --
-Line = YE15   1 24.1052 [23.6264; 24.5840]    --  --
-Line = YE19   1 24.0312 [23.5524; 24.5100]    --  --
-Line = YE20   1 24.1002 [23.6190; 24.5814]    --  --
-Line = YE21   1 24.0762 [23.5950; 24.5574]    --  --
-Line = YE22   1 24.1012 [23.6200; 24.5824]    --  --
-Line = YE24   1 24.0952 [23.6152; 24.5752]    --  --
-Line = YE26   1 24.0892 [23.6080; 24.5704]    --  --
-Line = YE27   1 24.1092 [23.6304; 24.5880]    --  --
-Line = YE33   1 24.0622 [23.5822; 24.5422]    --  --
-Line = YE40   1 24.0882 [23.6070; 24.5694]    --  --
-Line = YE41   1 24.1322 [23.6546; 24.6098]    --  --
-Line = YE48   1 24.1022 [23.6222; 24.5822]    --  --
-Line = YE49   1 24.1122 [23.6322; 24.5922]    --  --
-Line = YE51   1 24.0742 [23.5954; 24.5530]    --  --
-Line = YE69   1 24.0972 [23.6160; 24.5784]    --  --
-Line = YE80   1 24.0812 [23.6000; 24.5624]    --  --
-Line = RE10   1 24.1221 [23.5159; 24.7284]    --  --
-Line = RE11   1 24.0801 [23.4748; 24.6854]    --  --
-Line = RE2    1 24.0741 [23.4698; 24.6785]    --  --
-Line = RE3    1 24.0751 [23.4698; 24.6804]    --  --
-Line = RE4    1 24.1031 [23.4969; 24.7094]    --  --
-Line = RE6    1 24.1801 [23.5776; 24.7826]    --  --
-Line = RE7    1 24.1331 [23.5259; 24.7403]    --  --
-Line = RE8    1 24.1061 [23.4989; 24.7133]    --  --
-Line = GI1    1 23.6037 [23.0498; 24.1577]    --  --
-Line = GI2    1 23.6207 [23.0657; 24.1757]    --  --
-Line = GI3    1 23.6297 [23.0768; 24.1826]    --  --
-Line = GI4    1 23.5957 [23.0438; 24.1476]    --  --
-Line = GI5    1 23.6037 [23.0508; 24.1566]    --  --
-Line = GI6    1 23.5537 [23.0028; 24.1046]    --  --
-Line = GI7    1 23.6097 [23.0578; 24.1616]    --  --
-Line = GI8    1 23.5857 [23.0338; 24.1376]    --  --
-Line = GI9    1 23.5937 [23.0377; 24.1497]    --  --
-Line = MU1    1 23.7745 [23.1759; 24.3731]    --  --
-Line = MU10   1 23.8345 [23.2378; 24.4312]    --  --
-Line = MU2    1 23.8275 [23.2308; 24.4242]    --  --
-Line = MU3    1 23.8015 [23.2058; 24.3972]    --  --
-Line = MU4    1 23.8155 [23.2159; 24.4151]    --  --
-Line = MU5    1 23.8305 [23.2338; 24.4272]    --  --
-Line = MU6    1 23.8185 [23.2218; 24.4152]    --  --
-Line = MU7    1 23.8195 [23.2209; 24.4181]    --  --
-Line = MU8    1 23.8215 [23.2229; 24.4201]    --  --
-Line = MU9    1 23.7825 [23.1868; 24.3782]    --  --
-Line = MA12   1 24.3586 [23.8624; 24.8547]    --  --
-Line = MA13   1 24.3116 [23.8143; 24.8089]    --  --
-Line = MA16   1 24.3026 [23.8064; 24.7987]    --  --
-Line = MA18   1 24.3146 [23.8173; 24.8119]    --  --
-Line = MA19   1 24.2996 [23.8034; 24.7957]    --  --
-Line = MA3    1 24.2986 [23.8013; 24.7959]    --  --
-Line = MA5    1 24.3706 [23.8722; 24.8690]    --  --
-Line = MA6    1 24.2846 [23.7862; 24.7830]    --  --
-Line = MA7    1 24.3216 [23.8220; 24.8211]    --  --
-Line = MA9    1 24.2846 [23.7839; 24.7853]    --  --
-Line = UM13   1 24.6584 [24.1339; 25.1829]    --  --
-Line = UM17   1 24.6074 [24.0818; 25.1330]    --  --
-Line = UM18   1 24.5564 [24.0319; 25.0809]    --  --
-Line = UM2    1 24.5794 [24.0516; 25.1072]    --  --
-Line = UM4    1 24.5864 [24.0608; 25.1120]    --  --
-Line = UM5    1 24.5524 [24.0300; 25.0748]    --  --
-Line = UM6    1 24.5784 [24.0517; 25.1051]    --  --
-Line = UM7    1 24.6034 [24.0778; 25.1290]    --  --
-Line = UM9    1 24.6374 [24.1139; 25.1609]    --  --
-Line = KA1    1 24.6391 [24.1445; 25.1337]    --  --
-Line = KA10   1 24.6451 [24.1505; 25.1397]    --  --
-Line = KA11   1 24.6271 [24.1336; 25.1206]    --  --
-Line = KA13   1 24.6171 [24.1213; 25.1129]    --  --
-Line = KA2    1 24.5871 [24.0948; 25.0794]    --  --
-Line = KA3    1 24.6771 [24.1836; 25.1706]    --  --
-Line = KA5    1 24.7791 [24.2890; 25.2691]    --  --
-Line = KA6    1 24.6021 [24.1132; 25.0910]    --  --
-Line = KA7    1 24.6821 [24.1932; 25.1710]    --  --
-Line = KA9    1 24.5751 [24.0828; 25.0674]    --  --
-Line = VA11   1 23.9831 [23.4736; 24.4925]    --  --
-Line = VA15   1 24.0461 [23.5344; 24.5577]    --  --
-Line = VA18   1 24.0071 [23.4987; 24.5154]    --  --
-Line = VA22   1 23.9971 [23.4854; 24.5087]    --  --
-Line = VA26   1 23.9581 [23.4453; 24.4708]    --  --
-Line = VA30   1 24.0001 [23.4851; 24.5150]    --  --
-Line = VA34   1 23.9921 [23.4771; 24.5070]    --  --
-Line = VA6    1 23.9811 [23.4694; 24.4927]    --  --
-Line = VA9    1 24.0011 [23.4894; 24.5127]    --  --
-Line = AK1    1 24.3060 [23.7831; 24.8289]    --  --
-Line = AK2    1 24.2880 [23.7651; 24.8109]    --  --
-Line = AK3    1 24.3140 [23.7900; 24.8380]    --  --
-Line = AK4    1 24.3460 [23.8231; 24.8689]    --  --
-Line = AK5    1 24.3540 [23.8311; 24.8769]    --  --
-Line = AK6    1 24.3190 [23.7961; 24.8419]    --  --
-Line = AK7    1 24.3480 [23.8251; 24.8709]    --  --
-Line = AK8    1 24.3170 [23.7941; 24.8399]    --  --
-               Q I^2
-Line = YE11 0.00  --
-Line = YE13 0.00  --
-Line = YE14 0.00  --
-Line = YE15 0.00  --
-Line = YE19 0.00  --
-Line = YE20 0.00  --
-Line = YE21 0.00  --
-Line = YE22 0.00  --
-Line = YE24 0.00  --
-Line = YE26 0.00  --
-Line = YE27 0.00  --
-Line = YE33 0.00  --
-Line = YE40 0.00  --
-Line = YE41 0.00  --
-Line = YE48 0.00  --
-Line = YE49 0.00  --
-Line = YE51 0.00  --
-Line = YE69 0.00  --
-Line = YE80 0.00  --
-Line = RE10 0.00  --
-Line = RE11 0.00  --
-Line = RE2  0.00  --
-Line = RE3  0.00  --
-Line = RE4  0.00  --
-Line = RE6  0.00  --
-Line = RE7  0.00  --
-Line = RE8  0.00  --
-Line = GI1  0.00  --
-Line = GI2  0.00  --
-Line = GI3  0.00  --
-Line = GI4  0.00  --
-Line = GI5  0.00  --
-Line = GI6  0.00  --
-Line = GI7  0.00  --
-Line = GI8  0.00  --
-Line = GI9  0.00  --
-Line = MU1  0.00  --
-Line = MU10 0.00  --
-Line = MU2  0.00  --
-Line = MU3  0.00  --
-Line = MU4  0.00  --
-Line = MU5  0.00  --
-Line = MU6  0.00  --
-Line = MU7  0.00  --
-Line = MU8  0.00  --
-Line = MU9  0.00  --
-Line = MA12 0.00  --
-Line = MA13 0.00  --
-Line = MA16 0.00  --
-Line = MA18 0.00  --
-Line = MA19 0.00  --
-Line = MA3  0.00  --
-Line = MA5  0.00  --
-Line = MA6  0.00  --
-Line = MA7  0.00  --
-Line = MA9  0.00  --
-Line = UM13 0.00  --
-Line = UM17 0.00  --
-Line = UM18 0.00  --
-Line = UM2  0.00  --
-Line = UM4  0.00  --
-Line = UM5  0.00  --
-Line = UM6  0.00  --
-Line = UM7  0.00  --
-Line = UM9  0.00  --
-Line = KA1  0.00  --
-Line = KA10 0.00  --
-Line = KA11 0.00  --
-Line = KA13 0.00  --
-Line = KA2  0.00  --
-Line = KA3  0.00  --
-Line = KA5  0.00  --
-Line = KA6  0.00  --
-Line = KA7  0.00  --
-Line = KA9  0.00  --
-Line = VA11 0.00  --
-Line = VA15 0.00  --
-Line = VA18 0.00  --
-Line = VA22 0.00  --
-Line = VA26 0.00  --
-Line = VA30 0.00  --
-Line = VA34 0.00  --
-Line = VA6  0.00  --
-Line = VA9  0.00  --
-Line = AK1  0.00  --
-Line = AK2  0.00  --
-Line = AK3  0.00  --
-Line = AK4  0.00  --
-Line = AK5  0.00  --
-Line = AK6  0.00  --
-Line = AK7  0.00  --
-Line = AK8  0.00  --
+              k        
+Line = YE11   1 24.1062
+Line = YE13   1 24.1412
+Line = YE14   1 24.0872
+Line = YE15   1 24.1052
+Line = YE19   1 24.0312
+Line = YE20   1 24.1002
+Line = YE21   1 24.0762
+Line = YE22   1 24.1012
+Line = YE24   1 24.0952
+Line = YE26   1 24.0892
+Line = YE27   1 24.1092
+Line = YE33   1 24.0622
+Line = YE40   1 24.0882
+Line = YE41   1 24.1322
+Line = YE48   1 24.1022
+Line = YE49   1 24.1122
+Line = YE51   1 24.0742
+Line = YE69   1 24.0972
+Line = YE80   1 24.0812
+Line = RE10   1 24.1221
+Line = RE11   1 24.0801
+Line = RE2    1 24.0741
+Line = RE3    1 24.0751
+Line = RE4    1 24.1031
+Line = RE6    1 24.1801
+Line = RE7    1 24.1331
+Line = RE8    1 24.1061
+Line = GI1    1 23.6037
+Line = GI2    1 23.6207
+Line = GI3    1 23.6297
+Line = GI4    1 23.5957
+Line = GI5    1 23.6037
+Line = GI6    1 23.5537
+Line = GI7    1 23.6097
+Line = GI8    1 23.5857
+Line = GI9    1 23.5937
+Line = MU1    1 23.7745
+Line = MU10   1 23.8345
+Line = MU2    1 23.8275
+Line = MU3    1 23.8015
+Line = MU4    1 23.8155
+Line = MU5    1 23.8305
+Line = MU6    1 23.8185
+Line = MU7    1 23.8195
+Line = MU8    1 23.8215
+Line = MU9    1 23.7825
+Line = MA12   1 24.3586
+Line = MA13   1 24.3116
+Line = MA16   1 24.3026
+Line = MA18   1 24.3146
+Line = MA19   1 24.2996
+Line = MA3    1 24.2986
+Line = MA5    1 24.3706
+Line = MA6    1 24.2846
+Line = MA7    1 24.3216
+Line = MA9    1 24.2846
+Line = UM13   1 24.6584
+Line = UM17   1 24.6074
+Line = UM18   1 24.5564
+Line = UM2    1 24.5794
+Line = UM4    1 24.5864
+Line = UM5    1 24.5524
+Line = UM6    1 24.5784
+Line = UM7    1 24.6034
+Line = UM9    1 24.6374
+Line = KA1    1 24.6391
+Line = KA10   1 24.6451
+Line = KA11   1 24.6271
+Line = KA13   1 24.6171
+Line = KA2    1 24.5871
+Line = KA3    1 24.6771
+Line = KA5    1 24.7791
+Line = KA6    1 24.6021
+Line = KA7    1 24.6821
+Line = KA9    1 24.5751
+Line = VA11   1 23.9831
+Line = VA15   1 24.0461
+Line = VA18   1 24.0071
+Line = VA22   1 23.9971
+Line = VA26   1 23.9581
+Line = VA30   1 24.0001
+Line = VA34   1 23.9921
+Line = VA6    1 23.9811
+Line = VA9    1 24.0011
+Line = AK1    1 24.3060
+Line = AK2    1 24.2880
+Line = AK3    1 24.3140
+Line = AK4    1 24.3460
+Line = AK5    1 24.3540
+Line = AK6    1 24.3190
+Line = AK7    1 24.3480
+Line = AK8    1 24.3170
+                        95%-CI
+Line = YE11 [23.6238; 24.5886]
+Line = YE13 [23.6636; 24.6188]
+Line = YE14 [23.6096; 24.5648]
+Line = YE15 [23.6264; 24.5840]
+Line = YE19 [23.5524; 24.5100]
+Line = YE20 [23.6190; 24.5814]
+Line = YE21 [23.5950; 24.5574]
+Line = YE22 [23.6200; 24.5824]
+Line = YE24 [23.6152; 24.5752]
+Line = YE26 [23.6080; 24.5704]
+Line = YE27 [23.6304; 24.5880]
+Line = YE33 [23.5822; 24.5422]
+Line = YE40 [23.6070; 24.5694]
+Line = YE41 [23.6546; 24.6098]
+Line = YE48 [23.6222; 24.5822]
+Line = YE49 [23.6322; 24.5922]
+Line = YE51 [23.5954; 24.5530]
+Line = YE69 [23.6160; 24.5784]
+Line = YE80 [23.6000; 24.5624]
+Line = RE10 [23.5159; 24.7284]
+Line = RE11 [23.4748; 24.6854]
+Line = RE2  [23.4698; 24.6785]
+Line = RE3  [23.4698; 24.6804]
+Line = RE4  [23.4969; 24.7094]
+Line = RE6  [23.5776; 24.7826]
+Line = RE7  [23.5259; 24.7403]
+Line = RE8  [23.4989; 24.7133]
+Line = GI1  [23.0498; 24.1577]
+Line = GI2  [23.0657; 24.1757]
+Line = GI3  [23.0768; 24.1826]
+Line = GI4  [23.0438; 24.1476]
+Line = GI5  [23.0508; 24.1566]
+Line = GI6  [23.0028; 24.1046]
+Line = GI7  [23.0578; 24.1616]
+Line = GI8  [23.0338; 24.1376]
+Line = GI9  [23.0377; 24.1497]
+Line = MU1  [23.1759; 24.3731]
+Line = MU10 [23.2378; 24.4312]
+Line = MU2  [23.2308; 24.4242]
+Line = MU3  [23.2058; 24.3972]
+Line = MU4  [23.2159; 24.4151]
+Line = MU5  [23.2338; 24.4272]
+Line = MU6  [23.2218; 24.4152]
+Line = MU7  [23.2209; 24.4181]
+Line = MU8  [23.2229; 24.4201]
+Line = MU9  [23.1868; 24.3782]
+Line = MA12 [23.8624; 24.8547]
+Line = MA13 [23.8143; 24.8089]
+Line = MA16 [23.8064; 24.7987]
+Line = MA18 [23.8173; 24.8119]
+Line = MA19 [23.8034; 24.7957]
+Line = MA3  [23.8013; 24.7959]
+Line = MA5  [23.8722; 24.8690]
+Line = MA6  [23.7862; 24.7830]
+Line = MA7  [23.8220; 24.8211]
+Line = MA9  [23.7839; 24.7853]
+Line = UM13 [24.1339; 25.1829]
+Line = UM17 [24.0818; 25.1330]
+Line = UM18 [24.0319; 25.0809]
+Line = UM2  [24.0516; 25.1072]
+Line = UM4  [24.0608; 25.1120]
+Line = UM5  [24.0300; 25.0748]
+Line = UM6  [24.0517; 25.1051]
+Line = UM7  [24.0778; 25.1290]
+Line = UM9  [24.1139; 25.1609]
+Line = KA1  [24.1445; 25.1337]
+Line = KA10 [24.1505; 25.1397]
+Line = KA11 [24.1336; 25.1206]
+Line = KA13 [24.1213; 25.1129]
+Line = KA2  [24.0948; 25.0794]
+Line = KA3  [24.1836; 25.1706]
+Line = KA5  [24.2890; 25.2691]
+Line = KA6  [24.1132; 25.0910]
+Line = KA7  [24.1932; 25.1710]
+Line = KA9  [24.0828; 25.0674]
+Line = VA11 [23.4736; 24.4925]
+Line = VA15 [23.5344; 24.5577]
+Line = VA18 [23.4987; 24.5154]
+Line = VA22 [23.4854; 24.5087]
+Line = VA26 [23.4453; 24.4708]
+Line = VA30 [23.4851; 24.5150]
+Line = VA34 [23.4771; 24.5070]
+Line = VA6  [23.4694; 24.4927]
+Line = VA9  [23.4894; 24.5127]
+Line = AK1  [23.7831; 24.8289]
+Line = AK2  [23.7651; 24.8109]
+Line = AK3  [23.7900; 24.8380]
+Line = AK4  [23.8231; 24.8689]
+Line = AK5  [23.8311; 24.8769]
+Line = AK6  [23.7961; 24.8419]
+Line = AK7  [23.8251; 24.8709]
+Line = AK8  [23.7941; 24.8399]
+            tau^2 tau    Q I^2
+Line = YE11    --  -- 0.00  --
+Line = YE13    --  -- 0.00  --
+Line = YE14    --  -- 0.00  --
+Line = YE15    --  -- 0.00  --
+Line = YE19    --  -- 0.00  --
+Line = YE20    --  -- 0.00  --
+Line = YE21    --  -- 0.00  --
+Line = YE22    --  -- 0.00  --
+Line = YE24    --  -- 0.00  --
+Line = YE26    --  -- 0.00  --
+Line = YE27    --  -- 0.00  --
+Line = YE33    --  -- 0.00  --
+Line = YE40    --  -- 0.00  --
+Line = YE41    --  -- 0.00  --
+Line = YE48    --  -- 0.00  --
+Line = YE49    --  -- 0.00  --
+Line = YE51    --  -- 0.00  --
+Line = YE69    --  -- 0.00  --
+Line = YE80    --  -- 0.00  --
+Line = RE10    --  -- 0.00  --
+Line = RE11    --  -- 0.00  --
+Line = RE2     --  -- 0.00  --
+Line = RE3     --  -- 0.00  --
+Line = RE4     --  -- 0.00  --
+Line = RE6     --  -- 0.00  --
+Line = RE7     --  -- 0.00  --
+Line = RE8     --  -- 0.00  --
+Line = GI1     --  -- 0.00  --
+Line = GI2     --  -- 0.00  --
+Line = GI3     --  -- 0.00  --
+Line = GI4     --  -- 0.00  --
+Line = GI5     --  -- 0.00  --
+Line = GI6     --  -- 0.00  --
+Line = GI7     --  -- 0.00  --
+Line = GI8     --  -- 0.00  --
+Line = GI9     --  -- 0.00  --
+Line = MU1     --  -- 0.00  --
+Line = MU10    --  -- 0.00  --
+Line = MU2     --  -- 0.00  --
+Line = MU3     --  -- 0.00  --
+Line = MU4     --  -- 0.00  --
+Line = MU5     --  -- 0.00  --
+Line = MU6     --  -- 0.00  --
+Line = MU7     --  -- 0.00  --
+Line = MU8     --  -- 0.00  --
+Line = MU9     --  -- 0.00  --
+Line = MA12    --  -- 0.00  --
+Line = MA13    --  -- 0.00  --
+Line = MA16    --  -- 0.00  --
+Line = MA18    --  -- 0.00  --
+Line = MA19    --  -- 0.00  --
+Line = MA3     --  -- 0.00  --
+Line = MA5     --  -- 0.00  --
+Line = MA6     --  -- 0.00  --
+Line = MA7     --  -- 0.00  --
+Line = MA9     --  -- 0.00  --
+Line = UM13    --  -- 0.00  --
+Line = UM17    --  -- 0.00  --
+Line = UM18    --  -- 0.00  --
+Line = UM2     --  -- 0.00  --
+Line = UM4     --  -- 0.00  --
+Line = UM5     --  -- 0.00  --
+Line = UM6     --  -- 0.00  --
+Line = UM7     --  -- 0.00  --
+Line = UM9     --  -- 0.00  --
+Line = KA1     --  -- 0.00  --
+Line = KA10    --  -- 0.00  --
+Line = KA11    --  -- 0.00  --
+Line = KA13    --  -- 0.00  --
+Line = KA2     --  -- 0.00  --
+Line = KA3     --  -- 0.00  --
+Line = KA5     --  -- 0.00  --
+Line = KA6     --  -- 0.00  --
+Line = KA7     --  -- 0.00  --
+Line = KA9     --  -- 0.00  --
+Line = VA11    --  -- 0.00  --
+Line = VA15    --  -- 0.00  --
+Line = VA18    --  -- 0.00  --
+Line = VA22    --  -- 0.00  --
+Line = VA26    --  -- 0.00  --
+Line = VA30    --  -- 0.00  --
+Line = VA34    --  -- 0.00  --
+Line = VA6     --  -- 0.00  --
+Line = VA9     --  -- 0.00  --
+Line = AK1     --  -- 0.00  --
+Line = AK2     --  -- 0.00  --
+Line = AK3     --  -- 0.00  --
+Line = AK4     --  -- 0.00  --
+Line = AK5     --  -- 0.00  --
+Line = AK6     --  -- 0.00  --
+Line = AK7     --  -- 0.00  --
+Line = AK8     --  -- 0.00  --
 
 Test for subgroup differences (random effects model):
-                      Q d.f. p-value
-Between groups   121.84   91  0.0171
+                      Q d.f.
+Between groups   121.84   91
+                 p-value
+Between groups    0.0171
 
 Details on meta-analytical method:
 - Inverse variance method
