@@ -1,496 +1,1470 @@
-                             95%-CI %W(random) Line
-YE_Abbott  0.4597 [ 0.3583; 0.5611]        0.2 YE11
-YE_Gibert  0.8297 [ 0.6844; 0.9750]        0.2 YE11
-YE_Schmidt 0.6170 [ 0.3837; 0.8504]        0.2 YE11
-YE_Abbott  0.6637 [ 0.5623; 0.7651]        0.2 YE13
-YE_Gibert  0.7707 [ 0.6535; 0.8879]        0.2 YE13
-YE_Schmidt 0.5420 [ 0.3310; 0.7531]        0.2 YE13
-YE_Abbott  0.2657 [ 0.1643; 0.3671]        0.2 YE14
-YE_Gibert  0.5927 [ 0.4755; 0.7099]        0.2 YE14
-YE_Schmidt 0.0490 [-0.1620; 0.2601]        0.2 YE14
-YE_Abbott  0.4877 [ 0.3863; 0.5891]        0.2 YE15
-YE_Gibert  0.8317 [ 0.7145; 0.9489]        0.2 YE15
-YE_Schmidt 0.1500 [-0.0610; 0.3611]        0.2 YE15
-YE_Abbott  0.5867 [ 0.4853; 0.6881]        0.2 YE19
-YE_Gibert  0.9077 [ 0.7905; 1.0249]        0.2 YE19
-YE_Schmidt 0.8210 [ 0.5877; 1.0544]        0.2 YE19
-YE_Abbott  0.6807 [ 0.5778; 0.7837]        0.2 YE20
-YE_Gibert  0.7937 [ 0.6484; 0.9390]        0.2 YE20
-YE_Schmidt 0.9110 [ 0.7000; 1.1221]        0.2 YE20
-YE_Abbott  0.8367 [ 0.7353; 0.9381]        0.2 YE21
-YE_Gibert  0.9217 [ 0.7965; 1.0469]        0.2 YE21
-YE_Schmidt 0.6820 [ 0.4710; 0.8931]        0.2 YE21
-YE_Abbott  0.7347 [ 0.6333; 0.8361]        0.2 YE22
-YE_Gibert  0.9007 [ 0.7835; 1.0179]        0.2 YE22
-YE_Schmidt 1.0100 [ 0.7990; 1.2211]        0.2 YE22
-YE_Abbott  0.7397 [ 0.6383; 0.8411]        0.2 YE23
-YE_Gibert  0.7717 [ 0.6545; 0.8889]        0.2 YE23
-YE_Schmidt 0.4320 [ 0.2210; 0.6431]        0.2 YE23
-YE_Abbott  0.5387 [ 0.4404; 0.6371]        0.2 YE24
-YE_Gibert  0.7107 [ 0.5935; 0.8279]        0.2 YE24
-YE_Schmidt 0.8120 [ 0.5868; 1.0373]        0.2 YE24
-YE_Abbott  0.5357 [ 0.4328; 0.6387]        0.2 YE26
-YE_Gibert  0.8497 [ 0.7277; 0.9717]        0.2 YE26
-YE_Schmidt 0.5320 [ 0.2987; 0.7654]        0.2 YE26
-YE_Abbott  0.5857 [ 0.4843; 0.6871]        0.2 YE27
-YE_Gibert  0.7147 [ 0.5975; 0.8319]        0.2 YE27
-YE_Schmidt 0.6030 [ 0.3920; 0.8141]        0.2 YE27
-YE_Abbott  0.4797 [ 0.3783; 0.5811]        0.2 YE33
-YE_Gibert  0.7317 [ 0.6145; 0.8489]        0.2 YE33
-YE_Schmidt 0.1080 [-0.1030; 0.3191]        0.2 YE33
-YE_Abbott  0.6217 [ 0.5203; 0.7231]        0.2 YE40
-YE_Gibert  0.7507 [ 0.6335; 0.8679]        0.2 YE40
-YE_Schmidt 0.8500 [ 0.6248; 1.0753]        0.2 YE40
-YE_Abbott  0.5137 [ 0.4108; 0.6167]        0.2 YE41
-YE_Gibert  0.4117 [ 0.2945; 0.5289]        0.2 YE41
-YE_Schmidt 0.1900 [-0.0210; 0.4011]        0.2 YE41
-YE_Abbott  0.7617 [ 0.6588; 0.8647]        0.2 YE48
-YE_Gibert  0.8237 [ 0.7065; 0.9409]        0.2 YE48
-YE_Schmidt 0.9930 [ 0.7820; 1.2041]        0.2 YE48
-YE_Abbott  0.6307 [ 0.5293; 0.7321]        0.2 YE49
-YE_Gibert  0.9177 [ 0.8198; 1.0156]        0.2 YE49
-YE_Schmidt 0.3400 [ 0.1290; 0.5511]        0.2 YE49
-YE_Abbott  0.3297 [ 0.2268; 0.4327]        0.2 YE51
-YE_Gibert  0.3997 [ 0.2825; 0.5169]        0.2 YE51
-YE_Schmidt 0.3050 [ 0.0717; 0.5384]        0.2 YE51
-YE_Abbott  0.5917 [ 0.4903; 0.6931]        0.2 YE69
-YE_Gibert  0.7707 [ 0.6535; 0.8879]        0.2 YE69
-YE_Schmidt 0.2420 [ 0.0310; 0.4531]        0.2 YE69
-YE_Abbott  0.7087 [ 0.6073; 0.8101]        0.2 YE80
-YE_Gibert  0.8507 [ 0.7335; 0.9679]        0.2 YE80
-YE_Schmidt 0.6920 [ 0.4810; 0.9031]        0.2 YE80
-RE_Abbott  0.5533 [ 0.4503; 0.6564]        0.2  RE1
-RE_Gibert  0.7331 [ 0.6112; 0.8551]        0.2  RE1
-RE_Abbott  0.7303 [ 0.6243; 0.8363]        0.2 RE10
-RE_Gibert  0.7271 [ 0.6052; 0.8491]        0.2 RE10
-RE_Schmidt 0.2809 [ 0.0532; 0.5086]        0.2 RE10
-RE_Abbott  0.7043 [ 0.6013; 0.8074]        0.2 RE11
-RE_Gibert  0.7881 [ 0.6662; 0.9101]        0.2 RE11
-RE_Schmidt 1.1659 [ 0.9382; 1.3936]        0.2 RE11
-RE_Abbott  0.7983 [ 0.6923; 0.9043]        0.2 RE12
-RE_Gibert  0.9131 [ 0.7912; 1.0351]        0.2 RE12
-RE_Schmidt 0.8129 [ 0.5852; 1.0406]        0.2 RE12
-RE_Abbott  0.7703 [ 0.6643; 0.8763]        0.2 RE13
-RE_Gibert  0.8841 [ 0.7622; 1.0061]        0.2 RE13
-RE_Schmidt 0.7669 [ 0.5184; 1.0154]        0.2 RE13
-RE_Abbott  0.5593 [ 0.4518; 0.6668]        0.2 RE15
-RE_Gibert  0.6301 [ 0.5082; 0.7521]        0.2 RE15
-RE_Schmidt 0.1189 [-0.1088; 0.3466]        0.2 RE15
-RE_Abbott  0.7833 [ 0.6803; 0.8864]        0.2 RE16
-RE_Gibert  0.8211 [ 0.6992; 0.9431]        0.2 RE16
-RE_Schmidt 0.5039 [ 0.2762; 0.7316]        0.2 RE16
-RE_Abbott  0.7853 [ 0.6793; 0.8913]        0.2 RE17
-RE_Gibert  0.8141 [ 0.6922; 0.9361]        0.2 RE17
-RE_Schmidt 0.2749 [ 0.0340; 0.5158]        0.2 RE17
-RE_Abbott  0.6813 [ 0.5753; 0.7873]        0.2 RE18
-RE_Gibert  0.8371 [ 0.7152; 0.9591]        0.2 RE18
-RE_Schmidt 0.9379 [ 0.7102; 1.1656]        0.2 RE18
-RE_Abbott  0.8683 [ 0.7653; 0.9714]        0.2  RE2
-RE_Gibert  0.9331 [ 0.8112; 1.0551]        0.2  RE2
-RE_Schmidt 0.6309 [ 0.4032; 0.8586]        0.2  RE2
-RE_Abbott  0.4683 [ 0.3547; 0.5820]        0.2  RE3
-RE_Gibert  0.5501 [ 0.4282; 0.6721]        0.2  RE3
-RE_Schmidt 0.0739 [-0.1855; 0.3333]        0.2  RE3
-RE_Abbott  0.6063 [ 0.5003; 0.7123]        0.2  RE4
-RE_Gibert  0.7991 [ 0.6772; 0.9211]        0.2  RE4
-RE_Schmidt 0.4439 [ 0.2162; 0.6716]        0.2  RE4
-RE_Abbott  0.6233 [ 0.5158; 0.7308]        0.2  RE5
-RE_Gibert  0.8971 [ 0.7752; 1.0191]        0.2  RE5
-RE_Schmidt 0.3779 [ 0.1042; 0.6516]        0.2  RE5
-RE_Abbott  0.7623 [ 0.6563; 0.8683]        0.2  RE6
-RE_Gibert  0.9731 [ 0.8512; 1.0951]        0.2  RE6
-RE_Schmidt 0.6329 [ 0.4052; 0.8606]        0.2  RE6
-RE_Abbott  0.8213 [ 0.7138; 0.9288]        0.2  RE7
-RE_Gibert  0.8971 [ 0.7935; 1.0008]        0.2  RE7
-RE_Schmidt 0.2429 [ 0.0152; 0.4706]        0.2  RE7
-RE_Abbott  0.7543 [ 0.6483; 0.8603]        0.2  RE8
-RE_Gibert  1.0191 [ 0.8972; 1.1411]        0.2  RE8
-GI_Abbott  0.4750 [ 0.3658; 0.5842]        0.2  GI1
-GI_Gibert  0.4267 [ 0.3031; 0.5503]        0.2  GI1
-GI_Schmidt 0.1072 [-0.1243; 0.3388]        0.2  GI1
-GI_Abbott  0.3940 [ 0.2877; 0.5003]        0.2 GI10
-GI_Gibert  0.7007 [ 0.5952; 0.8063]        0.2 GI10
-GI_Schmidt 0.0352 [-0.1963; 0.2668]        0.2 GI10
-GI_Abbott  0.7540 [ 0.6448; 0.8632]        0.2 GI11
-GI_Gibert  0.7707 [ 0.6471; 0.8943]        0.2 GI11
-GI_Schmidt 0.0772 [-0.1543; 0.3088]        0.2 GI11
-GI_Abbott  0.5970 [ 0.4864; 0.7076]        0.2 GI12
-GI_Gibert  0.7317 [ 0.6081; 0.8553]        0.2 GI12
-GI_Schmidt 0.4282 [ 0.1967; 0.6598]        0.2 GI12
-GI_Gibert  0.7357 [ 0.6121; 0.8593]        0.2 GI13
-GI_Schmidt 0.3882 [ 0.1567; 0.6198]        0.2 GI13
-GI_Abbott  0.4800 [ 0.3708; 0.5892]        0.2 GI14
-GI_Gibert  0.5847 [ 0.4611; 0.7083]        0.2 GI14
-GI_Schmidt 0.2952 [ 0.0637; 0.5268]        0.2 GI14
-GI_Abbott  0.7980 [ 0.6888; 0.9072]        0.2 GI15
-GI_Gibert  0.8947 [ 0.7711; 1.0183]        0.2 GI15
-GI_Schmidt 0.8742 [ 0.6427; 1.1058]        0.2 GI15
-GI_Abbott  0.6800 [ 0.5737; 0.7863]        0.2  GI2
-GI_Gibert  0.7547 [ 0.6311; 0.8783]        0.2  GI2
-GI_Schmidt 0.4362 [ 0.2047; 0.6678]        0.2  GI2
-GI_Abbott  0.5450 [ 0.4358; 0.6542]        0.2  GI3
-GI_Gibert  0.7057 [ 0.5821; 0.8293]        0.2  GI3
-GI_Schmidt 0.0552 [-0.2075; 0.3179]        0.2  GI3
-GI_Abbott  0.5230 [ 0.4064; 0.6396]        0.2  GI4
-GI_Gibert  0.6887 [ 0.5651; 0.8123]        0.2  GI4
-GI_Abbott  0.8010 [ 0.6918; 0.9102]        0.2  GI5
-GI_Gibert  0.8617 [ 0.7381; 0.9853]        0.2  GI5
-GI_Schmidt 0.9602 [ 0.7287; 1.1918]        0.2  GI5
-GI_Abbott  0.8270 [ 0.7178; 0.9362]        0.2  GI6
-GI_Gibert  0.9837 [ 0.8601; 1.1073]        0.2  GI6
-GI_Abbott  0.6860 [ 0.5768; 0.7952]        0.2  GI7
-GI_Gibert  0.8757 [ 0.7521; 0.9993]        0.2  GI7
-GI_Schmidt 0.5142 [ 0.2697; 0.7588]        0.2  GI7
-GI_Abbott  0.2560 [ 0.1468; 0.3652]        0.2  GI8
-GI_Gibert  0.6097 [ 0.4861; 0.7333]        0.2  GI8
-GI_Schmidt 0.5132 [ 0.2817; 0.7448]        0.2  GI8
-GI_Abbott  0.5300 [ 0.4208; 0.6392]        0.2  GI9
-GI_Gibert  0.7697 [ 0.6461; 0.8933]        0.2  GI9
-GI_Schmidt 0.3742 [ 0.1115; 0.6369]        0.2  GI9
-MU_Abbott  0.6717 [ 0.5670; 0.7763]        0.2  MU1
-MU_Gibert  1.0350 [ 0.9180; 1.1519]        0.2  MU1
-MU_Schmidt 0.5535 [ 0.3427; 0.7642]        0.2  MU1
-MU_Abbott  0.5967 [ 0.4905; 0.7028]        0.2 MU10
-MU_Gibert  0.6780 [ 0.5610; 0.7949]        0.2 MU10
-MU_Schmidt 0.6775 [ 0.4667; 0.8882]        0.2 MU10
-MU_Abbott  0.4947 [ 0.3900; 0.5993]        0.2 MU11
-MU_Gibert  0.8100 [ 0.6930; 0.9269]        0.2 MU11
-MU_Schmidt 0.5175 [ 0.3067; 0.7282]        0.2 MU11
-MU_Abbott  0.5767 [ 0.4720; 0.6813]        0.2 MU12
-MU_Gibert  0.8780 [ 0.7610; 0.9949]        0.2 MU12
-MU_Schmidt 0.2885 [ 0.0777; 0.4992]        0.2 MU12
-MU_Abbott  0.6357 [ 0.5310; 0.7403]        0.2 MU13
-MU_Gibert  0.7040 [ 0.5870; 0.8209]        0.2 MU13
-MU_Schmidt 0.1595 [-0.0513; 0.3702]        0.2 MU13
-MU_Abbott  0.6907 [ 0.5860; 0.7953]        0.2 MU14
-MU_Gibert  0.7950 [ 0.6780; 0.9119]        0.2 MU14
-MU_Schmidt 0.6365 [ 0.4257; 0.8472]        0.2 MU14
-MU_Gibert  0.8850 [ 0.7680; 1.0019]        0.2 MU15
-MU_Schmidt 0.3435 [ 0.1327; 0.5542]        0.2 MU15
-MU_Abbott  0.3257 [ 0.2210; 0.4303]        0.2 MU16
-MU_Gibert  0.7650 [ 0.6480; 0.8819]        0.2 MU16
-MU_Schmidt 0.3115 [ 0.1007; 0.5222]        0.2 MU16
-MU_Abbott  0.6657 [ 0.5610; 0.7703]        0.2 MU17
-MU_Gibert  0.7320 [ 0.6150; 0.8489]        0.2 MU17
-MU_Schmidt 0.3115 [ 0.1007; 0.5222]        0.2 MU17
-MU_Abbott  0.6557 [ 0.5555; 0.7558]        0.2 MU18
-MU_Gibert  0.9000 [ 0.7782; 1.0217]        0.2 MU18
-MU_Schmidt 0.7775 [ 0.5667; 0.9882]        0.2 MU18
-MU_Abbott  0.4867 [ 0.3820; 0.5913]        0.2 MU19
-MU_Gibert  0.6620 [ 0.5643; 0.7596]        0.2 MU19
-MU_Schmidt 0.0735 [-0.1373; 0.2842]        0.2 MU19
-MU_Abbott  0.4517 [ 0.3470; 0.5563]        0.2  MU2
-MU_Gibert  0.6180 [ 0.5010; 0.7349]        0.2  MU2
-MU_Schmidt 0.3175 [ 0.0844; 0.5505]        0.2  MU2
-MU_Abbott  0.7267 [ 0.6220; 0.8313]        0.2 MU20
-MU_Gibert  0.9640 [ 0.8470; 1.0809]        0.2 MU20
-MU_Schmidt 0.5215 [ 0.3107; 0.7322]        0.2 MU20
-MU_Abbott  0.4087 [ 0.3070; 0.5103]        0.2  MU3
-MU_Gibert  0.6640 [ 0.5470; 0.7809]        0.2  MU3
-MU_Schmidt 0.4695 [ 0.2587; 0.6802]        0.2  MU3
-MU_Gibert  0.8120 [ 0.6950; 0.9289]        0.2  MU4
-MU_Schmidt 0.3425 [ 0.1317; 0.5532]        0.2  MU4
-MU_Abbott  0.6607 [ 0.5560; 0.7653]        0.2  MU5
-MU_Gibert  0.7970 [ 0.6800; 0.9139]        0.2  MU5
-MU_Schmidt 0.6785 [ 0.4677; 0.8892]        0.2  MU5
-MU_Abbott  0.7137 [ 0.6120; 0.8153]        0.2  MU6
-MU_Gibert  0.9790 [ 0.8620; 1.0959]        0.2  MU6
-MU_Schmidt 1.0625 [ 0.8517; 1.2732]        0.2  MU6
-MU_Gibert  0.6420 [ 0.5250; 0.7589]        0.2  MU7
-MU_Schmidt 0.1365 [-0.0743; 0.3472]        0.2  MU7
-MU_Abbott  0.4487 [ 0.3440; 0.5533]        0.2  MU8
-MU_Gibert  0.8880 [ 0.7710; 1.0049]        0.2  MU8
-MU_Schmidt 0.6685 [ 0.4577; 0.8792]        0.2  MU8
-MU_Abbott  0.6267 [ 0.5220; 0.7313]        0.2  MU9
-MU_Gibert  0.8900 [ 0.7730; 1.0069]        0.2  MU9
-MU_Schmidt 0.9845 [ 0.7737; 1.1952]        0.2  MU9
-MA_Abbott  0.8003 [ 0.6968; 0.9038]        0.2 MA12
-MA_Schmidt 0.4163 [ 0.2033; 0.6294]        0.2 MA12
-MA_Abbott  0.8373 [ 0.7368; 0.9377]        0.2 MA13
-MA_Gibert  1.0111 [ 0.8930; 1.1292]        0.2 MA13
-MA_Schmidt 0.3593 [ 0.1463; 0.5724]        0.2 MA13
-MA_Gibert  1.0041 [ 0.8860; 1.1222]        0.2 MA16
-MA_Abbott  0.4923 [ 0.3918; 0.5927]        0.2 MA18
-MA_Gibert  0.6231 [ 0.5050; 0.7412]        0.2 MA18
-MA_Schmidt 0.8693 [ 0.6563; 1.0824]        0.2 MA18
-MA_Abbott  0.6903 [ 0.5853; 0.7953]        0.2 MA19
-MA_Gibert  0.6691 [ 0.5510; 0.7872]        0.2 MA19
-MA_Schmidt 0.7413 [ 0.5283; 0.9544]        0.2 MA19
-MA_Abbott  0.7813 [ 0.6763; 0.8863]        0.2 MA20
-MA_Gibert  0.9651 [ 0.8470; 1.0832]        0.2 MA20
-MA_Schmidt 0.8183 [ 0.6053; 1.0314]        0.2 MA20
-MA_Abbott  0.7873 [ 0.6868; 0.8877]        0.2 MA21
-MA_Gibert  0.7841 [ 0.6660; 0.9022]        0.2 MA21
-MA_Schmidt 0.5663 [ 0.3533; 0.7794]        0.2 MA21
-MA_Abbott  0.7663 [ 0.6658; 0.8667]        0.2 MA23
-MA_Gibert  0.5111 [ 0.3930; 0.6292]        0.2 MA23
-MA_Schmidt 0.5823 [ 0.3693; 0.7954]        0.2 MA23
-MA_Abbott  0.6343 [ 0.5293; 0.7393]        0.2 MA26
-MA_Gibert  0.7271 [ 0.6090; 0.8452]        0.2 MA26
-MA_Schmidt 0.4313 [ 0.2183; 0.6444]        0.2 MA26
-MA_Abbott  0.7983 [ 0.6978; 0.8987]        0.2 MA27
-MA_Gibert  0.9951 [ 0.8770; 1.1132]        0.2 MA27
-MA_Schmidt 0.8123 [ 0.5337; 1.0910]        0.2 MA27
-MA_Abbott  0.6273 [ 0.5223; 0.7323]        0.2 MA28
-MA_Gibert  0.5811 [ 0.4630; 0.6992]        0.2 MA28
-MA_Schmidt 0.0563 [-0.1567; 0.2694]        0.2 MA28
-MA_Gibert  1.1381 [ 1.0200; 1.2562]        0.2  MA3
-MA_Schmidt 1.2003 [ 0.9873; 1.4134]        0.2  MA3
-MA_Abbott  0.8763 [ 0.7713; 0.9813]        0.2 MA30
-MA_Gibert  1.0751 [ 0.9761; 1.1741]        0.2 MA30
-MA_Schmidt 0.8103 [ 0.5911; 1.0296]        0.2 MA30
-MA_Abbott  0.6493 [ 0.5443; 0.7543]        0.2 MA31
-MA_Gibert  0.9001 [ 0.7625; 1.0377]        0.2 MA31
-MA_Schmidt 0.5833 [ 0.3703; 0.7964]        0.2 MA31
-MA_Abbott  0.8973 [ 0.7968; 0.9977]        0.2 MA32
-MA_Gibert  0.9931 [ 0.8750; 1.1112]        0.2 MA32
-MA_Schmidt 0.7233 [ 0.5103; 0.9364]        0.2 MA32
-MA_Abbott  0.7143 [ 0.6093; 0.8193]        0.2 MA33
-MA_Gibert  0.7161 [ 0.5980; 0.8342]        0.2 MA33
-MA_Schmidt 0.2143 [ 0.0013; 0.4274]        0.2 MA33
-MA_Abbott  0.7983 [ 0.6933; 0.9033]        0.2  MA5
-MA_Gibert  0.7071 [ 0.5890; 0.8252]        0.2  MA5
-MA_Schmidt 0.9093 [ 0.6963; 1.1224]        0.2  MA5
-MA_Abbott  0.7923 [ 0.6873; 0.8973]        0.2  MA6
-MA_Gibert  0.7241 [ 0.6060; 0.8422]        0.2  MA6
-MA_Schmidt 0.5583 [ 0.3453; 0.7714]        0.2  MA6
-MA_Abbott  0.7653 [ 0.6648; 0.8657]        0.2  MA7
-MA_Gibert  0.7571 [ 0.6390; 0.8752]        0.2  MA7
-MA_Schmidt 0.3063 [ 0.0933; 0.5194]        0.2  MA7
-MA_Abbott  0.8883 [ 0.7833; 0.9933]        0.2  MA9
-MA_Gibert  0.9271 [ 0.8090; 1.0452]        0.2  MA9
-MA_Schmidt 0.7343 [ 0.5213; 0.9474]        0.2  MA9
-UM_Abbott  0.6891 [ 0.5856; 0.7925]        0.2 UM13
-UM_Gibert  0.8414 [ 0.7221; 0.9606]        0.2 UM13
-UM_Schmidt 0.4820 [ 0.2584; 0.7056]        0.2 UM13
-UM_Abbott  0.6871 [ 0.5836; 0.7905]        0.2 UM17
-UM_Gibert  0.8874 [ 0.7681; 1.0066]        0.2 UM17
-UM_Schmidt 0.8690 [ 0.6454; 1.0926]        0.2 UM17
-UM_Abbott  0.7191 [ 0.6156; 0.8225]        0.2 UM18
-UM_Gibert  0.7834 [ 0.6641; 0.9026]        0.2 UM18
-UM_Schmidt 0.8220 [ 0.5984; 1.0456]        0.2 UM18
-UM_Abbott  0.6221 [ 0.5216; 0.7225]        0.2  UM2
-UM_Gibert  0.7644 [ 0.6451; 0.8836]        0.2  UM2
-UM_Schmidt 0.7600 [ 0.5364; 0.9836]        0.2  UM2
-UM_Abbott  0.7771 [ 0.6736; 0.8805]        0.2 UM20
-UM_Gibert  0.7714 [ 0.6521; 0.8906]        0.2 UM20
-UM_Schmidt 0.7380 [ 0.4822; 0.9938]        0.2 UM20
-UM_Abbott  0.7121 [ 0.6086; 0.8155]        0.2 UM21
-UM_Gibert  0.7544 [ 0.6351; 0.8736]        0.2 UM21
-UM_Schmidt 0.7540 [ 0.5304; 0.9776]        0.2 UM21
-UM_Abbott  0.6771 [ 0.5736; 0.7805]        0.2 UM22
-UM_Gibert  0.6644 [ 0.5451; 0.7836]        0.2 UM22
-UM_Schmidt 0.4770 [ 0.2534; 0.7006]        0.2 UM22
-UM_Abbott  0.8041 [ 0.7006; 0.9075]        0.2 UM23
-UM_Gibert  0.8764 [ 0.7571; 0.9956]        0.2 UM23
-UM_Schmidt 0.4800 [ 0.2564; 0.7036]        0.2 UM23
-UM_Abbott  0.7931 [ 0.6926; 0.8935]        0.2 UM25
-UM_Gibert  0.8494 [ 0.7301; 0.9686]        0.2 UM25
-UM_Schmidt 1.0580 [ 0.8344; 1.2816]        0.2 UM25
-UM_Abbott  0.6471 [ 0.5436; 0.7505]        0.2 UM26
-UM_Gibert  0.8154 [ 0.6961; 0.9346]        0.2 UM26
-UM_Abbott  0.6731 [ 0.5696; 0.7765]        0.2 UM28
-UM_Gibert  0.8224 [ 0.7031; 0.9416]        0.2 UM28
-UM_Schmidt 1.0210 [ 0.7974; 1.2446]        0.2 UM28
-UM_Abbott  0.5411 [ 0.4406; 0.6415]        0.2 UM29
-UM_Gibert  0.7524 [ 0.6331; 0.8716]        0.2 UM29
-UM_Schmidt 0.7230 [ 0.4994; 0.9466]        0.2 UM29
-UM_Abbott  0.6761 [ 0.5756; 0.7765]        0.2  UM4
-UM_Gibert  0.8334 [ 0.7141; 0.9526]        0.2  UM4
-UM_Schmidt 0.7890 [ 0.5654; 1.0126]        0.2  UM4
-UM_Abbott  0.6791 [ 0.5756; 0.7825]        0.2  UM5
-UM_Gibert  0.7084 [ 0.5891; 0.8276]        0.2  UM5
-UM_Schmidt 0.6990 [ 0.4754; 0.9226]        0.2  UM5
-UM_Abbott  0.6971 [ 0.5936; 0.8005]        0.2  UM6
-UM_Gibert  0.7624 [ 0.6431; 0.8816]        0.2  UM6
-UM_Abbott  0.9031 [ 0.7981; 1.0080]        0.2  UM7
-UM_Gibert  1.0134 [ 0.9130; 1.1137]        0.2  UM7
-UM_Schmidt 1.2010 [ 0.9774; 1.4246]        0.2  UM7
-UM_Abbott  0.5761 [ 0.4711; 0.6810]        0.2  UM8
-UM_Gibert  0.8164 [ 0.6971; 0.9356]        0.2  UM8
-UM_Abbott  0.7451 [ 0.6416; 0.8485]        0.2  UM9
-UM_Gibert  0.9984 [ 0.8791; 1.1176]        0.2  UM9
-UM_Schmidt 0.5120 [ 0.2884; 0.7356]        0.2  UM9
-KA_Abbott  0.3575 [ 0.2551; 0.4598]        0.2  KA1
-KA_Gibert  0.7623 [ 0.6454; 0.8793]        0.2  KA1
-KA_Schmidt 0.2723 [ 0.0596; 0.4851]        0.2  KA1
-KA_Abbott  0.6425 [ 0.5401; 0.7448]        0.2 KA10
-KA_Gibert  0.8743 [ 0.7574; 0.9913]        0.2 KA10
-KA_Schmidt 0.7433 [ 0.5306; 0.9561]        0.2 KA10
-KA_Abbott  0.5565 [ 0.4525; 0.6604]        0.2 KA11
-KA_Gibert  0.6663 [ 0.5687; 0.7640]        0.2 KA11
-KA_Schmidt 0.5683 [ 0.3556; 0.7811]        0.2 KA11
-KA_Abbott  0.4055 [ 0.3015; 0.5094]        0.2 KA13
-KA_Gibert  0.7023 [ 0.5854; 0.8193]        0.2 KA13
-KA_Schmidt 0.1243 [-0.0884; 0.3371]        0.2 KA13
-KA_Abbott  0.6655 [ 0.5631; 0.7678]        0.2 KA14
-KA_Gibert  0.9953 [ 0.8784; 1.1123]        0.2 KA14
-KA_Schmidt 0.9533 [ 0.7406; 1.1661]        0.2 KA14
-KA_Abbott  0.6655 [ 0.5631; 0.7678]        0.2 KA15
-KA_Gibert  1.0233 [ 0.9064; 1.1403]        0.2 KA15
-KA_Abbott  0.5945 [ 0.4921; 0.6968]        0.2 KA16
-KA_Gibert  0.7953 [ 0.6784; 0.9123]        0.2 KA16
-KA_Schmidt 0.6193 [ 0.4066; 0.8321]        0.2 KA16
-KA_Abbott  0.5155 [ 0.4131; 0.6178]        0.2 KA17
-KA_Gibert  0.7933 [ 0.6764; 0.9103]        0.2 KA17
-KA_Schmidt 0.5733 [ 0.3606; 0.7861]        0.2 KA17
-KA_Abbott  0.7225 [ 0.6201; 0.8248]        0.2 KA18
-KA_Gibert  0.9203 [ 0.8034; 1.0373]        0.2 KA18
-KA_Schmidt 0.6823 [ 0.4696; 0.8951]        0.2 KA18
-KA_Abbott  0.6845 [ 0.5821; 0.7868]        0.2  KA2
-KA_Gibert  1.0703 [ 0.9534; 1.1873]        0.2  KA2
-KA_Schmidt 0.8123 [ 0.5996; 1.0251]        0.2  KA2
-KA_Abbott  0.6535 [ 0.5495; 0.7574]        0.2 KA23
-KA_Gibert  0.9083 [ 0.7914; 1.0253]        0.2 KA23
-KA_Schmidt 0.5823 [ 0.3696; 0.7951]        0.2 KA23
-KA_Abbott  0.4455 [ 0.3431; 0.5478]        0.2 KA24
-KA_Gibert  0.8903 [ 0.7734; 1.0073]        0.2 KA24
-KA_Schmidt 0.2063 [-0.0064; 0.4191]        0.2 KA24
-KA_Abbott  0.8805 [ 0.7781; 0.9828]        0.2 KA25
-KA_Gibert  0.9763 [ 0.8594; 1.0933]        0.2 KA25
-KA_Schmidt 0.4973 [ 0.2846; 0.7101]        0.2 KA25
-KA_Gibert  1.0083 [ 0.8914; 1.1253]        0.2 KA28
-KA_Schmidt 0.8203 [ 0.6076; 1.0331]        0.2 KA28
-KA_Abbott  0.6065 [ 0.5071; 0.7058]        0.2 KA29
-KA_Gibert  0.9443 [ 0.8274; 1.0613]        0.2 KA29
-KA_Schmidt 1.0363 [ 0.8236; 1.2491]        0.2 KA29
-KA_Abbott  0.6885 [ 0.5861; 0.7908]        0.2  KA3
-KA_Gibert  0.7463 [ 0.6294; 0.8633]        0.2  KA3
-KA_Schmidt 0.5863 [ 0.3736; 0.7991]        0.2  KA3
-KA_Abbott  0.5855 [ 0.4831; 0.6878]        0.2  KA5
-KA_Gibert  0.9053 [ 0.7884; 1.0223]        0.2  KA5
-KA_Schmidt 0.4933 [ 0.2806; 0.7061]        0.2  KA5
-KA_Abbott  0.5455 [ 0.4431; 0.6478]        0.2  KA6
-KA_Gibert  0.8723 [ 0.7554; 0.9893]        0.2  KA6
-KA_Schmidt 0.9063 [ 0.6936; 1.1191]        0.2  KA6
-KA_Abbott  0.7355 [ 0.6331; 0.8378]        0.2  KA7
-KA_Gibert  0.8863 [ 0.7694; 1.0033]        0.2  KA7
-KA_Schmidt 0.4443 [ 0.2316; 0.6571]        0.2  KA7
-KA_Abbott  0.3255 [ 0.2231; 0.4278]        0.2  KA9
-KA_Gibert  0.5663 [ 0.4494; 0.6833]        0.2  KA9
-KA_Schmidt 0.1403 [-0.0724; 0.3531]        0.2  KA9
-VA_Abbott  0.6040 [ 0.5017; 0.7063]        0.2  VA1
-VA_Gibert  0.7513 [ 0.6333; 0.8694]        0.2  VA1
-VA_Abbott  0.3320 [ 0.2297; 0.4343]        0.2 VA11
-VA_Gibert  0.5673 [ 0.4493; 0.6854]        0.2 VA11
-VA_Schmidt 0.2313 [ 0.0137; 0.4489]        0.2 VA11
-VA_Schmidt 0.6693 [ 0.4517; 0.8869]        0.2 VA15
-VA_Abbott  0.5890 [ 0.4867; 0.6913]        0.2 VA18
-VA_Gibert  0.8173 [ 0.6993; 0.9354]        0.2 VA18
-VA_Schmidt 0.6653 [ 0.4477; 0.8829]        0.2 VA18
-VA_Abbott  0.9280 [ 0.8257; 1.0303]        0.2 VA22
-VA_Gibert  1.0973 [ 0.9793; 1.2154]        0.2 VA22
-VA_Schmidt 1.2373 [ 1.0197; 1.4549]        0.2 VA22
-VA_Abbott  0.6240 [ 0.5248; 0.7233]        0.2 VA26
-VA_Gibert  0.7273 [ 0.6093; 0.8454]        0.2 VA26
-VA_Schmidt 0.2443 [ 0.0267; 0.4619]        0.2 VA26
-VA_Abbott  0.6870 [ 0.5847; 0.7893]        0.2 VA30
-VA_Gibert  0.9283 [ 0.8103; 1.0464]        0.2 VA30
-VA_Schmidt 0.6243 [ 0.4067; 0.8419]        0.2 VA30
-VA_Abbott  0.5350 [ 0.4358; 0.6343]        0.2 VA34
-VA_Gibert  0.9293 [ 0.8113; 1.0474]        0.2 VA34
-VA_Schmidt 0.8543 [ 0.6367; 1.0719]        0.2 VA34
-VA_Abbott  0.4850 [ 0.3858; 0.5843]        0.2 VA35
-VA_Gibert  0.6443 [ 0.5263; 0.7624]        0.2 VA35
-VA_Schmidt 0.2383 [ 0.0207; 0.4559]        0.2 VA35
-VA_Abbott  0.6740 [ 0.5717; 0.7763]        0.2 VA44
-VA_Gibert  0.8983 [ 0.7994; 0.9973]        0.2 VA44
-VA_Schmidt 1.0393 [ 0.8079; 1.2707]        0.2 VA44
-VA_Abbott  0.7510 [ 0.6472; 0.8549]        0.2 VA46
-VA_Gibert  0.7633 [ 0.6453; 0.8814]        0.2 VA46
-VA_Schmidt 0.4943 [ 0.2767; 0.7119]        0.2 VA46
-VA_Abbott  0.5590 [ 0.4598; 0.6583]        0.2 VA47
-VA_Gibert  0.8493 [ 0.7313; 0.9674]        0.2 VA47
-VA_Schmidt 0.2953 [ 0.0777; 0.5129]        0.2 VA47
-VA_Abbott  0.5960 [ 0.4968; 0.6953]        0.2 VA48
-VA_Gibert  0.7843 [ 0.6663; 0.9024]        0.2 VA48
-VA_Schmidt 0.3393 [ 0.1217; 0.5569]        0.2 VA48
-VA_Abbott  0.5380 [ 0.4388; 0.6373]        0.2 VA55
-VA_Gibert  0.7013 [ 0.5833; 0.8194]        0.2 VA55
-VA_Schmidt 0.6403 [ 0.4227; 0.8579]        0.2 VA55
-VA_Abbott  0.6810 [ 0.5818; 0.7803]        0.2 VA57
-VA_Gibert  0.9703 [ 0.8523; 1.0884]        0.2 VA57
-VA_Schmidt 0.9113 [ 0.6937; 1.1289]        0.2 VA57
-VA_Abbott  0.5000 [ 0.3977; 0.6023]        0.2  VA6
-VA_Gibert  0.7613 [ 0.6433; 0.8794]        0.2  VA6
-VA_Abbott  0.5970 [ 0.4978; 0.6963]        0.2 VA66
-VA_Gibert  0.7353 [ 0.6173; 0.8534]        0.2 VA66
-VA_Schmidt 0.5733 [ 0.3557; 0.7909]        0.2 VA66
-VA_Abbott  0.5750 [ 0.4758; 0.6743]        0.2 VA67
-VA_Gibert  0.7663 [ 0.6483; 0.8844]        0.2 VA67
-VA_Schmidt 0.6743 [ 0.4567; 0.8919]        0.2 VA67
-VA_Abbott  0.5750 [ 0.4727; 0.6773]        0.2 VA71
-VA_Gibert  0.3703 [ 0.2523; 0.4884]        0.2 VA71
-VA_Schmidt 0.6963 [ 0.4787; 0.9139]        0.2 VA71
-VA_Abbott  0.7230 [ 0.6238; 0.8223]        0.2  VA9
-VA_Gibert  0.9353 [ 0.8173; 1.0534]        0.2  VA9
-AK_Abbott  0.7193 [ 0.6211; 0.8175]        0.2  AK1
-AK_Gibert  0.8244 [ 0.7026; 0.9461]        0.2  AK1
-AK_Schmidt 0.4014 [ 0.1907; 0.6121]        0.2  AK1
-AK_Abbott  0.4873 [ 0.3906; 0.5839]        0.2 AK10
-AK_Gibert  0.7584 [ 0.6414; 0.8754]        0.2 AK10
-AK_Schmidt 0.4874 [ 0.2767; 0.6981]        0.2 AK10
-AK_Abbott  0.5223 [ 0.4241; 0.6205]        0.2 AK11
-AK_Gibert  0.7694 [ 0.6524; 0.8864]        0.2 AK11
-AK_Schmidt 0.3094 [ 0.0987; 0.5201]        0.2 AK11
-AK_Abbott  0.8333 [ 0.7304; 0.9361]        0.2 AK12
-AK_Gibert  0.8274 [ 0.7297; 0.9251]        0.2 AK12
-AK_Schmidt 0.5534 [ 0.3427; 0.7641]        0.2 AK12
-AK_Abbott  0.7143 [ 0.6130; 0.8155]        0.2 AK13
-AK_Gibert  0.7384 [ 0.6214; 0.8554]        0.2 AK13
-AK_Schmidt 0.3384 [ 0.1277; 0.5491]        0.2 AK13
-AK_Abbott  0.6843 [ 0.5830; 0.7855]        0.2 AK14
-AK_Gibert  0.8634 [ 0.7464; 0.9804]        0.2 AK14
-AK_Schmidt 0.4814 [ 0.2707; 0.6921]        0.2 AK14
-AK_Abbott  0.5953 [ 0.5114; 0.6791]        0.2 AK15
-AK_Gibert  0.7844 [ 0.6674; 0.9014]        0.2 AK15
-AK_Schmidt 0.3144 [ 0.1037; 0.5251]        0.2 AK15
-AK_Abbott  0.6533 [ 0.5520; 0.7545]        0.2 AK16
-AK_Gibert  0.7364 [ 0.6194; 0.8534]        0.2 AK16
-AK_Schmidt 0.6054 [ 0.3947; 0.8161]        0.2 AK16
-AK_Abbott  0.3013 [ 0.2031; 0.3995]        0.2 AK17
-AK_Gibert  0.3244 [ 0.2074; 0.4414]        0.2 AK17
-AK_Schmidt 0.2644 [ 0.0537; 0.4751]        0.2 AK17
-AK_Abbott  0.4743 [ 0.3730; 0.5755]        0.2 AK18
-AK_Gibert  0.6384 [ 0.5214; 0.7554]        0.2 AK18
-AK_Schmidt 0.2534 [ 0.0427; 0.4641]        0.2 AK18
-AK_Abbott  0.6473 [ 0.5460; 0.7485]        0.2  AK2
-AK_Gibert  0.7124 [ 0.5954; 0.8294]        0.2  AK2
-AK_Schmidt 0.4474 [ 0.2367; 0.6581]        0.2  AK2
-AK_Abbott  0.7833 [ 0.6851; 0.8815]        0.2 AK20
-AK_Gibert  0.9554 [ 0.8384; 1.0724]        0.2 AK20
-AK_Schmidt 0.3004 [ 0.0897; 0.5111]        0.2 AK20
-AK_Abbott  0.7933 [ 0.6920; 0.8945]        0.2 AK21
-AK_Gibert  1.0014 [ 0.8844; 1.1184]        0.2 AK21
-AK_Schmidt 0.3764 [ 0.1657; 0.5871]        0.2 AK21
-AK_Abbott  0.6093 [ 0.5080; 0.7105]        0.2  AK3
-AK_Gibert  0.8924 [ 0.7754; 1.0094]        0.2  AK3
-AK_Schmidt 0.3034 [ 0.0927; 0.5141]        0.2  AK3
-AK_Abbott  0.7683 [ 0.6670; 0.8695]        0.2  AK4
-AK_Gibert  0.8744 [ 0.7574; 0.9914]        0.2  AK4
-AK_Schmidt 0.5564 [ 0.3457; 0.7671]        0.2  AK4
-AK_Abbott  0.6583 [ 0.5570; 0.7595]        0.2  AK5
-AK_Gibert  0.5274 [ 0.4104; 0.6444]        0.2  AK5
-AK_Schmidt 0.3084 [ 0.0977; 0.5191]        0.2  AK5
-AK_Abbott  0.5443 [ 0.4430; 0.6455]        0.2  AK6
-AK_Gibert  0.6494 [ 0.5324; 0.7664]        0.2  AK6
-AK_Schmidt 0.7834 [ 0.5727; 0.9941]        0.2  AK6
-AK_Abbott  0.4653 [ 0.3640; 0.5665]        0.2  AK7
-AK_Gibert  0.5174 [ 0.4004; 0.6344]        0.2  AK7
-AK_Schmidt 0.2574 [ 0.0467; 0.4681]        0.2  AK7
-AK_Abbott  0.4173 [ 0.3191; 0.5155]        0.2  AK8
-AK_Gibert  0.5874 [ 0.4704; 0.7044]        0.2  AK8
-AK_Schmidt 0.2574 [ 0.0467; 0.4681]        0.2  AK8
-AK_Abbott  0.4743 [ 0.3761; 0.5725]        0.2  AK9
-AK_Gibert  0.8474 [ 0.7304; 0.9644]        0.2  AK9
-AK_Schmidt 0.4084 [ 0.1977; 0.6191]        0.2  AK9
+                 
+YE_Abbott  0.4597
+YE_Gibert  0.8297
+YE_Schmidt 0.6170
+YE_Abbott  0.6637
+YE_Gibert  0.7707
+YE_Schmidt 0.5420
+YE_Abbott  0.2657
+YE_Gibert  0.5927
+YE_Schmidt 0.0490
+YE_Abbott  0.4877
+YE_Gibert  0.8317
+YE_Schmidt 0.1500
+YE_Abbott  0.5867
+YE_Gibert  0.9077
+YE_Schmidt 0.8210
+YE_Abbott  0.6807
+YE_Gibert  0.7937
+YE_Schmidt 0.9110
+YE_Abbott  0.8367
+YE_Gibert  0.9217
+YE_Schmidt 0.6820
+YE_Abbott  0.7347
+YE_Gibert  0.9007
+YE_Schmidt 1.0100
+YE_Abbott  0.7397
+YE_Gibert  0.7717
+YE_Schmidt 0.4320
+YE_Abbott  0.5387
+YE_Gibert  0.7107
+YE_Schmidt 0.8120
+YE_Abbott  0.5357
+YE_Gibert  0.8497
+YE_Schmidt 0.5320
+YE_Abbott  0.5857
+YE_Gibert  0.7147
+YE_Schmidt 0.6030
+YE_Abbott  0.4797
+YE_Gibert  0.7317
+YE_Schmidt 0.1080
+YE_Abbott  0.6217
+YE_Gibert  0.7507
+YE_Schmidt 0.8500
+YE_Abbott  0.5137
+YE_Gibert  0.4117
+YE_Schmidt 0.1900
+YE_Abbott  0.7617
+YE_Gibert  0.8237
+YE_Schmidt 0.9930
+YE_Abbott  0.6307
+YE_Gibert  0.9177
+YE_Schmidt 0.3400
+YE_Abbott  0.3297
+YE_Gibert  0.3997
+YE_Schmidt 0.3050
+YE_Abbott  0.5917
+YE_Gibert  0.7707
+YE_Schmidt 0.2420
+YE_Abbott  0.7087
+YE_Gibert  0.8507
+YE_Schmidt 0.6920
+RE_Abbott  0.5533
+RE_Gibert  0.7331
+RE_Abbott  0.7303
+RE_Gibert  0.7271
+RE_Schmidt 0.2809
+RE_Abbott  0.7043
+RE_Gibert  0.7881
+RE_Schmidt 1.1659
+RE_Abbott  0.7983
+RE_Gibert  0.9131
+RE_Schmidt 0.8129
+RE_Abbott  0.7703
+RE_Gibert  0.8841
+RE_Schmidt 0.7669
+RE_Abbott  0.5593
+RE_Gibert  0.6301
+RE_Schmidt 0.1189
+RE_Abbott  0.7833
+RE_Gibert  0.8211
+RE_Schmidt 0.5039
+RE_Abbott  0.7853
+RE_Gibert  0.8141
+RE_Schmidt 0.2749
+RE_Abbott  0.6813
+RE_Gibert  0.8371
+RE_Schmidt 0.9379
+RE_Abbott  0.8683
+RE_Gibert  0.9331
+RE_Schmidt 0.6309
+RE_Abbott  0.4683
+RE_Gibert  0.5501
+RE_Schmidt 0.0739
+RE_Abbott  0.6063
+RE_Gibert  0.7991
+RE_Schmidt 0.4439
+RE_Abbott  0.6233
+RE_Gibert  0.8971
+RE_Schmidt 0.3779
+RE_Abbott  0.7623
+RE_Gibert  0.9731
+RE_Schmidt 0.6329
+RE_Abbott  0.8213
+RE_Gibert  0.8971
+RE_Schmidt 0.2429
+RE_Abbott  0.7543
+RE_Gibert  1.0191
+GI_Abbott  0.4750
+GI_Gibert  0.4267
+GI_Schmidt 0.1072
+GI_Abbott  0.3940
+GI_Gibert  0.7007
+GI_Schmidt 0.0352
+GI_Abbott  0.7540
+GI_Gibert  0.7707
+GI_Schmidt 0.0772
+GI_Abbott  0.5970
+GI_Gibert  0.7317
+GI_Schmidt 0.4282
+GI_Gibert  0.7357
+GI_Schmidt 0.3882
+GI_Abbott  0.4800
+GI_Gibert  0.5847
+GI_Schmidt 0.2952
+GI_Abbott  0.7980
+GI_Gibert  0.8947
+GI_Schmidt 0.8742
+GI_Abbott  0.6800
+GI_Gibert  0.7547
+GI_Schmidt 0.4362
+GI_Abbott  0.5450
+GI_Gibert  0.7057
+GI_Schmidt 0.0552
+GI_Abbott  0.5230
+GI_Gibert  0.6887
+GI_Abbott  0.8010
+GI_Gibert  0.8617
+GI_Schmidt 0.9602
+GI_Abbott  0.8270
+GI_Gibert  0.9837
+GI_Abbott  0.6860
+GI_Gibert  0.8757
+GI_Schmidt 0.5142
+GI_Abbott  0.2560
+GI_Gibert  0.6097
+GI_Schmidt 0.5132
+GI_Abbott  0.5300
+GI_Gibert  0.7697
+GI_Schmidt 0.3742
+MU_Abbott  0.6717
+MU_Gibert  1.0350
+MU_Schmidt 0.5535
+MU_Abbott  0.5967
+MU_Gibert  0.6780
+MU_Schmidt 0.6775
+MU_Abbott  0.4947
+MU_Gibert  0.8100
+MU_Schmidt 0.5175
+MU_Abbott  0.5767
+MU_Gibert  0.8780
+MU_Schmidt 0.2885
+MU_Abbott  0.6357
+MU_Gibert  0.7040
+MU_Schmidt 0.1595
+MU_Abbott  0.6907
+MU_Gibert  0.7950
+MU_Schmidt 0.6365
+MU_Gibert  0.8850
+MU_Schmidt 0.3435
+MU_Abbott  0.3257
+MU_Gibert  0.7650
+MU_Schmidt 0.3115
+MU_Abbott  0.6657
+MU_Gibert  0.7320
+MU_Schmidt 0.3115
+MU_Abbott  0.6557
+MU_Gibert  0.9000
+MU_Schmidt 0.7775
+MU_Abbott  0.4867
+MU_Gibert  0.6620
+MU_Schmidt 0.0735
+MU_Abbott  0.4517
+MU_Gibert  0.6180
+MU_Schmidt 0.3175
+MU_Abbott  0.7267
+MU_Gibert  0.9640
+MU_Schmidt 0.5215
+MU_Abbott  0.4087
+MU_Gibert  0.6640
+MU_Schmidt 0.4695
+MU_Gibert  0.8120
+MU_Schmidt 0.3425
+MU_Abbott  0.6607
+MU_Gibert  0.7970
+MU_Schmidt 0.6785
+MU_Abbott  0.7137
+MU_Gibert  0.9790
+MU_Schmidt 1.0625
+MU_Gibert  0.6420
+MU_Schmidt 0.1365
+MU_Abbott  0.4487
+MU_Gibert  0.8880
+MU_Schmidt 0.6685
+MU_Abbott  0.6267
+MU_Gibert  0.8900
+MU_Schmidt 0.9845
+MA_Abbott  0.8003
+MA_Schmidt 0.4163
+MA_Abbott  0.8373
+MA_Gibert  1.0111
+MA_Schmidt 0.3593
+MA_Gibert  1.0041
+MA_Abbott  0.4923
+MA_Gibert  0.6231
+MA_Schmidt 0.8693
+MA_Abbott  0.6903
+MA_Gibert  0.6691
+MA_Schmidt 0.7413
+MA_Abbott  0.7813
+MA_Gibert  0.9651
+MA_Schmidt 0.8183
+MA_Abbott  0.7873
+MA_Gibert  0.7841
+MA_Schmidt 0.5663
+MA_Abbott  0.7663
+MA_Gibert  0.5111
+MA_Schmidt 0.5823
+MA_Abbott  0.6343
+MA_Gibert  0.7271
+MA_Schmidt 0.4313
+MA_Abbott  0.7983
+MA_Gibert  0.9951
+MA_Schmidt 0.8123
+MA_Abbott  0.6273
+MA_Gibert  0.5811
+MA_Schmidt 0.0563
+MA_Gibert  1.1381
+MA_Schmidt 1.2003
+MA_Abbott  0.8763
+MA_Gibert  1.0751
+MA_Schmidt 0.8103
+MA_Abbott  0.6493
+MA_Gibert  0.9001
+MA_Schmidt 0.5833
+MA_Abbott  0.8973
+MA_Gibert  0.9931
+MA_Schmidt 0.7233
+MA_Abbott  0.7143
+MA_Gibert  0.7161
+MA_Schmidt 0.2143
+MA_Abbott  0.7983
+MA_Gibert  0.7071
+MA_Schmidt 0.9093
+MA_Abbott  0.7923
+MA_Gibert  0.7241
+MA_Schmidt 0.5583
+MA_Abbott  0.7653
+MA_Gibert  0.7571
+MA_Schmidt 0.3063
+MA_Abbott  0.8883
+MA_Gibert  0.9271
+MA_Schmidt 0.7343
+UM_Abbott  0.6891
+UM_Gibert  0.8414
+UM_Schmidt 0.4820
+UM_Abbott  0.6871
+UM_Gibert  0.8874
+UM_Schmidt 0.8690
+UM_Abbott  0.7191
+UM_Gibert  0.7834
+UM_Schmidt 0.8220
+UM_Abbott  0.6221
+UM_Gibert  0.7644
+UM_Schmidt 0.7600
+UM_Abbott  0.7771
+UM_Gibert  0.7714
+UM_Schmidt 0.7380
+UM_Abbott  0.7121
+UM_Gibert  0.7544
+UM_Schmidt 0.7540
+UM_Abbott  0.6771
+UM_Gibert  0.6644
+UM_Schmidt 0.4770
+UM_Abbott  0.8041
+UM_Gibert  0.8764
+UM_Schmidt 0.4800
+UM_Abbott  0.7931
+UM_Gibert  0.8494
+UM_Schmidt 1.0580
+UM_Abbott  0.6471
+UM_Gibert  0.8154
+UM_Abbott  0.6731
+UM_Gibert  0.8224
+UM_Schmidt 1.0210
+UM_Abbott  0.5411
+UM_Gibert  0.7524
+UM_Schmidt 0.7230
+UM_Abbott  0.6761
+UM_Gibert  0.8334
+UM_Schmidt 0.7890
+UM_Abbott  0.6791
+UM_Gibert  0.7084
+UM_Schmidt 0.6990
+UM_Abbott  0.6971
+UM_Gibert  0.7624
+UM_Abbott  0.9031
+UM_Gibert  1.0134
+UM_Schmidt 1.2010
+UM_Abbott  0.5761
+UM_Gibert  0.8164
+UM_Abbott  0.7451
+UM_Gibert  0.9984
+UM_Schmidt 0.5120
+KA_Abbott  0.3575
+KA_Gibert  0.7623
+KA_Schmidt 0.2723
+KA_Abbott  0.6425
+KA_Gibert  0.8743
+KA_Schmidt 0.7433
+KA_Abbott  0.5565
+KA_Gibert  0.6663
+KA_Schmidt 0.5683
+KA_Abbott  0.4055
+KA_Gibert  0.7023
+KA_Schmidt 0.1243
+KA_Abbott  0.6655
+KA_Gibert  0.9953
+KA_Schmidt 0.9533
+KA_Abbott  0.6655
+KA_Gibert  1.0233
+KA_Abbott  0.5945
+KA_Gibert  0.7953
+KA_Schmidt 0.6193
+KA_Abbott  0.5155
+KA_Gibert  0.7933
+KA_Schmidt 0.5733
+KA_Abbott  0.7225
+KA_Gibert  0.9203
+KA_Schmidt 0.6823
+KA_Abbott  0.6845
+KA_Gibert  1.0703
+KA_Schmidt 0.8123
+KA_Abbott  0.6535
+KA_Gibert  0.9083
+KA_Schmidt 0.5823
+KA_Abbott  0.4455
+KA_Gibert  0.8903
+KA_Schmidt 0.2063
+KA_Abbott  0.8805
+KA_Gibert  0.9763
+KA_Schmidt 0.4973
+KA_Gibert  1.0083
+KA_Schmidt 0.8203
+KA_Abbott  0.6065
+KA_Gibert  0.9443
+KA_Schmidt 1.0363
+KA_Abbott  0.6885
+KA_Gibert  0.7463
+KA_Schmidt 0.5863
+KA_Abbott  0.5855
+KA_Gibert  0.9053
+KA_Schmidt 0.4933
+KA_Abbott  0.5455
+KA_Gibert  0.8723
+KA_Schmidt 0.9063
+KA_Abbott  0.7355
+KA_Gibert  0.8863
+KA_Schmidt 0.4443
+KA_Abbott  0.3255
+KA_Gibert  0.5663
+KA_Schmidt 0.1403
+VA_Abbott  0.6040
+VA_Gibert  0.7513
+VA_Abbott  0.3320
+VA_Gibert  0.5673
+VA_Schmidt 0.2313
+VA_Schmidt 0.6693
+VA_Abbott  0.5890
+VA_Gibert  0.8173
+VA_Schmidt 0.6653
+VA_Abbott  0.9280
+VA_Gibert  1.0973
+VA_Schmidt 1.2373
+VA_Abbott  0.6240
+VA_Gibert  0.7273
+VA_Schmidt 0.2443
+VA_Abbott  0.6870
+VA_Gibert  0.9283
+VA_Schmidt 0.6243
+VA_Abbott  0.5350
+VA_Gibert  0.9293
+VA_Schmidt 0.8543
+VA_Abbott  0.4850
+VA_Gibert  0.6443
+VA_Schmidt 0.2383
+VA_Abbott  0.6740
+VA_Gibert  0.8983
+VA_Schmidt 1.0393
+VA_Abbott  0.7510
+VA_Gibert  0.7633
+VA_Schmidt 0.4943
+VA_Abbott  0.5590
+VA_Gibert  0.8493
+VA_Schmidt 0.2953
+VA_Abbott  0.5960
+VA_Gibert  0.7843
+VA_Schmidt 0.3393
+VA_Abbott  0.5380
+VA_Gibert  0.7013
+VA_Schmidt 0.6403
+VA_Abbott  0.6810
+VA_Gibert  0.9703
+VA_Schmidt 0.9113
+VA_Abbott  0.5000
+VA_Gibert  0.7613
+VA_Abbott  0.5970
+VA_Gibert  0.7353
+VA_Schmidt 0.5733
+VA_Abbott  0.5750
+VA_Gibert  0.7663
+VA_Schmidt 0.6743
+VA_Abbott  0.5750
+VA_Gibert  0.3703
+VA_Schmidt 0.6963
+VA_Abbott  0.7230
+VA_Gibert  0.9353
+AK_Abbott  0.7193
+AK_Gibert  0.8244
+AK_Schmidt 0.4014
+AK_Abbott  0.4873
+AK_Gibert  0.7584
+AK_Schmidt 0.4874
+AK_Abbott  0.5223
+AK_Gibert  0.7694
+AK_Schmidt 0.3094
+AK_Abbott  0.8333
+AK_Gibert  0.8274
+AK_Schmidt 0.5534
+AK_Abbott  0.7143
+AK_Gibert  0.7384
+AK_Schmidt 0.3384
+AK_Abbott  0.6843
+AK_Gibert  0.8634
+AK_Schmidt 0.4814
+AK_Abbott  0.5953
+AK_Gibert  0.7844
+AK_Schmidt 0.3144
+AK_Abbott  0.6533
+AK_Gibert  0.7364
+AK_Schmidt 0.6054
+AK_Abbott  0.3013
+AK_Gibert  0.3244
+AK_Schmidt 0.2644
+AK_Abbott  0.4743
+AK_Gibert  0.6384
+AK_Schmidt 0.2534
+AK_Abbott  0.6473
+AK_Gibert  0.7124
+AK_Schmidt 0.4474
+AK_Abbott  0.7833
+AK_Gibert  0.9554
+AK_Schmidt 0.3004
+AK_Abbott  0.7933
+AK_Gibert  1.0014
+AK_Schmidt 0.3764
+AK_Abbott  0.6093
+AK_Gibert  0.8924
+AK_Schmidt 0.3034
+AK_Abbott  0.7683
+AK_Gibert  0.8744
+AK_Schmidt 0.5564
+AK_Abbott  0.6583
+AK_Gibert  0.5274
+AK_Schmidt 0.3084
+AK_Abbott  0.5443
+AK_Gibert  0.6494
+AK_Schmidt 0.7834
+AK_Abbott  0.4653
+AK_Gibert  0.5174
+AK_Schmidt 0.2574
+AK_Abbott  0.4173
+AK_Gibert  0.5874
+AK_Schmidt 0.2574
+AK_Abbott  0.4743
+AK_Gibert  0.8474
+AK_Schmidt 0.4084
+                      95%-CI
+YE_Abbott  [ 0.3583; 0.5611]
+YE_Gibert  [ 0.6844; 0.9750]
+YE_Schmidt [ 0.3837; 0.8504]
+YE_Abbott  [ 0.5623; 0.7651]
+YE_Gibert  [ 0.6535; 0.8879]
+YE_Schmidt [ 0.3310; 0.7531]
+YE_Abbott  [ 0.1643; 0.3671]
+YE_Gibert  [ 0.4755; 0.7099]
+YE_Schmidt [-0.1620; 0.2601]
+YE_Abbott  [ 0.3863; 0.5891]
+YE_Gibert  [ 0.7145; 0.9489]
+YE_Schmidt [-0.0610; 0.3611]
+YE_Abbott  [ 0.4853; 0.6881]
+YE_Gibert  [ 0.7905; 1.0249]
+YE_Schmidt [ 0.5877; 1.0544]
+YE_Abbott  [ 0.5778; 0.7837]
+YE_Gibert  [ 0.6484; 0.9390]
+YE_Schmidt [ 0.7000; 1.1221]
+YE_Abbott  [ 0.7353; 0.9381]
+YE_Gibert  [ 0.7965; 1.0469]
+YE_Schmidt [ 0.4710; 0.8931]
+YE_Abbott  [ 0.6333; 0.8361]
+YE_Gibert  [ 0.7835; 1.0179]
+YE_Schmidt [ 0.7990; 1.2211]
+YE_Abbott  [ 0.6383; 0.8411]
+YE_Gibert  [ 0.6545; 0.8889]
+YE_Schmidt [ 0.2210; 0.6431]
+YE_Abbott  [ 0.4404; 0.6371]
+YE_Gibert  [ 0.5935; 0.8279]
+YE_Schmidt [ 0.5868; 1.0373]
+YE_Abbott  [ 0.4328; 0.6387]
+YE_Gibert  [ 0.7277; 0.9717]
+YE_Schmidt [ 0.2987; 0.7654]
+YE_Abbott  [ 0.4843; 0.6871]
+YE_Gibert  [ 0.5975; 0.8319]
+YE_Schmidt [ 0.3920; 0.8141]
+YE_Abbott  [ 0.3783; 0.5811]
+YE_Gibert  [ 0.6145; 0.8489]
+YE_Schmidt [-0.1030; 0.3191]
+YE_Abbott  [ 0.5203; 0.7231]
+YE_Gibert  [ 0.6335; 0.8679]
+YE_Schmidt [ 0.6248; 1.0753]
+YE_Abbott  [ 0.4108; 0.6167]
+YE_Gibert  [ 0.2945; 0.5289]
+YE_Schmidt [-0.0210; 0.4011]
+YE_Abbott  [ 0.6588; 0.8647]
+YE_Gibert  [ 0.7065; 0.9409]
+YE_Schmidt [ 0.7820; 1.2041]
+YE_Abbott  [ 0.5293; 0.7321]
+YE_Gibert  [ 0.8198; 1.0156]
+YE_Schmidt [ 0.1290; 0.5511]
+YE_Abbott  [ 0.2268; 0.4327]
+YE_Gibert  [ 0.2825; 0.5169]
+YE_Schmidt [ 0.0717; 0.5384]
+YE_Abbott  [ 0.4903; 0.6931]
+YE_Gibert  [ 0.6535; 0.8879]
+YE_Schmidt [ 0.0310; 0.4531]
+YE_Abbott  [ 0.6073; 0.8101]
+YE_Gibert  [ 0.7335; 0.9679]
+YE_Schmidt [ 0.4810; 0.9031]
+RE_Abbott  [ 0.4503; 0.6564]
+RE_Gibert  [ 0.6112; 0.8551]
+RE_Abbott  [ 0.6243; 0.8363]
+RE_Gibert  [ 0.6052; 0.8491]
+RE_Schmidt [ 0.0532; 0.5086]
+RE_Abbott  [ 0.6013; 0.8074]
+RE_Gibert  [ 0.6662; 0.9101]
+RE_Schmidt [ 0.9382; 1.3936]
+RE_Abbott  [ 0.6923; 0.9043]
+RE_Gibert  [ 0.7912; 1.0351]
+RE_Schmidt [ 0.5852; 1.0406]
+RE_Abbott  [ 0.6643; 0.8763]
+RE_Gibert  [ 0.7622; 1.0061]
+RE_Schmidt [ 0.5184; 1.0154]
+RE_Abbott  [ 0.4518; 0.6668]
+RE_Gibert  [ 0.5082; 0.7521]
+RE_Schmidt [-0.1088; 0.3466]
+RE_Abbott  [ 0.6803; 0.8864]
+RE_Gibert  [ 0.6992; 0.9431]
+RE_Schmidt [ 0.2762; 0.7316]
+RE_Abbott  [ 0.6793; 0.8913]
+RE_Gibert  [ 0.6922; 0.9361]
+RE_Schmidt [ 0.0340; 0.5158]
+RE_Abbott  [ 0.5753; 0.7873]
+RE_Gibert  [ 0.7152; 0.9591]
+RE_Schmidt [ 0.7102; 1.1656]
+RE_Abbott  [ 0.7653; 0.9714]
+RE_Gibert  [ 0.8112; 1.0551]
+RE_Schmidt [ 0.4032; 0.8586]
+RE_Abbott  [ 0.3547; 0.5820]
+RE_Gibert  [ 0.4282; 0.6721]
+RE_Schmidt [-0.1855; 0.3333]
+RE_Abbott  [ 0.5003; 0.7123]
+RE_Gibert  [ 0.6772; 0.9211]
+RE_Schmidt [ 0.2162; 0.6716]
+RE_Abbott  [ 0.5158; 0.7308]
+RE_Gibert  [ 0.7752; 1.0191]
+RE_Schmidt [ 0.1042; 0.6516]
+RE_Abbott  [ 0.6563; 0.8683]
+RE_Gibert  [ 0.8512; 1.0951]
+RE_Schmidt [ 0.4052; 0.8606]
+RE_Abbott  [ 0.7138; 0.9288]
+RE_Gibert  [ 0.7935; 1.0008]
+RE_Schmidt [ 0.0152; 0.4706]
+RE_Abbott  [ 0.6483; 0.8603]
+RE_Gibert  [ 0.8972; 1.1411]
+GI_Abbott  [ 0.3658; 0.5842]
+GI_Gibert  [ 0.3031; 0.5503]
+GI_Schmidt [-0.1243; 0.3388]
+GI_Abbott  [ 0.2877; 0.5003]
+GI_Gibert  [ 0.5952; 0.8063]
+GI_Schmidt [-0.1963; 0.2668]
+GI_Abbott  [ 0.6448; 0.8632]
+GI_Gibert  [ 0.6471; 0.8943]
+GI_Schmidt [-0.1543; 0.3088]
+GI_Abbott  [ 0.4864; 0.7076]
+GI_Gibert  [ 0.6081; 0.8553]
+GI_Schmidt [ 0.1967; 0.6598]
+GI_Gibert  [ 0.6121; 0.8593]
+GI_Schmidt [ 0.1567; 0.6198]
+GI_Abbott  [ 0.3708; 0.5892]
+GI_Gibert  [ 0.4611; 0.7083]
+GI_Schmidt [ 0.0637; 0.5268]
+GI_Abbott  [ 0.6888; 0.9072]
+GI_Gibert  [ 0.7711; 1.0183]
+GI_Schmidt [ 0.6427; 1.1058]
+GI_Abbott  [ 0.5737; 0.7863]
+GI_Gibert  [ 0.6311; 0.8783]
+GI_Schmidt [ 0.2047; 0.6678]
+GI_Abbott  [ 0.4358; 0.6542]
+GI_Gibert  [ 0.5821; 0.8293]
+GI_Schmidt [-0.2075; 0.3179]
+GI_Abbott  [ 0.4064; 0.6396]
+GI_Gibert  [ 0.5651; 0.8123]
+GI_Abbott  [ 0.6918; 0.9102]
+GI_Gibert  [ 0.7381; 0.9853]
+GI_Schmidt [ 0.7287; 1.1918]
+GI_Abbott  [ 0.7178; 0.9362]
+GI_Gibert  [ 0.8601; 1.1073]
+GI_Abbott  [ 0.5768; 0.7952]
+GI_Gibert  [ 0.7521; 0.9993]
+GI_Schmidt [ 0.2697; 0.7588]
+GI_Abbott  [ 0.1468; 0.3652]
+GI_Gibert  [ 0.4861; 0.7333]
+GI_Schmidt [ 0.2817; 0.7448]
+GI_Abbott  [ 0.4208; 0.6392]
+GI_Gibert  [ 0.6461; 0.8933]
+GI_Schmidt [ 0.1115; 0.6369]
+MU_Abbott  [ 0.5670; 0.7763]
+MU_Gibert  [ 0.9180; 1.1519]
+MU_Schmidt [ 0.3427; 0.7642]
+MU_Abbott  [ 0.4905; 0.7028]
+MU_Gibert  [ 0.5610; 0.7949]
+MU_Schmidt [ 0.4667; 0.8882]
+MU_Abbott  [ 0.3900; 0.5993]
+MU_Gibert  [ 0.6930; 0.9269]
+MU_Schmidt [ 0.3067; 0.7282]
+MU_Abbott  [ 0.4720; 0.6813]
+MU_Gibert  [ 0.7610; 0.9949]
+MU_Schmidt [ 0.0777; 0.4992]
+MU_Abbott  [ 0.5310; 0.7403]
+MU_Gibert  [ 0.5870; 0.8209]
+MU_Schmidt [-0.0513; 0.3702]
+MU_Abbott  [ 0.5860; 0.7953]
+MU_Gibert  [ 0.6780; 0.9119]
+MU_Schmidt [ 0.4257; 0.8472]
+MU_Gibert  [ 0.7680; 1.0019]
+MU_Schmidt [ 0.1327; 0.5542]
+MU_Abbott  [ 0.2210; 0.4303]
+MU_Gibert  [ 0.6480; 0.8819]
+MU_Schmidt [ 0.1007; 0.5222]
+MU_Abbott  [ 0.5610; 0.7703]
+MU_Gibert  [ 0.6150; 0.8489]
+MU_Schmidt [ 0.1007; 0.5222]
+MU_Abbott  [ 0.5555; 0.7558]
+MU_Gibert  [ 0.7782; 1.0217]
+MU_Schmidt [ 0.5667; 0.9882]
+MU_Abbott  [ 0.3820; 0.5913]
+MU_Gibert  [ 0.5643; 0.7596]
+MU_Schmidt [-0.1373; 0.2842]
+MU_Abbott  [ 0.3470; 0.5563]
+MU_Gibert  [ 0.5010; 0.7349]
+MU_Schmidt [ 0.0844; 0.5505]
+MU_Abbott  [ 0.6220; 0.8313]
+MU_Gibert  [ 0.8470; 1.0809]
+MU_Schmidt [ 0.3107; 0.7322]
+MU_Abbott  [ 0.3070; 0.5103]
+MU_Gibert  [ 0.5470; 0.7809]
+MU_Schmidt [ 0.2587; 0.6802]
+MU_Gibert  [ 0.6950; 0.9289]
+MU_Schmidt [ 0.1317; 0.5532]
+MU_Abbott  [ 0.5560; 0.7653]
+MU_Gibert  [ 0.6800; 0.9139]
+MU_Schmidt [ 0.4677; 0.8892]
+MU_Abbott  [ 0.6120; 0.8153]
+MU_Gibert  [ 0.8620; 1.0959]
+MU_Schmidt [ 0.8517; 1.2732]
+MU_Gibert  [ 0.5250; 0.7589]
+MU_Schmidt [-0.0743; 0.3472]
+MU_Abbott  [ 0.3440; 0.5533]
+MU_Gibert  [ 0.7710; 1.0049]
+MU_Schmidt [ 0.4577; 0.8792]
+MU_Abbott  [ 0.5220; 0.7313]
+MU_Gibert  [ 0.7730; 1.0069]
+MU_Schmidt [ 0.7737; 1.1952]
+MA_Abbott  [ 0.6968; 0.9038]
+MA_Schmidt [ 0.2033; 0.6294]
+MA_Abbott  [ 0.7368; 0.9377]
+MA_Gibert  [ 0.8930; 1.1292]
+MA_Schmidt [ 0.1463; 0.5724]
+MA_Gibert  [ 0.8860; 1.1222]
+MA_Abbott  [ 0.3918; 0.5927]
+MA_Gibert  [ 0.5050; 0.7412]
+MA_Schmidt [ 0.6563; 1.0824]
+MA_Abbott  [ 0.5853; 0.7953]
+MA_Gibert  [ 0.5510; 0.7872]
+MA_Schmidt [ 0.5283; 0.9544]
+MA_Abbott  [ 0.6763; 0.8863]
+MA_Gibert  [ 0.8470; 1.0832]
+MA_Schmidt [ 0.6053; 1.0314]
+MA_Abbott  [ 0.6868; 0.8877]
+MA_Gibert  [ 0.6660; 0.9022]
+MA_Schmidt [ 0.3533; 0.7794]
+MA_Abbott  [ 0.6658; 0.8667]
+MA_Gibert  [ 0.3930; 0.6292]
+MA_Schmidt [ 0.3693; 0.7954]
+MA_Abbott  [ 0.5293; 0.7393]
+MA_Gibert  [ 0.6090; 0.8452]
+MA_Schmidt [ 0.2183; 0.6444]
+MA_Abbott  [ 0.6978; 0.8987]
+MA_Gibert  [ 0.8770; 1.1132]
+MA_Schmidt [ 0.5337; 1.0910]
+MA_Abbott  [ 0.5223; 0.7323]
+MA_Gibert  [ 0.4630; 0.6992]
+MA_Schmidt [-0.1567; 0.2694]
+MA_Gibert  [ 1.0200; 1.2562]
+MA_Schmidt [ 0.9873; 1.4134]
+MA_Abbott  [ 0.7713; 0.9813]
+MA_Gibert  [ 0.9761; 1.1741]
+MA_Schmidt [ 0.5911; 1.0296]
+MA_Abbott  [ 0.5443; 0.7543]
+MA_Gibert  [ 0.7625; 1.0377]
+MA_Schmidt [ 0.3703; 0.7964]
+MA_Abbott  [ 0.7968; 0.9977]
+MA_Gibert  [ 0.8750; 1.1112]
+MA_Schmidt [ 0.5103; 0.9364]
+MA_Abbott  [ 0.6093; 0.8193]
+MA_Gibert  [ 0.5980; 0.8342]
+MA_Schmidt [ 0.0013; 0.4274]
+MA_Abbott  [ 0.6933; 0.9033]
+MA_Gibert  [ 0.5890; 0.8252]
+MA_Schmidt [ 0.6963; 1.1224]
+MA_Abbott  [ 0.6873; 0.8973]
+MA_Gibert  [ 0.6060; 0.8422]
+MA_Schmidt [ 0.3453; 0.7714]
+MA_Abbott  [ 0.6648; 0.8657]
+MA_Gibert  [ 0.6390; 0.8752]
+MA_Schmidt [ 0.0933; 0.5194]
+MA_Abbott  [ 0.7833; 0.9933]
+MA_Gibert  [ 0.8090; 1.0452]
+MA_Schmidt [ 0.5213; 0.9474]
+UM_Abbott  [ 0.5856; 0.7925]
+UM_Gibert  [ 0.7221; 0.9606]
+UM_Schmidt [ 0.2584; 0.7056]
+UM_Abbott  [ 0.5836; 0.7905]
+UM_Gibert  [ 0.7681; 1.0066]
+UM_Schmidt [ 0.6454; 1.0926]
+UM_Abbott  [ 0.6156; 0.8225]
+UM_Gibert  [ 0.6641; 0.9026]
+UM_Schmidt [ 0.5984; 1.0456]
+UM_Abbott  [ 0.5216; 0.7225]
+UM_Gibert  [ 0.6451; 0.8836]
+UM_Schmidt [ 0.5364; 0.9836]
+UM_Abbott  [ 0.6736; 0.8805]
+UM_Gibert  [ 0.6521; 0.8906]
+UM_Schmidt [ 0.4822; 0.9938]
+UM_Abbott  [ 0.6086; 0.8155]
+UM_Gibert  [ 0.6351; 0.8736]
+UM_Schmidt [ 0.5304; 0.9776]
+UM_Abbott  [ 0.5736; 0.7805]
+UM_Gibert  [ 0.5451; 0.7836]
+UM_Schmidt [ 0.2534; 0.7006]
+UM_Abbott  [ 0.7006; 0.9075]
+UM_Gibert  [ 0.7571; 0.9956]
+UM_Schmidt [ 0.2564; 0.7036]
+UM_Abbott  [ 0.6926; 0.8935]
+UM_Gibert  [ 0.7301; 0.9686]
+UM_Schmidt [ 0.8344; 1.2816]
+UM_Abbott  [ 0.5436; 0.7505]
+UM_Gibert  [ 0.6961; 0.9346]
+UM_Abbott  [ 0.5696; 0.7765]
+UM_Gibert  [ 0.7031; 0.9416]
+UM_Schmidt [ 0.7974; 1.2446]
+UM_Abbott  [ 0.4406; 0.6415]
+UM_Gibert  [ 0.6331; 0.8716]
+UM_Schmidt [ 0.4994; 0.9466]
+UM_Abbott  [ 0.5756; 0.7765]
+UM_Gibert  [ 0.7141; 0.9526]
+UM_Schmidt [ 0.5654; 1.0126]
+UM_Abbott  [ 0.5756; 0.7825]
+UM_Gibert  [ 0.5891; 0.8276]
+UM_Schmidt [ 0.4754; 0.9226]
+UM_Abbott  [ 0.5936; 0.8005]
+UM_Gibert  [ 0.6431; 0.8816]
+UM_Abbott  [ 0.7981; 1.0080]
+UM_Gibert  [ 0.9130; 1.1137]
+UM_Schmidt [ 0.9774; 1.4246]
+UM_Abbott  [ 0.4711; 0.6810]
+UM_Gibert  [ 0.6971; 0.9356]
+UM_Abbott  [ 0.6416; 0.8485]
+UM_Gibert  [ 0.8791; 1.1176]
+UM_Schmidt [ 0.2884; 0.7356]
+KA_Abbott  [ 0.2551; 0.4598]
+KA_Gibert  [ 0.6454; 0.8793]
+KA_Schmidt [ 0.0596; 0.4851]
+KA_Abbott  [ 0.5401; 0.7448]
+KA_Gibert  [ 0.7574; 0.9913]
+KA_Schmidt [ 0.5306; 0.9561]
+KA_Abbott  [ 0.4525; 0.6604]
+KA_Gibert  [ 0.5687; 0.7640]
+KA_Schmidt [ 0.3556; 0.7811]
+KA_Abbott  [ 0.3015; 0.5094]
+KA_Gibert  [ 0.5854; 0.8193]
+KA_Schmidt [-0.0884; 0.3371]
+KA_Abbott  [ 0.5631; 0.7678]
+KA_Gibert  [ 0.8784; 1.1123]
+KA_Schmidt [ 0.7406; 1.1661]
+KA_Abbott  [ 0.5631; 0.7678]
+KA_Gibert  [ 0.9064; 1.1403]
+KA_Abbott  [ 0.4921; 0.6968]
+KA_Gibert  [ 0.6784; 0.9123]
+KA_Schmidt [ 0.4066; 0.8321]
+KA_Abbott  [ 0.4131; 0.6178]
+KA_Gibert  [ 0.6764; 0.9103]
+KA_Schmidt [ 0.3606; 0.7861]
+KA_Abbott  [ 0.6201; 0.8248]
+KA_Gibert  [ 0.8034; 1.0373]
+KA_Schmidt [ 0.4696; 0.8951]
+KA_Abbott  [ 0.5821; 0.7868]
+KA_Gibert  [ 0.9534; 1.1873]
+KA_Schmidt [ 0.5996; 1.0251]
+KA_Abbott  [ 0.5495; 0.7574]
+KA_Gibert  [ 0.7914; 1.0253]
+KA_Schmidt [ 0.3696; 0.7951]
+KA_Abbott  [ 0.3431; 0.5478]
+KA_Gibert  [ 0.7734; 1.0073]
+KA_Schmidt [-0.0064; 0.4191]
+KA_Abbott  [ 0.7781; 0.9828]
+KA_Gibert  [ 0.8594; 1.0933]
+KA_Schmidt [ 0.2846; 0.7101]
+KA_Gibert  [ 0.8914; 1.1253]
+KA_Schmidt [ 0.6076; 1.0331]
+KA_Abbott  [ 0.5071; 0.7058]
+KA_Gibert  [ 0.8274; 1.0613]
+KA_Schmidt [ 0.8236; 1.2491]
+KA_Abbott  [ 0.5861; 0.7908]
+KA_Gibert  [ 0.6294; 0.8633]
+KA_Schmidt [ 0.3736; 0.7991]
+KA_Abbott  [ 0.4831; 0.6878]
+KA_Gibert  [ 0.7884; 1.0223]
+KA_Schmidt [ 0.2806; 0.7061]
+KA_Abbott  [ 0.4431; 0.6478]
+KA_Gibert  [ 0.7554; 0.9893]
+KA_Schmidt [ 0.6936; 1.1191]
+KA_Abbott  [ 0.6331; 0.8378]
+KA_Gibert  [ 0.7694; 1.0033]
+KA_Schmidt [ 0.2316; 0.6571]
+KA_Abbott  [ 0.2231; 0.4278]
+KA_Gibert  [ 0.4494; 0.6833]
+KA_Schmidt [-0.0724; 0.3531]
+VA_Abbott  [ 0.5017; 0.7063]
+VA_Gibert  [ 0.6333; 0.8694]
+VA_Abbott  [ 0.2297; 0.4343]
+VA_Gibert  [ 0.4493; 0.6854]
+VA_Schmidt [ 0.0137; 0.4489]
+VA_Schmidt [ 0.4517; 0.8869]
+VA_Abbott  [ 0.4867; 0.6913]
+VA_Gibert  [ 0.6993; 0.9354]
+VA_Schmidt [ 0.4477; 0.8829]
+VA_Abbott  [ 0.8257; 1.0303]
+VA_Gibert  [ 0.9793; 1.2154]
+VA_Schmidt [ 1.0197; 1.4549]
+VA_Abbott  [ 0.5248; 0.7233]
+VA_Gibert  [ 0.6093; 0.8454]
+VA_Schmidt [ 0.0267; 0.4619]
+VA_Abbott  [ 0.5847; 0.7893]
+VA_Gibert  [ 0.8103; 1.0464]
+VA_Schmidt [ 0.4067; 0.8419]
+VA_Abbott  [ 0.4358; 0.6343]
+VA_Gibert  [ 0.8113; 1.0474]
+VA_Schmidt [ 0.6367; 1.0719]
+VA_Abbott  [ 0.3858; 0.5843]
+VA_Gibert  [ 0.5263; 0.7624]
+VA_Schmidt [ 0.0207; 0.4559]
+VA_Abbott  [ 0.5717; 0.7763]
+VA_Gibert  [ 0.7994; 0.9973]
+VA_Schmidt [ 0.8079; 1.2707]
+VA_Abbott  [ 0.6472; 0.8549]
+VA_Gibert  [ 0.6453; 0.8814]
+VA_Schmidt [ 0.2767; 0.7119]
+VA_Abbott  [ 0.4598; 0.6583]
+VA_Gibert  [ 0.7313; 0.9674]
+VA_Schmidt [ 0.0777; 0.5129]
+VA_Abbott  [ 0.4968; 0.6953]
+VA_Gibert  [ 0.6663; 0.9024]
+VA_Schmidt [ 0.1217; 0.5569]
+VA_Abbott  [ 0.4388; 0.6373]
+VA_Gibert  [ 0.5833; 0.8194]
+VA_Schmidt [ 0.4227; 0.8579]
+VA_Abbott  [ 0.5818; 0.7803]
+VA_Gibert  [ 0.8523; 1.0884]
+VA_Schmidt [ 0.6937; 1.1289]
+VA_Abbott  [ 0.3977; 0.6023]
+VA_Gibert  [ 0.6433; 0.8794]
+VA_Abbott  [ 0.4978; 0.6963]
+VA_Gibert  [ 0.6173; 0.8534]
+VA_Schmidt [ 0.3557; 0.7909]
+VA_Abbott  [ 0.4758; 0.6743]
+VA_Gibert  [ 0.6483; 0.8844]
+VA_Schmidt [ 0.4567; 0.8919]
+VA_Abbott  [ 0.4727; 0.6773]
+VA_Gibert  [ 0.2523; 0.4884]
+VA_Schmidt [ 0.4787; 0.9139]
+VA_Abbott  [ 0.6238; 0.8223]
+VA_Gibert  [ 0.8173; 1.0534]
+AK_Abbott  [ 0.6211; 0.8175]
+AK_Gibert  [ 0.7026; 0.9461]
+AK_Schmidt [ 0.1907; 0.6121]
+AK_Abbott  [ 0.3906; 0.5839]
+AK_Gibert  [ 0.6414; 0.8754]
+AK_Schmidt [ 0.2767; 0.6981]
+AK_Abbott  [ 0.4241; 0.6205]
+AK_Gibert  [ 0.6524; 0.8864]
+AK_Schmidt [ 0.0987; 0.5201]
+AK_Abbott  [ 0.7304; 0.9361]
+AK_Gibert  [ 0.7297; 0.9251]
+AK_Schmidt [ 0.3427; 0.7641]
+AK_Abbott  [ 0.6130; 0.8155]
+AK_Gibert  [ 0.6214; 0.8554]
+AK_Schmidt [ 0.1277; 0.5491]
+AK_Abbott  [ 0.5830; 0.7855]
+AK_Gibert  [ 0.7464; 0.9804]
+AK_Schmidt [ 0.2707; 0.6921]
+AK_Abbott  [ 0.5114; 0.6791]
+AK_Gibert  [ 0.6674; 0.9014]
+AK_Schmidt [ 0.1037; 0.5251]
+AK_Abbott  [ 0.5520; 0.7545]
+AK_Gibert  [ 0.6194; 0.8534]
+AK_Schmidt [ 0.3947; 0.8161]
+AK_Abbott  [ 0.2031; 0.3995]
+AK_Gibert  [ 0.2074; 0.4414]
+AK_Schmidt [ 0.0537; 0.4751]
+AK_Abbott  [ 0.3730; 0.5755]
+AK_Gibert  [ 0.5214; 0.7554]
+AK_Schmidt [ 0.0427; 0.4641]
+AK_Abbott  [ 0.5460; 0.7485]
+AK_Gibert  [ 0.5954; 0.8294]
+AK_Schmidt [ 0.2367; 0.6581]
+AK_Abbott  [ 0.6851; 0.8815]
+AK_Gibert  [ 0.8384; 1.0724]
+AK_Schmidt [ 0.0897; 0.5111]
+AK_Abbott  [ 0.6920; 0.8945]
+AK_Gibert  [ 0.8844; 1.1184]
+AK_Schmidt [ 0.1657; 0.5871]
+AK_Abbott  [ 0.5080; 0.7105]
+AK_Gibert  [ 0.7754; 1.0094]
+AK_Schmidt [ 0.0927; 0.5141]
+AK_Abbott  [ 0.6670; 0.8695]
+AK_Gibert  [ 0.7574; 0.9914]
+AK_Schmidt [ 0.3457; 0.7671]
+AK_Abbott  [ 0.5570; 0.7595]
+AK_Gibert  [ 0.4104; 0.6444]
+AK_Schmidt [ 0.0977; 0.5191]
+AK_Abbott  [ 0.4430; 0.6455]
+AK_Gibert  [ 0.5324; 0.7664]
+AK_Schmidt [ 0.5727; 0.9941]
+AK_Abbott  [ 0.3640; 0.5665]
+AK_Gibert  [ 0.4004; 0.6344]
+AK_Schmidt [ 0.0467; 0.4681]
+AK_Abbott  [ 0.3191; 0.5155]
+AK_Gibert  [ 0.4704; 0.7044]
+AK_Schmidt [ 0.0467; 0.4681]
+AK_Abbott  [ 0.3761; 0.5725]
+AK_Gibert  [ 0.7304; 0.9644]
+AK_Schmidt [ 0.1977; 0.6191]
+           %W(random) Line
+YE_Abbott         0.2 YE11
+YE_Gibert         0.2 YE11
+YE_Schmidt        0.2 YE11
+YE_Abbott         0.2 YE13
+YE_Gibert         0.2 YE13
+YE_Schmidt        0.2 YE13
+YE_Abbott         0.2 YE14
+YE_Gibert         0.2 YE14
+YE_Schmidt        0.2 YE14
+YE_Abbott         0.2 YE15
+YE_Gibert         0.2 YE15
+YE_Schmidt        0.2 YE15
+YE_Abbott         0.2 YE19
+YE_Gibert         0.2 YE19
+YE_Schmidt        0.2 YE19
+YE_Abbott         0.2 YE20
+YE_Gibert         0.2 YE20
+YE_Schmidt        0.2 YE20
+YE_Abbott         0.2 YE21
+YE_Gibert         0.2 YE21
+YE_Schmidt        0.2 YE21
+YE_Abbott         0.2 YE22
+YE_Gibert         0.2 YE22
+YE_Schmidt        0.2 YE22
+YE_Abbott         0.2 YE23
+YE_Gibert         0.2 YE23
+YE_Schmidt        0.2 YE23
+YE_Abbott         0.2 YE24
+YE_Gibert         0.2 YE24
+YE_Schmidt        0.2 YE24
+YE_Abbott         0.2 YE26
+YE_Gibert         0.2 YE26
+YE_Schmidt        0.2 YE26
+YE_Abbott         0.2 YE27
+YE_Gibert         0.2 YE27
+YE_Schmidt        0.2 YE27
+YE_Abbott         0.2 YE33
+YE_Gibert         0.2 YE33
+YE_Schmidt        0.2 YE33
+YE_Abbott         0.2 YE40
+YE_Gibert         0.2 YE40
+YE_Schmidt        0.2 YE40
+YE_Abbott         0.2 YE41
+YE_Gibert         0.2 YE41
+YE_Schmidt        0.2 YE41
+YE_Abbott         0.2 YE48
+YE_Gibert         0.2 YE48
+YE_Schmidt        0.2 YE48
+YE_Abbott         0.2 YE49
+YE_Gibert         0.2 YE49
+YE_Schmidt        0.2 YE49
+YE_Abbott         0.2 YE51
+YE_Gibert         0.2 YE51
+YE_Schmidt        0.2 YE51
+YE_Abbott         0.2 YE69
+YE_Gibert         0.2 YE69
+YE_Schmidt        0.2 YE69
+YE_Abbott         0.2 YE80
+YE_Gibert         0.2 YE80
+YE_Schmidt        0.2 YE80
+RE_Abbott         0.2  RE1
+RE_Gibert         0.2  RE1
+RE_Abbott         0.2 RE10
+RE_Gibert         0.2 RE10
+RE_Schmidt        0.2 RE10
+RE_Abbott         0.2 RE11
+RE_Gibert         0.2 RE11
+RE_Schmidt        0.2 RE11
+RE_Abbott         0.2 RE12
+RE_Gibert         0.2 RE12
+RE_Schmidt        0.2 RE12
+RE_Abbott         0.2 RE13
+RE_Gibert         0.2 RE13
+RE_Schmidt        0.2 RE13
+RE_Abbott         0.2 RE15
+RE_Gibert         0.2 RE15
+RE_Schmidt        0.2 RE15
+RE_Abbott         0.2 RE16
+RE_Gibert         0.2 RE16
+RE_Schmidt        0.2 RE16
+RE_Abbott         0.2 RE17
+RE_Gibert         0.2 RE17
+RE_Schmidt        0.2 RE17
+RE_Abbott         0.2 RE18
+RE_Gibert         0.2 RE18
+RE_Schmidt        0.2 RE18
+RE_Abbott         0.2  RE2
+RE_Gibert         0.2  RE2
+RE_Schmidt        0.2  RE2
+RE_Abbott         0.2  RE3
+RE_Gibert         0.2  RE3
+RE_Schmidt        0.2  RE3
+RE_Abbott         0.2  RE4
+RE_Gibert         0.2  RE4
+RE_Schmidt        0.2  RE4
+RE_Abbott         0.2  RE5
+RE_Gibert         0.2  RE5
+RE_Schmidt        0.2  RE5
+RE_Abbott         0.2  RE6
+RE_Gibert         0.2  RE6
+RE_Schmidt        0.2  RE6
+RE_Abbott         0.2  RE7
+RE_Gibert         0.2  RE7
+RE_Schmidt        0.2  RE7
+RE_Abbott         0.2  RE8
+RE_Gibert         0.2  RE8
+GI_Abbott         0.2  GI1
+GI_Gibert         0.2  GI1
+GI_Schmidt        0.2  GI1
+GI_Abbott         0.2 GI10
+GI_Gibert         0.2 GI10
+GI_Schmidt        0.2 GI10
+GI_Abbott         0.2 GI11
+GI_Gibert         0.2 GI11
+GI_Schmidt        0.2 GI11
+GI_Abbott         0.2 GI12
+GI_Gibert         0.2 GI12
+GI_Schmidt        0.2 GI12
+GI_Gibert         0.2 GI13
+GI_Schmidt        0.2 GI13
+GI_Abbott         0.2 GI14
+GI_Gibert         0.2 GI14
+GI_Schmidt        0.2 GI14
+GI_Abbott         0.2 GI15
+GI_Gibert         0.2 GI15
+GI_Schmidt        0.2 GI15
+GI_Abbott         0.2  GI2
+GI_Gibert         0.2  GI2
+GI_Schmidt        0.2  GI2
+GI_Abbott         0.2  GI3
+GI_Gibert         0.2  GI3
+GI_Schmidt        0.2  GI3
+GI_Abbott         0.2  GI4
+GI_Gibert         0.2  GI4
+GI_Abbott         0.2  GI5
+GI_Gibert         0.2  GI5
+GI_Schmidt        0.2  GI5
+GI_Abbott         0.2  GI6
+GI_Gibert         0.2  GI6
+GI_Abbott         0.2  GI7
+GI_Gibert         0.2  GI7
+GI_Schmidt        0.2  GI7
+GI_Abbott         0.2  GI8
+GI_Gibert         0.2  GI8
+GI_Schmidt        0.2  GI8
+GI_Abbott         0.2  GI9
+GI_Gibert         0.2  GI9
+GI_Schmidt        0.2  GI9
+MU_Abbott         0.2  MU1
+MU_Gibert         0.2  MU1
+MU_Schmidt        0.2  MU1
+MU_Abbott         0.2 MU10
+MU_Gibert         0.2 MU10
+MU_Schmidt        0.2 MU10
+MU_Abbott         0.2 MU11
+MU_Gibert         0.2 MU11
+MU_Schmidt        0.2 MU11
+MU_Abbott         0.2 MU12
+MU_Gibert         0.2 MU12
+MU_Schmidt        0.2 MU12
+MU_Abbott         0.2 MU13
+MU_Gibert         0.2 MU13
+MU_Schmidt        0.2 MU13
+MU_Abbott         0.2 MU14
+MU_Gibert         0.2 MU14
+MU_Schmidt        0.2 MU14
+MU_Gibert         0.2 MU15
+MU_Schmidt        0.2 MU15
+MU_Abbott         0.2 MU16
+MU_Gibert         0.2 MU16
+MU_Schmidt        0.2 MU16
+MU_Abbott         0.2 MU17
+MU_Gibert         0.2 MU17
+MU_Schmidt        0.2 MU17
+MU_Abbott         0.2 MU18
+MU_Gibert         0.2 MU18
+MU_Schmidt        0.2 MU18
+MU_Abbott         0.2 MU19
+MU_Gibert         0.2 MU19
+MU_Schmidt        0.2 MU19
+MU_Abbott         0.2  MU2
+MU_Gibert         0.2  MU2
+MU_Schmidt        0.2  MU2
+MU_Abbott         0.2 MU20
+MU_Gibert         0.2 MU20
+MU_Schmidt        0.2 MU20
+MU_Abbott         0.2  MU3
+MU_Gibert         0.2  MU3
+MU_Schmidt        0.2  MU3
+MU_Gibert         0.2  MU4
+MU_Schmidt        0.2  MU4
+MU_Abbott         0.2  MU5
+MU_Gibert         0.2  MU5
+MU_Schmidt        0.2  MU5
+MU_Abbott         0.2  MU6
+MU_Gibert         0.2  MU6
+MU_Schmidt        0.2  MU6
+MU_Gibert         0.2  MU7
+MU_Schmidt        0.2  MU7
+MU_Abbott         0.2  MU8
+MU_Gibert         0.2  MU8
+MU_Schmidt        0.2  MU8
+MU_Abbott         0.2  MU9
+MU_Gibert         0.2  MU9
+MU_Schmidt        0.2  MU9
+MA_Abbott         0.2 MA12
+MA_Schmidt        0.2 MA12
+MA_Abbott         0.2 MA13
+MA_Gibert         0.2 MA13
+MA_Schmidt        0.2 MA13
+MA_Gibert         0.2 MA16
+MA_Abbott         0.2 MA18
+MA_Gibert         0.2 MA18
+MA_Schmidt        0.2 MA18
+MA_Abbott         0.2 MA19
+MA_Gibert         0.2 MA19
+MA_Schmidt        0.2 MA19
+MA_Abbott         0.2 MA20
+MA_Gibert         0.2 MA20
+MA_Schmidt        0.2 MA20
+MA_Abbott         0.2 MA21
+MA_Gibert         0.2 MA21
+MA_Schmidt        0.2 MA21
+MA_Abbott         0.2 MA23
+MA_Gibert         0.2 MA23
+MA_Schmidt        0.2 MA23
+MA_Abbott         0.2 MA26
+MA_Gibert         0.2 MA26
+MA_Schmidt        0.2 MA26
+MA_Abbott         0.2 MA27
+MA_Gibert         0.2 MA27
+MA_Schmidt        0.2 MA27
+MA_Abbott         0.2 MA28
+MA_Gibert         0.2 MA28
+MA_Schmidt        0.2 MA28
+MA_Gibert         0.2  MA3
+MA_Schmidt        0.2  MA3
+MA_Abbott         0.2 MA30
+MA_Gibert         0.2 MA30
+MA_Schmidt        0.2 MA30
+MA_Abbott         0.2 MA31
+MA_Gibert         0.2 MA31
+MA_Schmidt        0.2 MA31
+MA_Abbott         0.2 MA32
+MA_Gibert         0.2 MA32
+MA_Schmidt        0.2 MA32
+MA_Abbott         0.2 MA33
+MA_Gibert         0.2 MA33
+MA_Schmidt        0.2 MA33
+MA_Abbott         0.2  MA5
+MA_Gibert         0.2  MA5
+MA_Schmidt        0.2  MA5
+MA_Abbott         0.2  MA6
+MA_Gibert         0.2  MA6
+MA_Schmidt        0.2  MA6
+MA_Abbott         0.2  MA7
+MA_Gibert         0.2  MA7
+MA_Schmidt        0.2  MA7
+MA_Abbott         0.2  MA9
+MA_Gibert         0.2  MA9
+MA_Schmidt        0.2  MA9
+UM_Abbott         0.2 UM13
+UM_Gibert         0.2 UM13
+UM_Schmidt        0.2 UM13
+UM_Abbott         0.2 UM17
+UM_Gibert         0.2 UM17
+UM_Schmidt        0.2 UM17
+UM_Abbott         0.2 UM18
+UM_Gibert         0.2 UM18
+UM_Schmidt        0.2 UM18
+UM_Abbott         0.2  UM2
+UM_Gibert         0.2  UM2
+UM_Schmidt        0.2  UM2
+UM_Abbott         0.2 UM20
+UM_Gibert         0.2 UM20
+UM_Schmidt        0.2 UM20
+UM_Abbott         0.2 UM21
+UM_Gibert         0.2 UM21
+UM_Schmidt        0.2 UM21
+UM_Abbott         0.2 UM22
+UM_Gibert         0.2 UM22
+UM_Schmidt        0.2 UM22
+UM_Abbott         0.2 UM23
+UM_Gibert         0.2 UM23
+UM_Schmidt        0.2 UM23
+UM_Abbott         0.2 UM25
+UM_Gibert         0.2 UM25
+UM_Schmidt        0.2 UM25
+UM_Abbott         0.2 UM26
+UM_Gibert         0.2 UM26
+UM_Abbott         0.2 UM28
+UM_Gibert         0.2 UM28
+UM_Schmidt        0.2 UM28
+UM_Abbott         0.2 UM29
+UM_Gibert         0.2 UM29
+UM_Schmidt        0.2 UM29
+UM_Abbott         0.2  UM4
+UM_Gibert         0.2  UM4
+UM_Schmidt        0.2  UM4
+UM_Abbott         0.2  UM5
+UM_Gibert         0.2  UM5
+UM_Schmidt        0.2  UM5
+UM_Abbott         0.2  UM6
+UM_Gibert         0.2  UM6
+UM_Abbott         0.2  UM7
+UM_Gibert         0.2  UM7
+UM_Schmidt        0.2  UM7
+UM_Abbott         0.2  UM8
+UM_Gibert         0.2  UM8
+UM_Abbott         0.2  UM9
+UM_Gibert         0.2  UM9
+UM_Schmidt        0.2  UM9
+KA_Abbott         0.2  KA1
+KA_Gibert         0.2  KA1
+KA_Schmidt        0.2  KA1
+KA_Abbott         0.2 KA10
+KA_Gibert         0.2 KA10
+KA_Schmidt        0.2 KA10
+KA_Abbott         0.2 KA11
+KA_Gibert         0.2 KA11
+KA_Schmidt        0.2 KA11
+KA_Abbott         0.2 KA13
+KA_Gibert         0.2 KA13
+KA_Schmidt        0.2 KA13
+KA_Abbott         0.2 KA14
+KA_Gibert         0.2 KA14
+KA_Schmidt        0.2 KA14
+KA_Abbott         0.2 KA15
+KA_Gibert         0.2 KA15
+KA_Abbott         0.2 KA16
+KA_Gibert         0.2 KA16
+KA_Schmidt        0.2 KA16
+KA_Abbott         0.2 KA17
+KA_Gibert         0.2 KA17
+KA_Schmidt        0.2 KA17
+KA_Abbott         0.2 KA18
+KA_Gibert         0.2 KA18
+KA_Schmidt        0.2 KA18
+KA_Abbott         0.2  KA2
+KA_Gibert         0.2  KA2
+KA_Schmidt        0.2  KA2
+KA_Abbott         0.2 KA23
+KA_Gibert         0.2 KA23
+KA_Schmidt        0.2 KA23
+KA_Abbott         0.2 KA24
+KA_Gibert         0.2 KA24
+KA_Schmidt        0.2 KA24
+KA_Abbott         0.2 KA25
+KA_Gibert         0.2 KA25
+KA_Schmidt        0.2 KA25
+KA_Gibert         0.2 KA28
+KA_Schmidt        0.2 KA28
+KA_Abbott         0.2 KA29
+KA_Gibert         0.2 KA29
+KA_Schmidt        0.2 KA29
+KA_Abbott         0.2  KA3
+KA_Gibert         0.2  KA3
+KA_Schmidt        0.2  KA3
+KA_Abbott         0.2  KA5
+KA_Gibert         0.2  KA5
+KA_Schmidt        0.2  KA5
+KA_Abbott         0.2  KA6
+KA_Gibert         0.2  KA6
+KA_Schmidt        0.2  KA6
+KA_Abbott         0.2  KA7
+KA_Gibert         0.2  KA7
+KA_Schmidt        0.2  KA7
+KA_Abbott         0.2  KA9
+KA_Gibert         0.2  KA9
+KA_Schmidt        0.2  KA9
+VA_Abbott         0.2  VA1
+VA_Gibert         0.2  VA1
+VA_Abbott         0.2 VA11
+VA_Gibert         0.2 VA11
+VA_Schmidt        0.2 VA11
+VA_Schmidt        0.2 VA15
+VA_Abbott         0.2 VA18
+VA_Gibert         0.2 VA18
+VA_Schmidt        0.2 VA18
+VA_Abbott         0.2 VA22
+VA_Gibert         0.2 VA22
+VA_Schmidt        0.2 VA22
+VA_Abbott         0.2 VA26
+VA_Gibert         0.2 VA26
+VA_Schmidt        0.2 VA26
+VA_Abbott         0.2 VA30
+VA_Gibert         0.2 VA30
+VA_Schmidt        0.2 VA30
+VA_Abbott         0.2 VA34
+VA_Gibert         0.2 VA34
+VA_Schmidt        0.2 VA34
+VA_Abbott         0.2 VA35
+VA_Gibert         0.2 VA35
+VA_Schmidt        0.2 VA35
+VA_Abbott         0.2 VA44
+VA_Gibert         0.2 VA44
+VA_Schmidt        0.2 VA44
+VA_Abbott         0.2 VA46
+VA_Gibert         0.2 VA46
+VA_Schmidt        0.2 VA46
+VA_Abbott         0.2 VA47
+VA_Gibert         0.2 VA47
+VA_Schmidt        0.2 VA47
+VA_Abbott         0.2 VA48
+VA_Gibert         0.2 VA48
+VA_Schmidt        0.2 VA48
+VA_Abbott         0.2 VA55
+VA_Gibert         0.2 VA55
+VA_Schmidt        0.2 VA55
+VA_Abbott         0.2 VA57
+VA_Gibert         0.2 VA57
+VA_Schmidt        0.2 VA57
+VA_Abbott         0.2  VA6
+VA_Gibert         0.2  VA6
+VA_Abbott         0.2 VA66
+VA_Gibert         0.2 VA66
+VA_Schmidt        0.2 VA66
+VA_Abbott         0.2 VA67
+VA_Gibert         0.2 VA67
+VA_Schmidt        0.2 VA67
+VA_Abbott         0.2 VA71
+VA_Gibert         0.2 VA71
+VA_Schmidt        0.2 VA71
+VA_Abbott         0.2  VA9
+VA_Gibert         0.2  VA9
+AK_Abbott         0.2  AK1
+AK_Gibert         0.2  AK1
+AK_Schmidt        0.2  AK1
+AK_Abbott         0.2 AK10
+AK_Gibert         0.2 AK10
+AK_Schmidt        0.2 AK10
+AK_Abbott         0.2 AK11
+AK_Gibert         0.2 AK11
+AK_Schmidt        0.2 AK11
+AK_Abbott         0.2 AK12
+AK_Gibert         0.2 AK12
+AK_Schmidt        0.2 AK12
+AK_Abbott         0.2 AK13
+AK_Gibert         0.2 AK13
+AK_Schmidt        0.2 AK13
+AK_Abbott         0.2 AK14
+AK_Gibert         0.2 AK14
+AK_Schmidt        0.2 AK14
+AK_Abbott         0.2 AK15
+AK_Gibert         0.2 AK15
+AK_Schmidt        0.2 AK15
+AK_Abbott         0.2 AK16
+AK_Gibert         0.2 AK16
+AK_Schmidt        0.2 AK16
+AK_Abbott         0.2 AK17
+AK_Gibert         0.2 AK17
+AK_Schmidt        0.2 AK17
+AK_Abbott         0.2 AK18
+AK_Gibert         0.2 AK18
+AK_Schmidt        0.2 AK18
+AK_Abbott         0.2  AK2
+AK_Gibert         0.2  AK2
+AK_Schmidt        0.2  AK2
+AK_Abbott         0.2 AK20
+AK_Gibert         0.2 AK20
+AK_Schmidt        0.2 AK20
+AK_Abbott         0.2 AK21
+AK_Gibert         0.2 AK21
+AK_Schmidt        0.2 AK21
+AK_Abbott         0.2  AK3
+AK_Gibert         0.2  AK3
+AK_Schmidt        0.2  AK3
+AK_Abbott         0.2  AK4
+AK_Gibert         0.2  AK4
+AK_Schmidt        0.2  AK4
+AK_Abbott         0.2  AK5
+AK_Gibert         0.2  AK5
+AK_Schmidt        0.2  AK5
+AK_Abbott         0.2  AK6
+AK_Gibert         0.2  AK6
+AK_Schmidt        0.2  AK6
+AK_Abbott         0.2  AK7
+AK_Gibert         0.2  AK7
+AK_Schmidt        0.2  AK7
+AK_Abbott         0.2  AK8
+AK_Gibert         0.2  AK8
+AK_Schmidt        0.2  AK8
+AK_Abbott         0.2  AK9
+AK_Gibert         0.2  AK9
+AK_Schmidt        0.2  AK9
 
 Number of studies combined: k = 485
 
-                                      95%-CI     z
-Random effects model 0.6692 [0.6503; 0.6881] 69.52
-                     p-value
-Random effects model       0
+                           
+Random effects model 0.6692
+                               95%-CI
+Random effects model [0.6503; 0.6881]
+                         z p-value
+Random effects model 69.52       0
 
 Quantifying heterogeneity:
  tau^2 = 0.0391 [0.0357; 0.0483]; tau = 0.1978 [0.1890; 0.2198]
@@ -501,350 +1475,692 @@ Test of heterogeneity:
  4062.33  484       0
 
 Results for subgroups (random effects model):
-              k                   95%-CI   tau^2
-Line = YE11   3 0.6319 [ 0.4059; 0.8578]  0.0330
-Line = YE13   3 0.6815 [ 0.5740; 0.7890]  0.0043
-Line = YE14   3 0.3112 [ 0.0060; 0.6164]  0.0670
-Line = YE15   3 0.4976 [ 0.1175; 0.8778]  0.1071
-Line = YE19   3 0.7652 [ 0.5596; 0.9708]  0.0269
-Line = YE20   3 0.7704 [ 0.6459; 0.8949]  0.0064
-Line = YE21   3 0.8394 [ 0.7361; 0.9427]  0.0035
-Line = YE22   3 0.8634 [ 0.7107; 1.0161]  0.0130
-Line = YE23   3 0.6668 [ 0.4761; 0.8576]  0.0230
-Line = YE24   3 0.6663 [ 0.5131; 0.8195]  0.0129
-Line = YE26   3 0.6469 [ 0.4324; 0.8614]  0.0297
-Line = YE27   3 0.6381 [ 0.5433; 0.7329]  0.0025
-Line = YE33   3 0.4491 [ 0.1020; 0.7961]  0.0883
-Line = YE40   3 0.7157 [ 0.5946; 0.8369]  0.0064
-Line = YE41   3 0.3923 [ 0.2228; 0.5619]  0.0171
-Line = YE48   3 0.8271 [ 0.7253; 0.9289]  0.0034
-Line = YE49   3 0.6400 [ 0.3192; 0.9608]  0.0750
-Line = YE51   3 0.3548 [ 0.2813; 0.4282]       0
-Line = YE69   3 0.5462 [ 0.2527; 0.8396]  0.0615
-Line = YE80   3 0.7598 [ 0.6538; 0.8657]  0.0041
-Line = RE1    2 0.6402 [ 0.4640; 0.8163]  0.0128
-Line = RE10   3 0.5954 [ 0.3197; 0.8711]  0.0530
-Line = RE11   3 0.8693 [ 0.6073; 1.1312]  0.0473
-Line = RE12   3 0.8449 [ 0.7571; 0.9327]  0.0013
-Line = RE13   3 0.8151 [ 0.7252; 0.9050]  0.0014
-Line = RE15   3 0.4505 [ 0.1522; 0.7488]  0.0630
-Line = RE16   3 0.7289 [ 0.5644; 0.8935]  0.0154
-Line = RE17   3 0.6403 [ 0.3134; 0.9672]  0.0765
-Line = RE18   3 0.7967 [ 0.6553; 0.9381]  0.0100
-Line = RE2    3 0.8389 [ 0.6936; 0.9843]  0.0109
-Line = RE3    3 0.3864 [ 0.1221; 0.6507]  0.0470
-Line = RE4    3 0.6332 [ 0.4433; 0.8231]  0.0221
-Line = RE5    3 0.6521 [ 0.3703; 0.9338]  0.0540
-Line = RE6    3 0.8048 [ 0.6178; 0.9917]  0.0213
-Line = RE7    3 0.6655 [ 0.2722; 1.0588]  0.1146
-Line = RE8    2 0.8850 [ 0.6255; 1.1444]  0.0317
-Line = GI1    3 0.3586 [ 0.1561; 0.5611]  0.0257
-Line = GI10   3 0.3880 [ 0.0186; 0.7575]  0.1002
-Line = GI11   3 0.5443 [ 0.1072; 0.9815]  0.1424
-Line = GI12   3 0.6086 [ 0.4573; 0.7600]  0.0119
-Line = GI13   2 0.5763 [ 0.2369; 0.9157]  0.0514
-Line = GI14   3 0.4804 [ 0.3439; 0.6169]  0.0088
-Line = GI15   3 0.8443 [ 0.7664; 0.9222] <0.0001
-Line = GI2    3 0.6505 [ 0.4939; 0.8071]  0.0132
-Line = GI3    3 0.4516 [ 0.0844; 0.8189]  0.0974
-Line = GI4    2 0.6045 [ 0.4422; 0.7669]  0.0100
-Line = GI5    3 0.8423 [ 0.7652; 0.9195]       0
-Line = GI6    2 0.9026 [ 0.7491; 1.0561]  0.0087
-Line = GI7    3 0.7121 [ 0.5215; 0.9027]  0.0218
-Line = GI8    3 0.4538 [ 0.2309; 0.6766]  0.0323
-Line = GI9    3 0.5776 [ 0.3613; 0.7940]  0.0293
-Line = MU1    3 0.7611 [ 0.4774; 1.0447]  0.0571
-Line = MU10   3 0.6388 [ 0.5651; 0.7124]       0
-Line = MU11   3 0.6129 [ 0.4051; 0.8206]  0.0281
-Line = MU12   3 0.5900 [ 0.2625; 0.9175]  0.0780
-Line = MU13   3 0.5107 [ 0.1865; 0.8350]  0.0763
-Line = MU14   3 0.7235 [ 0.6375; 0.8095]  0.0013
-Line = MU15   2 0.6216 [ 0.0912; 1.1520]  0.1390
-Line = MU16   3 0.4726 [ 0.1763; 0.7689]  0.0628
-Line = MU17   3 0.5845 [ 0.3444; 0.8245]  0.0393
-Line = MU18   3 0.7744 [ 0.6180; 0.9307]  0.0138
-Line = MU19   3 0.4186 [ 0.0863; 0.7508]  0.0808
-Line = MU2    3 0.4829 [ 0.3255; 0.6404]  0.0136
-Line = MU20   3 0.7489 [ 0.5058; 0.9920]  0.0405
-Line = MU3    3 0.5169 [ 0.3516; 0.6823]  0.0161
-Line = MU4    2 0.5857 [ 0.1259; 1.0455]  0.1026
-Line = MU5    3 0.7168 [ 0.6174; 0.8161]  0.0030
-Line = MU6    3 0.9062 [ 0.6975; 1.1148]  0.0285
-Line = MU7    2 0.3971 [-0.0980; 0.8923]  0.1202
-Line = MU8    3 0.6673 [ 0.4061; 0.9284]  0.0476
-Line = MU9    3 0.8216 [ 0.6104; 1.0329]  0.0293
-Line = MA12   2 0.6201 [ 0.2445; 0.9956]  0.0664
-Line = MA13   3 0.7454 [ 0.3730; 1.1179]  0.1025
-Line = MA16   1 1.0041 [ 0.8860; 1.1222]      --
-Line = MA18   3 0.6438 [ 0.4409; 0.8468]  0.0266
-Line = MA19   3 0.6881 [ 0.6145; 0.7618]       0
-Line = MA20   3 0.8587 [ 0.7325; 0.9850]  0.0073
-Line = MA21   3 0.7608 [ 0.6888; 0.8329] <0.0001
-Line = MA23   3 0.6267 [ 0.4607; 0.7927]  0.0162
-Line = MA26   3 0.6199 [ 0.4733; 0.7665]  0.0115
-Line = MA27   3 0.8785 [ 0.7340; 1.0231]  0.0101
-Line = MA28   3 0.4323 [ 0.0841; 0.7805]  0.0887
-Line = MA3    2 1.1527 [ 1.0494; 1.2560]       0
-Line = MA30   3 0.9365 [ 0.7784; 1.0946]  0.0144
-Line = MA31   3 0.7183 [ 0.5308; 0.9058]  0.0214
-Line = MA32   3 0.8954 [ 0.7682; 1.0226]  0.0077
-Line = MA33   3 0.5601 [ 0.2451; 0.8751]  0.0716
-Line = MA5    3 0.7797 [ 0.6907; 0.8687]  0.0017
-Line = MA6    3 0.7231 [ 0.6186; 0.8277]  0.0037
-Line = MA7    3 0.6229 [ 0.3396; 0.9062]  0.0569
-Line = MA9    3 0.8850 [ 0.8113; 0.9586] <0.0001
-Line = UM13   3 0.6895 [ 0.5024; 0.8765]  0.0215
-Line = UM17   3 0.8029 [ 0.6614; 0.9444]  0.0102
-Line = UM18   3 0.7549 [ 0.6811; 0.8286]       0
-Line = UM2    3 0.7007 [ 0.5926; 0.8088]  0.0043
-Line = UM20   3 0.7715 [ 0.6968; 0.8462]       0
-Line = UM21   3 0.7328 [ 0.6591; 0.8066]       0
-Line = UM22   3 0.6504 [ 0.5766; 0.7242] <0.0001
-Line = UM23   3 0.7389 [ 0.5207; 0.9571]  0.0312
-Line = UM25   3 0.8666 [ 0.7454; 0.9877]  0.0064
-Line = UM26   2 0.7285 [ 0.5636; 0.8933]  0.0109
-Line = UM28   3 0.8182 [ 0.6343; 1.0021]  0.0206
-Line = UM29   3 0.6612 [ 0.5144; 0.8080]  0.0114
-Line = UM4    3 0.7569 [ 0.6435; 0.8702]  0.0051
-Line = UM5    3 0.6924 [ 0.6187; 0.7662]       0
-Line = UM6    2 0.7251 [ 0.6470; 0.8032]       0
-Line = UM7    3 1.0132 [ 0.8677; 1.1587]  0.0115
-Line = UM8    2 0.6945 [ 0.4590; 0.9299]  0.0256
-Line = UM9    3 0.7642 [ 0.4975; 1.0309]  0.0494
-Line = KA1    3 0.4708 [ 0.1731; 0.7685]  0.0634
-Line = KA10   3 0.7524 [ 0.6021; 0.9027]  0.0124
-Line = KA11   3 0.6071 [ 0.5214; 0.6928]  0.0018
-Line = KA13   3 0.4201 [ 0.0993; 0.7408]  0.0745
-Line = KA14   3 0.8639 [ 0.6491; 1.0788]  0.0305
-Line = KA15   2 0.8432 [ 0.4925; 1.1939]  0.0609
-Line = KA16   3 0.6750 [ 0.5375; 0.8125]  0.0096
-Line = KA17   3 0.6310 [ 0.4517; 0.8102]  0.0197
-Line = KA18   3 0.7859 [ 0.6385; 0.9333]  0.0118
-Line = KA2    3 0.8570 [ 0.6218; 1.0922]  0.0375
-Line = KA23   3 0.7250 [ 0.5303; 0.9196]  0.0240
-Line = KA24   3 0.5208 [ 0.1305; 0.9111]  0.1131
-Line = KA25   3 0.7980 [ 0.5250; 1.0709]  0.0524
-Line = KA28   2 0.9362 [ 0.7570; 1.1154]  0.0100
-Line = KA29   3 0.8521 [ 0.5930; 1.1113]  0.0468
-Line = KA3    3 0.6988 [ 0.6263; 0.7713] <0.0001
-Line = KA5    3 0.6700 [ 0.4251; 0.9149]  0.0411
-Line = KA6    3 0.7651 [ 0.5332; 0.9970]  0.0364
-Line = KA7    3 0.7027 [ 0.4620; 0.9434]  0.0396
-Line = KA9    3 0.3559 [ 0.1213; 0.5905]  0.0373
-Line = VA1    2 0.6746 [ 0.5304; 0.8188]  0.0077
-Line = VA11   3 0.3891 [ 0.1969; 0.5813]  0.0232
-Line = VA15   1 0.6693 [ 0.4517; 0.8869]      --
-Line = VA18   3 0.6916 [ 0.5418; 0.8414]  0.0122
-Line = VA22   3 1.0684 [ 0.9005; 1.2363]  0.0165
-Line = VA26   3 0.5459 [ 0.2729; 0.8189]  0.0524
-Line = VA30   3 0.7574 [ 0.5746; 0.9402]  0.0205
-Line = VA34   3 0.7664 [ 0.5173; 1.0155]  0.0427
-Line = VA35   3 0.4717 [ 0.2552; 0.6881]  0.0309
-Line = VA44   3 0.8534 [ 0.6512; 1.0555]  0.0263
-Line = VA46   3 0.6981 [ 0.5619; 0.8344]  0.0092
-Line = VA47   3 0.5781 [ 0.2716; 0.8845]  0.0674
-Line = VA48   3 0.5872 [ 0.3469; 0.8275]  0.0393
-Line = VA55   3 0.6196 [ 0.5045; 0.7346]  0.0055
-Line = VA57   3 0.8464 [ 0.6581; 1.0347]  0.0221
-Line = VA6    2 0.6289 [ 0.3729; 0.8850]  0.0310
-Line = VA66   3 0.6455 [ 0.5407; 0.7502]  0.0039
-Line = VA67   3 0.6679 [ 0.5383; 0.7974]  0.0081
-Line = VA71   3 0.5330 [ 0.3532; 0.7128]  0.0197
-Line = VA9    2 0.8267 [ 0.6187; 1.0347]  0.0194
-Line = AK1    3 0.6628 [ 0.4294; 0.8963]  0.0369
-Line = AK10   3 0.5840 [ 0.3995; 0.7685]  0.0213
-Line = AK11   3 0.5447 [ 0.2919; 0.7975]  0.0443
-Line = AK12   3 0.7636 [ 0.6133; 0.9140]  0.0129
-Line = AK13   3 0.6124 [ 0.3752; 0.8496]  0.0384
-Line = AK14   3 0.6907 [ 0.4862; 0.8951]  0.0272
-Line = AK15   3 0.5772 [ 0.3222; 0.8321]  0.0455
-Line = AK16   3 0.6791 [ 0.6072; 0.7511]       0
-Line = AK17   3 0.3056 [ 0.2347; 0.3764]       0
-Line = AK18   3 0.4702 [ 0.2649; 0.6755]  0.0274
-Line = AK2    3 0.6291 [ 0.5061; 0.7521]  0.0069
-Line = AK20   3 0.6889 [ 0.3140; 1.0639]  0.1041
-Line = AK21   3 0.7332 [ 0.3820; 1.0844]  0.0906
-Line = AK3    3 0.6109 [ 0.2845; 0.9373]  0.0774
-Line = AK4    3 0.7528 [ 0.5906; 0.9149]  0.0153
-Line = AK5    3 0.5164 [ 0.3300; 0.7028]  0.0217
-Line = AK6    3 0.6336 [ 0.5143; 0.7530]  0.0063
-Line = AK7    3 0.4417 [ 0.3223; 0.5610]  0.0063
-Line = AK8    3 0.4362 [ 0.2618; 0.6107]  0.0185
-Line = AK9    3 0.5834 [ 0.3136; 0.8532]  0.0512
-               tau     Q   I^2
-Line = YE11 0.1816 16.83 88.1%
-Line = YE13 0.0658  3.97 49.6%
-Line = YE14 0.2589 26.79 92.5%
-Line = YE15 0.3272 36.84 94.6%
-Line = YE19 0.1641 17.07 88.3%
-Line = YE20 0.0803  4.30 53.5%
-Line = YE21 0.0592  3.75 46.7%
-Line = YE22 0.1140  7.58 73.6%
-Line = YE23 0.1516  8.03 75.1%
-Line = YE24 0.1137  7.64 73.8%
-Line = YE26 0.1722 16.01 87.5%
-Line = YE27 0.0502  2.77 27.8%
-Line = YE33 0.2971 27.68 92.8%
-Line = YE40 0.0799  4.69 57.4%
-Line = YE41 0.1307  7.57 73.6%
-Line = YE48 0.0586  3.78 47.1%
-Line = YE49 0.2739 30.89 93.5%
-Line = YE51      0  0.97  0.0%
-Line = YE69 0.2481 18.97 89.5%
-Line = YE80 0.0639  3.68 45.7%
-Line = RE1  0.1133  4.87 79.5%
-Line = RE10 0.2301 13.24 84.9%
-Line = RE11 0.2175 13.10 84.7%
-Line = RE12 0.0360  2.02  0.9%
-Line = RE13 0.0378  2.06  2.9%
-Line = RE15 0.2510 15.35 87.0%
-Line = RE16 0.1239  5.98 66.6%
-Line = RE17 0.2766 16.42 87.8%
-Line = RE18 0.1000  5.94 66.3%
-Line = RE2  0.1044  5.26 62.0%
-Line = RE3  0.2169 10.61 81.1%
-Line = RE4  0.1487  9.44 78.8%
-Line = RE5  0.2325 17.18 88.4%
-Line = RE6  0.1458  9.73 79.4%
-Line = RE7  0.3385 26.52 92.5%
-Line = RE8  0.1779 10.31 90.3%
-Line = GI1  0.1602  7.98 74.9%
-Line = GI10 0.3166 33.19 94.0%
-Line = GI11 0.3774 29.85 93.3%
-Line = GI12 0.1092  5.86 65.9%
-Line = GI13 0.2267  6.73 85.1%
-Line = GI14 0.0938  4.94 59.5%
-Line = GI15 0.0084  1.39  0.0%
-Line = GI2  0.1150  5.66 64.7%
-Line = GI3  0.3121 19.57 89.8%
-Line = GI4  0.0999  3.65 72.6%
-Line = GI5       0  1.64  0.0%
-Line = GI6  0.0935  3.47 71.2%
-Line = GI7  0.1476  8.84 77.4%
-Line = GI8  0.1798 18.33 89.1%
-Line = GI9  0.1712 11.57 82.7%
-Line = MU1  0.2389 26.54 92.5%
-Line = MU10      0  1.17  0.0%
-Line = MU11 0.1677 16.55 87.9%
-Line = MU12 0.2792 27.71 92.8%
-Line = MU13 0.2762 20.25 90.1%
-Line = MU14 0.0367  2.47 18.9%
-Line = MU15 0.3729 19.39 94.8%
-Line = MU16 0.2506 33.44 94.0%
-Line = MU17 0.1983 11.88 83.2%
-Line = MU18 0.1174  9.26 78.4%
-Line = MU19 0.2842 25.70 92.2%
-Line = MU2  0.1167  7.07 71.7%
-Line = MU20 0.2012 16.12 87.6%
-Line = MU3  0.1267 10.61 81.2%
-Line = MU4  0.3204 14.57 93.1%
-Line = MU5  0.0552  3.04 34.1%
-Line = MU6  0.1688 15.47 87.1%
-Line = MU7  0.3467 16.89 94.1%
-Line = MU8  0.2181 30.15 93.4%
-Line = MU9  0.1711 15.22 86.9%
-Line = MA12 0.2577 10.10 90.1%
-Line = MA13 0.3201 27.58 92.7%
-Line = MA16     --  0.00    --
-Line = MA18 0.1631 10.52 81.0%
-Line = MA19      0  0.34  0.0%
-Line = MA20 0.0857  5.34 62.6%
-Line = MA21 0.0002  3.62 44.7%
-Line = MA23 0.1272 10.85 81.6%
-Line = MA26 0.1072  5.76 65.3%
-Line = MA27 0.1007  6.41 68.8%
-Line = MA28 0.2979 22.92 91.3%
-Line = MA3       0  0.25  0.0%
-Line = MA30 0.1202  9.40 78.7%
-Line = MA31 0.1463  9.91 79.8%
-Line = MA32 0.0875  4.91 59.2%
-Line = MA33 0.2675 18.69 89.3%
-Line = MA5  0.0406  2.99 33.0%
-Line = MA6  0.0611  3.81 47.5%
-Line = MA7  0.2386 15.57 87.2%
-Line = MA9  0.0008  2.41 17.1%
-Line = UM13 0.1467  8.66 76.9%
-Line = UM17 0.1010  6.82 70.7%
-Line = UM18      0  1.03  0.0%
-Line = UM2  0.0652  3.63 44.9%
-Line = UM20      0  0.08  0.0%
-Line = UM21      0  0.31  0.0%
-Line = UM22 0.0016  2.62 23.6%
-Line = UM23 0.1767  9.44 78.8%
-Line = UM25 0.0799  4.51 55.7%
-Line = UM26 0.1045  4.37 77.1%
-Line = UM28 0.1436  8.95 77.7%
-Line = UM29 0.1069  7.67 73.9%
-Line = UM4  0.0713  4.07 50.8%
-Line = UM5       0  0.14  0.0%
-Line = UM6       0  0.66  0.0%
-Line = UM7  0.1071  6.23 67.9%
-Line = UM8  0.1600  8.79 88.6%
-Line = UM9  0.2223 17.89 88.8%
-Line = KA1  0.2518 31.17 93.6%
-Line = KA10 0.1114  8.55 76.6%
-Line = KA11 0.0425  2.45 18.2%
-Line = KA13 0.2729 26.55 92.5%
-Line = KA14 0.1745 18.87 89.4%
-Line = KA15 0.2468 20.36 95.1%
-Line = KA16 0.0982  6.71 70.2%
-Line = KA17 0.1402 12.57 84.1%
-Line = KA18 0.1084  7.42 73.0%
-Line = KA2  0.1938 23.79 91.6%
-Line = KA23 0.1551 12.72 84.3%
-Line = KA24 0.3363 45.48 95.6%
-Line = KA25 0.2290 15.00 86.7%
-Line = KA28 0.1000  2.30 56.6%
-Line = KA29 0.2163 24.89 92.0%
-Line = KA3  0.0022  1.75  0.0%
-Line = KA5  0.2028 20.27 90.1%
-Line = KA6  0.1907 20.59 90.3%
-Line = KA7  0.1989 13.16 84.8%
-Line = KA9  0.1932 15.52 87.1%
-Line = VA1  0.0876  3.42 70.7%
-Line = VA11 0.1523 11.65 82.8%
-Line = VA15     --  0.00    --
-Line = VA18 0.1104  8.24 75.7%
-Line = VA22 0.1285  8.55 76.6%
-Line = VA26 0.2288 14.64 86.3%
-Line = VA30 0.1432 11.16 82.1%
-Line = VA34 0.2065 26.87 92.6%
-Line = VA35 0.1758 11.17 82.1%
-Line = VA44 0.1621 13.62 85.3%
-Line = VA46 0.0962  4.96 59.7%
-Line = VA47 0.2597 24.28 91.8%
-Line = VA48 0.1983 13.83 85.5%
-Line = VA55 0.0740  4.39 54.5%
-Line = VA57 0.1488 14.40 86.1%
-Line = VA6  0.1760 10.75 90.7%
-Line = VA66 0.0623  3.56 43.9%
-Line = VA67 0.0898  5.94 66.3%
-Line = VA71 0.1402  9.75 79.5%
-Line = VA9  0.1394  7.28 86.3%
-Line = AK1  0.1922 11.61 82.8%
-Line = AK10 0.1459 13.19 84.8%
-Line = AK11 0.2106 17.68 88.7%
-Line = AK12 0.1135  5.96 66.5%
-Line = AK13 0.1958 11.50 82.6%
-Line = AK14 0.1648 11.13 82.0%
-Line = AK15 0.2132 15.96 87.5%
-Line = AK16      0  1.64  0.0%
-Line = AK17      0  0.25  0.0%
-Line = AK18 0.1657 10.81 81.5%
-Line = AK2  0.0832  4.65 57.0%
-Line = AK20 0.3226 28.44 93.0%
-Line = AK21 0.3009 26.53 92.5%
-Line = AK3  0.2783 26.82 92.5%
-Line = AK4  0.1236  6.87 70.9%
-Line = AK5  0.1474  9.35 78.6%
-Line = AK6  0.0791  4.65 57.0%
-Line = AK7  0.0792  4.49 55.4%
-Line = AK8  0.1360  8.84 77.4%
-Line = AK9  0.2263 26.65 92.5%
+              k       
+Line = YE11   3 0.6319
+Line = YE13   3 0.6815
+Line = YE14   3 0.3112
+Line = YE15   3 0.4976
+Line = YE19   3 0.7652
+Line = YE20   3 0.7704
+Line = YE21   3 0.8394
+Line = YE22   3 0.8634
+Line = YE23   3 0.6668
+Line = YE24   3 0.6663
+Line = YE26   3 0.6469
+Line = YE27   3 0.6381
+Line = YE33   3 0.4491
+Line = YE40   3 0.7157
+Line = YE41   3 0.3923
+Line = YE48   3 0.8271
+Line = YE49   3 0.6400
+Line = YE51   3 0.3548
+Line = YE69   3 0.5462
+Line = YE80   3 0.7598
+Line = RE1    2 0.6402
+Line = RE10   3 0.5954
+Line = RE11   3 0.8693
+Line = RE12   3 0.8449
+Line = RE13   3 0.8151
+Line = RE15   3 0.4505
+Line = RE16   3 0.7289
+Line = RE17   3 0.6403
+Line = RE18   3 0.7967
+Line = RE2    3 0.8389
+Line = RE3    3 0.3864
+Line = RE4    3 0.6332
+Line = RE5    3 0.6521
+Line = RE6    3 0.8048
+Line = RE7    3 0.6655
+Line = RE8    2 0.8850
+Line = GI1    3 0.3586
+Line = GI10   3 0.3880
+Line = GI11   3 0.5443
+Line = GI12   3 0.6086
+Line = GI13   2 0.5763
+Line = GI14   3 0.4804
+Line = GI15   3 0.8443
+Line = GI2    3 0.6505
+Line = GI3    3 0.4516
+Line = GI4    2 0.6045
+Line = GI5    3 0.8423
+Line = GI6    2 0.9026
+Line = GI7    3 0.7121
+Line = GI8    3 0.4538
+Line = GI9    3 0.5776
+Line = MU1    3 0.7611
+Line = MU10   3 0.6388
+Line = MU11   3 0.6129
+Line = MU12   3 0.5900
+Line = MU13   3 0.5107
+Line = MU14   3 0.7235
+Line = MU15   2 0.6216
+Line = MU16   3 0.4726
+Line = MU17   3 0.5845
+Line = MU18   3 0.7744
+Line = MU19   3 0.4186
+Line = MU2    3 0.4829
+Line = MU20   3 0.7489
+Line = MU3    3 0.5169
+Line = MU4    2 0.5857
+Line = MU5    3 0.7168
+Line = MU6    3 0.9062
+Line = MU7    2 0.3971
+Line = MU8    3 0.6673
+Line = MU9    3 0.8216
+Line = MA12   2 0.6201
+Line = MA13   3 0.7454
+Line = MA16   1 1.0041
+Line = MA18   3 0.6438
+Line = MA19   3 0.6881
+Line = MA20   3 0.8587
+Line = MA21   3 0.7608
+Line = MA23   3 0.6267
+Line = MA26   3 0.6199
+Line = MA27   3 0.8785
+Line = MA28   3 0.4323
+Line = MA3    2 1.1527
+Line = MA30   3 0.9365
+Line = MA31   3 0.7183
+Line = MA32   3 0.8954
+Line = MA33   3 0.5601
+Line = MA5    3 0.7797
+Line = MA6    3 0.7231
+Line = MA7    3 0.6229
+Line = MA9    3 0.8850
+Line = UM13   3 0.6895
+Line = UM17   3 0.8029
+Line = UM18   3 0.7549
+Line = UM2    3 0.7007
+Line = UM20   3 0.7715
+Line = UM21   3 0.7328
+Line = UM22   3 0.6504
+Line = UM23   3 0.7389
+Line = UM25   3 0.8666
+Line = UM26   2 0.7285
+Line = UM28   3 0.8182
+Line = UM29   3 0.6612
+Line = UM4    3 0.7569
+Line = UM5    3 0.6924
+Line = UM6    2 0.7251
+Line = UM7    3 1.0132
+Line = UM8    2 0.6945
+Line = UM9    3 0.7642
+Line = KA1    3 0.4708
+Line = KA10   3 0.7524
+Line = KA11   3 0.6071
+Line = KA13   3 0.4201
+Line = KA14   3 0.8639
+Line = KA15   2 0.8432
+Line = KA16   3 0.6750
+Line = KA17   3 0.6310
+Line = KA18   3 0.7859
+Line = KA2    3 0.8570
+Line = KA23   3 0.7250
+Line = KA24   3 0.5208
+Line = KA25   3 0.7980
+Line = KA28   2 0.9362
+Line = KA29   3 0.8521
+Line = KA3    3 0.6988
+Line = KA5    3 0.6700
+Line = KA6    3 0.7651
+Line = KA7    3 0.7027
+Line = KA9    3 0.3559
+Line = VA1    2 0.6746
+Line = VA11   3 0.3891
+Line = VA15   1 0.6693
+Line = VA18   3 0.6916
+Line = VA22   3 1.0684
+Line = VA26   3 0.5459
+Line = VA30   3 0.7574
+Line = VA34   3 0.7664
+Line = VA35   3 0.4717
+Line = VA44   3 0.8534
+Line = VA46   3 0.6981
+Line = VA47   3 0.5781
+Line = VA48   3 0.5872
+Line = VA55   3 0.6196
+Line = VA57   3 0.8464
+Line = VA6    2 0.6289
+Line = VA66   3 0.6455
+Line = VA67   3 0.6679
+Line = VA71   3 0.5330
+Line = VA9    2 0.8267
+Line = AK1    3 0.6628
+Line = AK10   3 0.5840
+Line = AK11   3 0.5447
+Line = AK12   3 0.7636
+Line = AK13   3 0.6124
+Line = AK14   3 0.6907
+Line = AK15   3 0.5772
+Line = AK16   3 0.6791
+Line = AK17   3 0.3056
+Line = AK18   3 0.4702
+Line = AK2    3 0.6291
+Line = AK20   3 0.6889
+Line = AK21   3 0.7332
+Line = AK3    3 0.6109
+Line = AK4    3 0.7528
+Line = AK5    3 0.5164
+Line = AK6    3 0.6336
+Line = AK7    3 0.4417
+Line = AK8    3 0.4362
+Line = AK9    3 0.5834
+                       95%-CI
+Line = YE11 [ 0.4059; 0.8578]
+Line = YE13 [ 0.5740; 0.7890]
+Line = YE14 [ 0.0060; 0.6164]
+Line = YE15 [ 0.1175; 0.8778]
+Line = YE19 [ 0.5596; 0.9708]
+Line = YE20 [ 0.6459; 0.8949]
+Line = YE21 [ 0.7361; 0.9427]
+Line = YE22 [ 0.7107; 1.0161]
+Line = YE23 [ 0.4761; 0.8576]
+Line = YE24 [ 0.5131; 0.8195]
+Line = YE26 [ 0.4324; 0.8614]
+Line = YE27 [ 0.5433; 0.7329]
+Line = YE33 [ 0.1020; 0.7961]
+Line = YE40 [ 0.5946; 0.8369]
+Line = YE41 [ 0.2228; 0.5619]
+Line = YE48 [ 0.7253; 0.9289]
+Line = YE49 [ 0.3192; 0.9608]
+Line = YE51 [ 0.2813; 0.4282]
+Line = YE69 [ 0.2527; 0.8396]
+Line = YE80 [ 0.6538; 0.8657]
+Line = RE1  [ 0.4640; 0.8163]
+Line = RE10 [ 0.3197; 0.8711]
+Line = RE11 [ 0.6073; 1.1312]
+Line = RE12 [ 0.7571; 0.9327]
+Line = RE13 [ 0.7252; 0.9050]
+Line = RE15 [ 0.1522; 0.7488]
+Line = RE16 [ 0.5644; 0.8935]
+Line = RE17 [ 0.3134; 0.9672]
+Line = RE18 [ 0.6553; 0.9381]
+Line = RE2  [ 0.6936; 0.9843]
+Line = RE3  [ 0.1221; 0.6507]
+Line = RE4  [ 0.4433; 0.8231]
+Line = RE5  [ 0.3703; 0.9338]
+Line = RE6  [ 0.6178; 0.9917]
+Line = RE7  [ 0.2722; 1.0588]
+Line = RE8  [ 0.6255; 1.1444]
+Line = GI1  [ 0.1561; 0.5611]
+Line = GI10 [ 0.0186; 0.7575]
+Line = GI11 [ 0.1072; 0.9815]
+Line = GI12 [ 0.4573; 0.7600]
+Line = GI13 [ 0.2369; 0.9157]
+Line = GI14 [ 0.3439; 0.6169]
+Line = GI15 [ 0.7664; 0.9222]
+Line = GI2  [ 0.4939; 0.8071]
+Line = GI3  [ 0.0844; 0.8189]
+Line = GI4  [ 0.4422; 0.7669]
+Line = GI5  [ 0.7652; 0.9195]
+Line = GI6  [ 0.7491; 1.0561]
+Line = GI7  [ 0.5215; 0.9027]
+Line = GI8  [ 0.2309; 0.6766]
+Line = GI9  [ 0.3613; 0.7940]
+Line = MU1  [ 0.4774; 1.0447]
+Line = MU10 [ 0.5651; 0.7124]
+Line = MU11 [ 0.4051; 0.8206]
+Line = MU12 [ 0.2625; 0.9175]
+Line = MU13 [ 0.1865; 0.8350]
+Line = MU14 [ 0.6375; 0.8095]
+Line = MU15 [ 0.0912; 1.1520]
+Line = MU16 [ 0.1763; 0.7689]
+Line = MU17 [ 0.3444; 0.8245]
+Line = MU18 [ 0.6180; 0.9307]
+Line = MU19 [ 0.0863; 0.7508]
+Line = MU2  [ 0.3255; 0.6404]
+Line = MU20 [ 0.5058; 0.9920]
+Line = MU3  [ 0.3516; 0.6823]
+Line = MU4  [ 0.1259; 1.0455]
+Line = MU5  [ 0.6174; 0.8161]
+Line = MU6  [ 0.6975; 1.1148]
+Line = MU7  [-0.0980; 0.8923]
+Line = MU8  [ 0.4061; 0.9284]
+Line = MU9  [ 0.6104; 1.0329]
+Line = MA12 [ 0.2445; 0.9956]
+Line = MA13 [ 0.3730; 1.1179]
+Line = MA16 [ 0.8860; 1.1222]
+Line = MA18 [ 0.4409; 0.8468]
+Line = MA19 [ 0.6145; 0.7618]
+Line = MA20 [ 0.7325; 0.9850]
+Line = MA21 [ 0.6888; 0.8329]
+Line = MA23 [ 0.4607; 0.7927]
+Line = MA26 [ 0.4733; 0.7665]
+Line = MA27 [ 0.7340; 1.0231]
+Line = MA28 [ 0.0841; 0.7805]
+Line = MA3  [ 1.0494; 1.2560]
+Line = MA30 [ 0.7784; 1.0946]
+Line = MA31 [ 0.5308; 0.9058]
+Line = MA32 [ 0.7682; 1.0226]
+Line = MA33 [ 0.2451; 0.8751]
+Line = MA5  [ 0.6907; 0.8687]
+Line = MA6  [ 0.6186; 0.8277]
+Line = MA7  [ 0.3396; 0.9062]
+Line = MA9  [ 0.8113; 0.9586]
+Line = UM13 [ 0.5024; 0.8765]
+Line = UM17 [ 0.6614; 0.9444]
+Line = UM18 [ 0.6811; 0.8286]
+Line = UM2  [ 0.5926; 0.8088]
+Line = UM20 [ 0.6968; 0.8462]
+Line = UM21 [ 0.6591; 0.8066]
+Line = UM22 [ 0.5766; 0.7242]
+Line = UM23 [ 0.5207; 0.9571]
+Line = UM25 [ 0.7454; 0.9877]
+Line = UM26 [ 0.5636; 0.8933]
+Line = UM28 [ 0.6343; 1.0021]
+Line = UM29 [ 0.5144; 0.8080]
+Line = UM4  [ 0.6435; 0.8702]
+Line = UM5  [ 0.6187; 0.7662]
+Line = UM6  [ 0.6470; 0.8032]
+Line = UM7  [ 0.8677; 1.1587]
+Line = UM8  [ 0.4590; 0.9299]
+Line = UM9  [ 0.4975; 1.0309]
+Line = KA1  [ 0.1731; 0.7685]
+Line = KA10 [ 0.6021; 0.9027]
+Line = KA11 [ 0.5214; 0.6928]
+Line = KA13 [ 0.0993; 0.7408]
+Line = KA14 [ 0.6491; 1.0788]
+Line = KA15 [ 0.4925; 1.1939]
+Line = KA16 [ 0.5375; 0.8125]
+Line = KA17 [ 0.4517; 0.8102]
+Line = KA18 [ 0.6385; 0.9333]
+Line = KA2  [ 0.6218; 1.0922]
+Line = KA23 [ 0.5303; 0.9196]
+Line = KA24 [ 0.1305; 0.9111]
+Line = KA25 [ 0.5250; 1.0709]
+Line = KA28 [ 0.7570; 1.1154]
+Line = KA29 [ 0.5930; 1.1113]
+Line = KA3  [ 0.6263; 0.7713]
+Line = KA5  [ 0.4251; 0.9149]
+Line = KA6  [ 0.5332; 0.9970]
+Line = KA7  [ 0.4620; 0.9434]
+Line = KA9  [ 0.1213; 0.5905]
+Line = VA1  [ 0.5304; 0.8188]
+Line = VA11 [ 0.1969; 0.5813]
+Line = VA15 [ 0.4517; 0.8869]
+Line = VA18 [ 0.5418; 0.8414]
+Line = VA22 [ 0.9005; 1.2363]
+Line = VA26 [ 0.2729; 0.8189]
+Line = VA30 [ 0.5746; 0.9402]
+Line = VA34 [ 0.5173; 1.0155]
+Line = VA35 [ 0.2552; 0.6881]
+Line = VA44 [ 0.6512; 1.0555]
+Line = VA46 [ 0.5619; 0.8344]
+Line = VA47 [ 0.2716; 0.8845]
+Line = VA48 [ 0.3469; 0.8275]
+Line = VA55 [ 0.5045; 0.7346]
+Line = VA57 [ 0.6581; 1.0347]
+Line = VA6  [ 0.3729; 0.8850]
+Line = VA66 [ 0.5407; 0.7502]
+Line = VA67 [ 0.5383; 0.7974]
+Line = VA71 [ 0.3532; 0.7128]
+Line = VA9  [ 0.6187; 1.0347]
+Line = AK1  [ 0.4294; 0.8963]
+Line = AK10 [ 0.3995; 0.7685]
+Line = AK11 [ 0.2919; 0.7975]
+Line = AK12 [ 0.6133; 0.9140]
+Line = AK13 [ 0.3752; 0.8496]
+Line = AK14 [ 0.4862; 0.8951]
+Line = AK15 [ 0.3222; 0.8321]
+Line = AK16 [ 0.6072; 0.7511]
+Line = AK17 [ 0.2347; 0.3764]
+Line = AK18 [ 0.2649; 0.6755]
+Line = AK2  [ 0.5061; 0.7521]
+Line = AK20 [ 0.3140; 1.0639]
+Line = AK21 [ 0.3820; 1.0844]
+Line = AK3  [ 0.2845; 0.9373]
+Line = AK4  [ 0.5906; 0.9149]
+Line = AK5  [ 0.3300; 0.7028]
+Line = AK6  [ 0.5143; 0.7530]
+Line = AK7  [ 0.3223; 0.5610]
+Line = AK8  [ 0.2618; 0.6107]
+Line = AK9  [ 0.3136; 0.8532]
+              tau^2    tau     Q
+Line = YE11  0.0330 0.1816 16.83
+Line = YE13  0.0043 0.0658  3.97
+Line = YE14  0.0670 0.2589 26.79
+Line = YE15  0.1071 0.3272 36.84
+Line = YE19  0.0269 0.1641 17.07
+Line = YE20  0.0064 0.0803  4.30
+Line = YE21  0.0035 0.0592  3.75
+Line = YE22  0.0130 0.1140  7.58
+Line = YE23  0.0230 0.1516  8.03
+Line = YE24  0.0129 0.1137  7.64
+Line = YE26  0.0297 0.1722 16.01
+Line = YE27  0.0025 0.0502  2.77
+Line = YE33  0.0883 0.2971 27.68
+Line = YE40  0.0064 0.0799  4.69
+Line = YE41  0.0171 0.1307  7.57
+Line = YE48  0.0034 0.0586  3.78
+Line = YE49  0.0750 0.2739 30.89
+Line = YE51       0      0  0.97
+Line = YE69  0.0615 0.2481 18.97
+Line = YE80  0.0041 0.0639  3.68
+Line = RE1   0.0128 0.1133  4.87
+Line = RE10  0.0530 0.2301 13.24
+Line = RE11  0.0473 0.2175 13.10
+Line = RE12  0.0013 0.0360  2.02
+Line = RE13  0.0014 0.0378  2.06
+Line = RE15  0.0630 0.2510 15.35
+Line = RE16  0.0154 0.1239  5.98
+Line = RE17  0.0765 0.2766 16.42
+Line = RE18  0.0100 0.1000  5.94
+Line = RE2   0.0109 0.1044  5.26
+Line = RE3   0.0470 0.2169 10.61
+Line = RE4   0.0221 0.1487  9.44
+Line = RE5   0.0540 0.2325 17.18
+Line = RE6   0.0213 0.1458  9.73
+Line = RE7   0.1146 0.3385 26.52
+Line = RE8   0.0317 0.1779 10.31
+Line = GI1   0.0257 0.1602  7.98
+Line = GI10  0.1002 0.3166 33.19
+Line = GI11  0.1424 0.3774 29.85
+Line = GI12  0.0119 0.1092  5.86
+Line = GI13  0.0514 0.2267  6.73
+Line = GI14  0.0088 0.0938  4.94
+Line = GI15 <0.0001 0.0084  1.39
+Line = GI2   0.0132 0.1150  5.66
+Line = GI3   0.0974 0.3121 19.57
+Line = GI4   0.0100 0.0999  3.65
+Line = GI5        0      0  1.64
+Line = GI6   0.0087 0.0935  3.47
+Line = GI7   0.0218 0.1476  8.84
+Line = GI8   0.0323 0.1798 18.33
+Line = GI9   0.0293 0.1712 11.57
+Line = MU1   0.0571 0.2389 26.54
+Line = MU10       0      0  1.17
+Line = MU11  0.0281 0.1677 16.55
+Line = MU12  0.0780 0.2792 27.71
+Line = MU13  0.0763 0.2762 20.25
+Line = MU14  0.0013 0.0367  2.47
+Line = MU15  0.1390 0.3729 19.39
+Line = MU16  0.0628 0.2506 33.44
+Line = MU17  0.0393 0.1983 11.88
+Line = MU18  0.0138 0.1174  9.26
+Line = MU19  0.0808 0.2842 25.70
+Line = MU2   0.0136 0.1167  7.07
+Line = MU20  0.0405 0.2012 16.12
+Line = MU3   0.0161 0.1267 10.61
+Line = MU4   0.1026 0.3204 14.57
+Line = MU5   0.0030 0.0552  3.04
+Line = MU6   0.0285 0.1688 15.47
+Line = MU7   0.1202 0.3467 16.89
+Line = MU8   0.0476 0.2181 30.15
+Line = MU9   0.0293 0.1711 15.22
+Line = MA12  0.0664 0.2577 10.10
+Line = MA13  0.1025 0.3201 27.58
+Line = MA16      --     --  0.00
+Line = MA18  0.0266 0.1631 10.52
+Line = MA19       0      0  0.34
+Line = MA20  0.0073 0.0857  5.34
+Line = MA21 <0.0001 0.0002  3.62
+Line = MA23  0.0162 0.1272 10.85
+Line = MA26  0.0115 0.1072  5.76
+Line = MA27  0.0101 0.1007  6.41
+Line = MA28  0.0887 0.2979 22.92
+Line = MA3        0      0  0.25
+Line = MA30  0.0144 0.1202  9.40
+Line = MA31  0.0214 0.1463  9.91
+Line = MA32  0.0077 0.0875  4.91
+Line = MA33  0.0716 0.2675 18.69
+Line = MA5   0.0017 0.0406  2.99
+Line = MA6   0.0037 0.0611  3.81
+Line = MA7   0.0569 0.2386 15.57
+Line = MA9  <0.0001 0.0008  2.41
+Line = UM13  0.0215 0.1467  8.66
+Line = UM17  0.0102 0.1010  6.82
+Line = UM18       0      0  1.03
+Line = UM2   0.0043 0.0652  3.63
+Line = UM20       0      0  0.08
+Line = UM21       0      0  0.31
+Line = UM22 <0.0001 0.0016  2.62
+Line = UM23  0.0312 0.1767  9.44
+Line = UM25  0.0064 0.0799  4.51
+Line = UM26  0.0109 0.1045  4.37
+Line = UM28  0.0206 0.1436  8.95
+Line = UM29  0.0114 0.1069  7.67
+Line = UM4   0.0051 0.0713  4.07
+Line = UM5        0      0  0.14
+Line = UM6        0      0  0.66
+Line = UM7   0.0115 0.1071  6.23
+Line = UM8   0.0256 0.1600  8.79
+Line = UM9   0.0494 0.2223 17.89
+Line = KA1   0.0634 0.2518 31.17
+Line = KA10  0.0124 0.1114  8.55
+Line = KA11  0.0018 0.0425  2.45
+Line = KA13  0.0745 0.2729 26.55
+Line = KA14  0.0305 0.1745 18.87
+Line = KA15  0.0609 0.2468 20.36
+Line = KA16  0.0096 0.0982  6.71
+Line = KA17  0.0197 0.1402 12.57
+Line = KA18  0.0118 0.1084  7.42
+Line = KA2   0.0375 0.1938 23.79
+Line = KA23  0.0240 0.1551 12.72
+Line = KA24  0.1131 0.3363 45.48
+Line = KA25  0.0524 0.2290 15.00
+Line = KA28  0.0100 0.1000  2.30
+Line = KA29  0.0468 0.2163 24.89
+Line = KA3  <0.0001 0.0022  1.75
+Line = KA5   0.0411 0.2028 20.27
+Line = KA6   0.0364 0.1907 20.59
+Line = KA7   0.0396 0.1989 13.16
+Line = KA9   0.0373 0.1932 15.52
+Line = VA1   0.0077 0.0876  3.42
+Line = VA11  0.0232 0.1523 11.65
+Line = VA15      --     --  0.00
+Line = VA18  0.0122 0.1104  8.24
+Line = VA22  0.0165 0.1285  8.55
+Line = VA26  0.0524 0.2288 14.64
+Line = VA30  0.0205 0.1432 11.16
+Line = VA34  0.0427 0.2065 26.87
+Line = VA35  0.0309 0.1758 11.17
+Line = VA44  0.0263 0.1621 13.62
+Line = VA46  0.0092 0.0962  4.96
+Line = VA47  0.0674 0.2597 24.28
+Line = VA48  0.0393 0.1983 13.83
+Line = VA55  0.0055 0.0740  4.39
+Line = VA57  0.0221 0.1488 14.40
+Line = VA6   0.0310 0.1760 10.75
+Line = VA66  0.0039 0.0623  3.56
+Line = VA67  0.0081 0.0898  5.94
+Line = VA71  0.0197 0.1402  9.75
+Line = VA9   0.0194 0.1394  7.28
+Line = AK1   0.0369 0.1922 11.61
+Line = AK10  0.0213 0.1459 13.19
+Line = AK11  0.0443 0.2106 17.68
+Line = AK12  0.0129 0.1135  5.96
+Line = AK13  0.0384 0.1958 11.50
+Line = AK14  0.0272 0.1648 11.13
+Line = AK15  0.0455 0.2132 15.96
+Line = AK16       0      0  1.64
+Line = AK17       0      0  0.25
+Line = AK18  0.0274 0.1657 10.81
+Line = AK2   0.0069 0.0832  4.65
+Line = AK20  0.1041 0.3226 28.44
+Line = AK21  0.0906 0.3009 26.53
+Line = AK3   0.0774 0.2783 26.82
+Line = AK4   0.0153 0.1236  6.87
+Line = AK5   0.0217 0.1474  9.35
+Line = AK6   0.0063 0.0791  4.65
+Line = AK7   0.0063 0.0792  4.49
+Line = AK8   0.0185 0.1360  8.84
+Line = AK9   0.0512 0.2263 26.65
+              I^2
+Line = YE11 88.1%
+Line = YE13 49.6%
+Line = YE14 92.5%
+Line = YE15 94.6%
+Line = YE19 88.3%
+Line = YE20 53.5%
+Line = YE21 46.7%
+Line = YE22 73.6%
+Line = YE23 75.1%
+Line = YE24 73.8%
+Line = YE26 87.5%
+Line = YE27 27.8%
+Line = YE33 92.8%
+Line = YE40 57.4%
+Line = YE41 73.6%
+Line = YE48 47.1%
+Line = YE49 93.5%
+Line = YE51  0.0%
+Line = YE69 89.5%
+Line = YE80 45.7%
+Line = RE1  79.5%
+Line = RE10 84.9%
+Line = RE11 84.7%
+Line = RE12  0.9%
+Line = RE13  2.9%
+Line = RE15 87.0%
+Line = RE16 66.6%
+Line = RE17 87.8%
+Line = RE18 66.3%
+Line = RE2  62.0%
+Line = RE3  81.1%
+Line = RE4  78.8%
+Line = RE5  88.4%
+Line = RE6  79.4%
+Line = RE7  92.5%
+Line = RE8  90.3%
+Line = GI1  74.9%
+Line = GI10 94.0%
+Line = GI11 93.3%
+Line = GI12 65.9%
+Line = GI13 85.1%
+Line = GI14 59.5%
+Line = GI15  0.0%
+Line = GI2  64.7%
+Line = GI3  89.8%
+Line = GI4  72.6%
+Line = GI5   0.0%
+Line = GI6  71.2%
+Line = GI7  77.4%
+Line = GI8  89.1%
+Line = GI9  82.7%
+Line = MU1  92.5%
+Line = MU10  0.0%
+Line = MU11 87.9%
+Line = MU12 92.8%
+Line = MU13 90.1%
+Line = MU14 18.9%
+Line = MU15 94.8%
+Line = MU16 94.0%
+Line = MU17 83.2%
+Line = MU18 78.4%
+Line = MU19 92.2%
+Line = MU2  71.7%
+Line = MU20 87.6%
+Line = MU3  81.2%
+Line = MU4  93.1%
+Line = MU5  34.1%
+Line = MU6  87.1%
+Line = MU7  94.1%
+Line = MU8  93.4%
+Line = MU9  86.9%
+Line = MA12 90.1%
+Line = MA13 92.7%
+Line = MA16    --
+Line = MA18 81.0%
+Line = MA19  0.0%
+Line = MA20 62.6%
+Line = MA21 44.7%
+Line = MA23 81.6%
+Line = MA26 65.3%
+Line = MA27 68.8%
+Line = MA28 91.3%
+Line = MA3   0.0%
+Line = MA30 78.7%
+Line = MA31 79.8%
+Line = MA32 59.2%
+Line = MA33 89.3%
+Line = MA5  33.0%
+Line = MA6  47.5%
+Line = MA7  87.2%
+Line = MA9  17.1%
+Line = UM13 76.9%
+Line = UM17 70.7%
+Line = UM18  0.0%
+Line = UM2  44.9%
+Line = UM20  0.0%
+Line = UM21  0.0%
+Line = UM22 23.6%
+Line = UM23 78.8%
+Line = UM25 55.7%
+Line = UM26 77.1%
+Line = UM28 77.7%
+Line = UM29 73.9%
+Line = UM4  50.8%
+Line = UM5   0.0%
+Line = UM6   0.0%
+Line = UM7  67.9%
+Line = UM8  88.6%
+Line = UM9  88.8%
+Line = KA1  93.6%
+Line = KA10 76.6%
+Line = KA11 18.2%
+Line = KA13 92.5%
+Line = KA14 89.4%
+Line = KA15 95.1%
+Line = KA16 70.2%
+Line = KA17 84.1%
+Line = KA18 73.0%
+Line = KA2  91.6%
+Line = KA23 84.3%
+Line = KA24 95.6%
+Line = KA25 86.7%
+Line = KA28 56.6%
+Line = KA29 92.0%
+Line = KA3   0.0%
+Line = KA5  90.1%
+Line = KA6  90.3%
+Line = KA7  84.8%
+Line = KA9  87.1%
+Line = VA1  70.7%
+Line = VA11 82.8%
+Line = VA15    --
+Line = VA18 75.7%
+Line = VA22 76.6%
+Line = VA26 86.3%
+Line = VA30 82.1%
+Line = VA34 92.6%
+Line = VA35 82.1%
+Line = VA44 85.3%
+Line = VA46 59.7%
+Line = VA47 91.8%
+Line = VA48 85.5%
+Line = VA55 54.5%
+Line = VA57 86.1%
+Line = VA6  90.7%
+Line = VA66 43.9%
+Line = VA67 66.3%
+Line = VA71 79.5%
+Line = VA9  86.3%
+Line = AK1  82.8%
+Line = AK10 84.8%
+Line = AK11 88.7%
+Line = AK12 66.5%
+Line = AK13 82.6%
+Line = AK14 82.0%
+Line = AK15 87.5%
+Line = AK16  0.0%
+Line = AK17  0.0%
+Line = AK18 81.5%
+Line = AK2  57.0%
+Line = AK20 93.0%
+Line = AK21 92.5%
+Line = AK3  92.5%
+Line = AK4  70.9%
+Line = AK5  78.6%
+Line = AK6  57.0%
+Line = AK7  55.4%
+Line = AK8  77.4%
+Line = AK9  92.5%
 
 Test for subgroup differences (random effects model):
-                      Q d.f.  p-value
-Between groups   718.74  168 < 0.0001
+                      Q d.f.
+Between groups   718.74  168
+                  p-value
+Between groups   < 0.0001
 
 Details on meta-analytical method:
 - Inverse variance method

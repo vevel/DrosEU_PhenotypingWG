@@ -144,10 +144,10 @@ write.csv(all_metas_line_wide, file = file.path(meta_dir, "all_models_line_meta_
 ##### quick plots for trait correlations
 
 library(GGally)
-corF <- ggpairs(select(all_metas_line_wide, contains(c("_F", "NA"))))
+corF <- ggpairs(dplyr::select(all_metas_line_wide, contains(c("_F", "NA"))))
 ggsave(corF, file = "~/Desktop/trait_cor_F.pdf", width = 14, height = 14)
 
-corM <- ggpairs(select(all_metas_line_wide, contains(c("_M", "NA"))))
+corM <- ggpairs(dplyr::select(all_metas_line_wide, contains(c("_M", "NA"))))
 ggsave(corM, file = "~/Desktop/trait_cor_M.pdf", width = 14, height = 14)
 
 
