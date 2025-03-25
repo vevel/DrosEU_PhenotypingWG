@@ -26,7 +26,7 @@ dir.create("GeoCorrelations")
 
 ##### load data
 pops <- readRDS("InfoTables/DrosEU_Populations.rds")
-droseu <- readRDS("Data/droseu_master_list_2022-05-02.rds")
+droseu <- readRDS("Data/droseu_master_list_2025-03-24.rds")
 pop_comp <- read.csv("MetaAnalyses/all_models_pop_meta_compound_estimates.csv")
 line_comp <- read.csv("MetaAnalyses/all_models_line_meta_compound_random_coefs.csv")
 
@@ -169,7 +169,7 @@ ggsave(pop_lon_pearson_facet, filename = "GeoCorrelations/pop_lon_pearson_correl
 
 ##### line level
 
-line_geo_list <- inner_join(select(line_comp, Trait, Sex, Population, Estimate), pops$by_lat) %>%
+line_geo_list <- inner_join(dplyr::select(line_comp, Trait, Sex, Population, Estimate), pops$by_lat) %>%
   group_split(Trait, Sex)
 
 
@@ -272,20 +272,3 @@ line_lon_pearson_facet <- bind_rows(line_geo_list) %>%
   theme_bw(14)
 
 ggsave(line_lon_pearson_facet, filename = "GeoCorrelations/line_lon_pearson_correlations_facets.png", height = 10, width = 14, dpi = 120)
-
-
-
-
-
-
-
-#pl <- align_plots(pop_lat_pearson_plot, line_lat_pearson_plot, align="v")
-#ggsave(pl[[1]], filename = "GeoCorrelations/pop_lat_pearson_correlations.pdf", height = 7, width = 7)
-#ggsave(pl[[2]], filename = "GeoCorrelations/line_lat_pearson_correlations.pdf", height = 7, width = 7)
-
-
-
-
-
-
-
