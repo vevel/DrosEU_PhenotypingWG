@@ -20,7 +20,7 @@ p_pop <- read.csv("LinearModelsPop/all_models_pop_pvalues.csv")
 p_lat <- read.csv("LinearModelsLat/all_models_lat_pvalues.csv")
 p_lon <- read.csv("LinearModelsLon/all_models_lon_pvalues.csv")
 p_alt <- read.csv("LinearModelsAlt/all_models_alt_pvalues.csv")
-p_coxme <-  read.csv("SurvivalAnalyses/all_coxmes_pop_pvalues.csv")
+p_coxme <- read.csv("SurvivalAnalyses/all_coxmes_pop_pvalues.csv")
 p_metas <- read.csv("MetaAnalyses/all_models_pop_meta_pvalues.csv")
 
 
@@ -41,5 +41,3 @@ p <- arrange(p, desc(Model), Trait, Lab, Sex)
 
 ##### export p values
 write.csv(p, file.path(sum_dir, "models_metas_pvalues_summary_table.csv"), row.names = F)
-
-
