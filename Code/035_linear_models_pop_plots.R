@@ -34,7 +34,7 @@ tuk_lmers <- readRDS("LinearModelsPop/all_lmers_pop_tukey_list.rds")
 tuk_glmers <- readRDS("LinearModelsPop/all_glmers_pop_tukey_list.rds")
 
 ##### create output directory
-batch_pops_plots_dir <- "BatchAndPopPlots"
+batch_pops_plots_dir <- "LinearModelsPopPlots"
 dir.create(batch_pops_plots_dir, showWarnings = FALSE)
 
 
