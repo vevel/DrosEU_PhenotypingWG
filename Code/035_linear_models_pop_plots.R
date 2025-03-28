@@ -41,9 +41,11 @@ dir.create(batch_pops_plots_dir, showWarnings = FALSE)
 
 
 ##### remove traits for which we do not need plots since we did not run models ourselves
+# also filter values for PR_HR that are above 1
 
 traits_to_rm <- c("cets", "lsm")
 droseu <- droseu[!(names(droseu) %in% traits_to_rm)]
+droseu$pr <- filter(droseu$pr, HostResistance <= 1 & HostResistance >= 0)
 
 
 ##### define trait and common variables
@@ -80,7 +82,7 @@ droseu_long <- bind_rows(unlist(droseu_long, recursive = FALSE)) %>%
   rename(Trait_handle = Trait, Lab = Supervisor.PI)
 
 trait_names <- read.csv("InfoTables/trait_names.csv") %>%
-  dplyr::select(Trait_handle, Trait, Trait_name_raw, Legend, Title) %>%
+  dplyr::select(Trait_handle, Trait, Trait_name_raw, Legend, Title, Directory) %>%
   rename(Trait_name = Trait_name_raw)
 
 droseu_long <- inner_join(
@@ -173,11 +175,11 @@ for (i in seq_along(droseu_lab_trait_sex)) {
   title_text <- sub(" - M", " - Males", title_text)
   title_text <- sub(" - NA", "", title_text)
 
-  out_file_pdf <- paste(
-    "p_", d$Trait[1], "_", d$Sex[1], "_pop_", d$Lab[1], ".pdf",
+  out_file_png <- paste(d$Directory[1], "/",
+    "p_", d$Trait[1], "_", d$Sex[1], "_pop_lm_", d$Lab[1], ".png",
     sep = ""
   )
-  out_file_pdf <- sub("_NA", "", out_file_pdf)
+  out_file_png <- sub("_NA", "", out_file_png)
 
   p <- ggplot(d, aes(x = Population, y = Value, fill = Population)) +
     geom_boxplot(outlier.shape = NA, position = position_dodge(0.9)) +
@@ -196,7 +198,18 @@ for (i in seq_along(droseu_lab_trait_sex)) {
 
   ggsave(
     p,
-    filename = file.path(batch_pops_plots_dir, out_file_pdf),
+    filename = file.path(out_file_png),
+    width = 7, height = 4.5
+  )
+
+  dir.create(
+    file.path(batch_pops_plots_dir, d$Directory[1]),
+    showWarnings = FALSE
+  )
+
+  ggsave(
+    p,
+    filename = file.path(batch_pops_plots_dir, out_file_png),
     width = 7, height = 4.5
   )
 }
@@ -220,11 +233,12 @@ for (i in seq_along(droseu_lab_trait_sex)) {
   title_text <- sub(" - M", " - Males", title_text)
   title_text <- sub(" - NA", "", title_text)
 
-  out_file_pdf <- paste(
-    "p_", d$Trait[1], "_", d$Sex[1], "_pop_batch_", d$Lab[1], ".pdf",
+  out_file_png <- paste(d$Directory[1], "/",
+    "p_", d$Trait[1], "_", d$Sex[1], "_pop_batch_", d$Lab[1], ".png",
     sep = ""
   )
-  out_file_pdf <- sub("_NA", "", out_file_pdf)
+  out_file_png <- sub("_NA", "", out_file_png)
+
 
   p <- ggplot(d, aes(x = Population, y = Value, fill = Batch)) +
     geom_boxplot(outlier.shape = NA, position = position_dodge(0.9)) +
@@ -239,7 +253,18 @@ for (i in seq_along(droseu_lab_trait_sex)) {
 
   ggsave(
     p,
-    filename = file.path(batch_pops_plots_dir, out_file_pdf),
+    filename = file.path(out_file_png),
+    width = 7, height = 4.5
+  )
+
+  dir.create(
+    file.path(batch_pops_plots_dir, d$Directory[1]),
+    showWarnings = FALSE
+  )
+
+  ggsave(
+    p,
+    filename = file.path(batch_pops_plots_dir, out_file_png),
     width = 7, height = 4.5
   )
 }
