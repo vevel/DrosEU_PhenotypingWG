@@ -13,10 +13,11 @@ library(nasapower)
 
 #preparing a dataframe
 all_climatology <- data.frame(matrix(NA, nrow = 9, ncol = 19))
+
 col_names <- c("Longitude", "Latitude", "Altitude", "Population", "Country", 
-               "TS", "T2M", "QV2M", "RH2M", "T2MDEW", "T2MWET", "TS_MAX", 
-               "TS_MIN", "T2M_MAX", "T2M_MIN", "T2M_RANGE", "FROST_DAYS",
-               "PRECTOTCORR", "ALLSKY_SFC_LW_DWN")
+               "ALLSKY_SFC_LW_DWN", "FROST_DAYS", "PRECTOTCORR",
+               "QV2M", "RH2M","T2M","T2MDEW","T2MWET", "T2M_MAX", "T2M_MIN", "T2M_RANGE",  
+               "TS", "TS_MAX", "TS_MIN")
 
 colnames(all_climatology) <-c(col_names)
 
@@ -31,9 +32,9 @@ all_climatology$Country <- c("Portugal", "Spain", "Denmark", "Germany", "Austria
 Recarei_ag <- get_power(
   community = "ag",
   lonlat = c(-8.410, 41.150),
-  pars = c("TS", "T2M", "QV2M", "RH2M", "T2MDEW", "T2MWET", "TS_MAX", 
-           "TS_MIN",   "T2M_MAX", "T2M_MIN", "T2M_RANGE", "FROST_DAYS", 
-           "PRECTOTCORR", "ALLSKY_SFC_LW_DWN"),
+  pars = c("ALLSKY_SFC_LW_DWN", "FROST_DAYS", "PRECTOTCORR",
+           "QV2M", "RH2M","T2M","T2MDEW","T2MWET", "T2M_MAX", "T2M_MIN", "T2M_RANGE",  
+           "TS", "TS_MAX", "TS_MIN"),
   temporal_api = "climatology"
 )
 all_climatology[1,6:19] <- Recarei_ag$ANN 
@@ -43,9 +44,9 @@ all_climatology[1,6:19] <- Recarei_ag$ANN
 Gimenells_ag <- get_power(
   community = "ag",
   lonlat = c(0.62, 41.618),
-  pars = c("TS", "T2M", "QV2M", "RH2M", "T2MDEW", "T2MWET", "TS_MAX", 
-           "TS_MIN",   "T2M_MAX", "T2M_MIN", "T2M_RANGE", "FROST_DAYS", 
-           "PRECTOTCORR", "ALLSKY_SFC_LW_DWN"),
+  pars = c("ALLSKY_SFC_LW_DWN", "FROST_DAYS", "PRECTOTCORR",
+           "QV2M", "RH2M","T2M","T2MDEW","T2MWET", "T2M_MAX", "T2M_MIN", "T2M_RANGE",  
+           "TS", "TS_MAX", "TS_MIN"),
   temporal_api = "climatology"
 )
 all_climatology[2,6:19] <- Gimenells_ag$ANN 
@@ -55,9 +56,9 @@ all_climatology[2,6:19] <- Gimenells_ag$ANN
 Karensminde_ag <- get_power(
   community = "ag",
   lonlat = c(10.213, 55.945),
-  pars = c("TS", "T2M", "QV2M", "RH2M", "T2MDEW", "T2MWET", "TS_MAX", 
-           "TS_MIN",   "T2M_MAX", "T2M_MIN", "T2M_RANGE", "FROST_DAYS", 
-           "PRECTOTCORR", "ALLSKY_SFC_LW_DWN"),
+  pars = c("ALLSKY_SFC_LW_DWN", "FROST_DAYS", "PRECTOTCORR",
+           "QV2M", "RH2M","T2M","T2MDEW","T2MWET", "T2M_MAX", "T2M_MIN", "T2M_RANGE",  
+           "TS", "TS_MAX", "TS_MIN"),
   temporal_api = "climatology"
 )
 all_climatology[3,6:19] <- Karensminde_ag$ANN 
@@ -67,9 +68,9 @@ all_climatology[3,6:19] <- Karensminde_ag$ANN
 Munich_ag <- get_power(
   community = "ag",
   lonlat = c(11.61, 48.18),
-  pars = c("TS", "T2M", "QV2M", "RH2M", "T2MDEW", "T2MWET", "TS_MAX", 
-           "TS_MIN",   "T2M_MAX", "T2M_MIN", "T2M_RANGE", "FROST_DAYS", 
-           "PRECTOTCORR", "ALLSKY_SFC_LW_DWN"),
+  pars = c("ALLSKY_SFC_LW_DWN", "FROST_DAYS", "PRECTOTCORR",
+           "QV2M", "RH2M","T2M","T2MDEW","T2MWET", "T2M_MAX", "T2M_MIN", "T2M_RANGE",  
+           "TS", "TS_MAX", "TS_MIN"),
   temporal_api = "climatology"
 )
 all_climatology[4,6:19] <- Munich_ag$ANN 
@@ -79,9 +80,9 @@ all_climatology[4,6:19] <- Munich_ag$ANN
 Mauternbach_ag <- get_power(
   community = "ag",
   lonlat = c(15.560, 48.375),
-  pars = c("TS", "T2M", "QV2M", "RH2M", "T2MDEW", "T2MWET", "TS_MAX", 
-           "TS_MIN",   "T2M_MAX", "T2M_MIN", "T2M_RANGE", "FROST_DAYS", 
-           "PRECTOTCORR", "ALLSKY_SFC_LW_DWN"),
+  pars = c("ALLSKY_SFC_LW_DWN", "FROST_DAYS", "PRECTOTCORR",
+           "QV2M", "RH2M","T2M","T2MDEW","T2MWET", "T2M_MAX", "T2M_MIN", "T2M_RANGE",  
+           "TS", "TS_MAX", "TS_MIN"),
   temporal_api = "climatology"
 )
 all_climatology[5,6:19] <- Mauternbach_ag$ANN 
@@ -91,9 +92,9 @@ all_climatology[5,6:19] <- Mauternbach_ag$ANN
 Akaa_ag <- get_power(
   community = "ag",
   lonlat = c(23.520, 61.100),
-  pars = c("TS", "T2M", "QV2M", "RH2M", "T2MDEW", "T2MWET", "TS_MAX", 
-           "TS_MIN",   "T2M_MAX", "T2M_MIN", "T2M_RANGE", "FROST_DAYS", 
-           "PRECTOTCORR", "ALLSKY_SFC_LW_DWN"),
+  pars = c("ALLSKY_SFC_LW_DWN", "FROST_DAYS", "PRECTOTCORR",
+           "QV2M", "RH2M","T2M","T2MDEW","T2MWET", "T2M_MAX", "T2M_MIN", "T2M_RANGE",  
+           "TS", "TS_MAX", "TS_MIN"),
   temporal_api = "climatology"
 )
 all_climatology[6,6:19] <- Akaa_ag$ANN 
@@ -103,9 +104,9 @@ all_climatology[6,6:19] <- Akaa_ag$ANN
 Uman_ag <- get_power(
   community = "ag",
   lonlat = c(30.206, 48.753),
-  pars = c("TS", "T2M", "QV2M", "RH2M", "T2MDEW", "T2MWET", "TS_MAX", 
-           "TS_MIN",   "T2M_MAX", "T2M_MIN", "T2M_RANGE", "FROST_DAYS", 
-           "PRECTOTCORR", "ALLSKY_SFC_LW_DWN"),
+  pars = c("ALLSKY_SFC_LW_DWN", "FROST_DAYS", "PRECTOTCORR",
+           "QV2M", "RH2M","T2M","T2MDEW","T2MWET", "T2M_MAX", "T2M_MIN", "T2M_RANGE",  
+           "TS", "TS_MAX", "TS_MIN"),
   temporal_api = "climatology"
 )
 all_climatology[7,6:19] <- Uman_ag$ANN 
@@ -114,9 +115,9 @@ all_climatology[7,6:19] <- Uman_ag$ANN
 Yesiloz_ag <- get_power(
   community = "ag",
   lonlat = c(32.26, 40.231),
-  pars = c("TS", "T2M", "QV2M", "RH2M", "T2MDEW", "T2MWET", "TS_MAX", 
-           "TS_MIN",   "T2M_MAX", "T2M_MIN", "T2M_RANGE", "FROST_DAYS", 
-           "PRECTOTCORR", "ALLSKY_SFC_LW_DWN"),
+  pars = c("ALLSKY_SFC_LW_DWN", "FROST_DAYS", "PRECTOTCORR",
+           "QV2M", "RH2M","T2M","T2MDEW","T2MWET", "T2M_MAX", "T2M_MIN", "T2M_RANGE",  
+           "TS", "TS_MAX", "TS_MIN"),
   temporal_api = "climatology"
 )
 all_climatology[8,6:19] <- Yesiloz_ag$ANN 
@@ -125,9 +126,9 @@ all_climatology[8,6:19] <- Yesiloz_ag$ANN
 Valday_ag <- get_power(
   community = "ag",
   lonlat = c(33.244, 57.979),
-  pars = c("TS", "T2M", "QV2M", "RH2M", "T2MDEW", "T2MWET", "TS_MAX", 
-           "TS_MIN",   "T2M_MAX", "T2M_MIN", "T2M_RANGE", "FROST_DAYS", 
-           "PRECTOTCORR","ALLSKY_SFC_LW_DWN"),
+  pars = c("ALLSKY_SFC_LW_DWN", "FROST_DAYS", "PRECTOTCORR",
+           "QV2M", "RH2M","T2M","T2MDEW","T2MWET", "T2M_MAX", "T2M_MIN", "T2M_RANGE",  
+           "TS", "TS_MAX", "TS_MIN"),
   temporal_api = "climatology"
 )
 all_climatology[9,6:19] <- Valday_ag$ANN 
@@ -135,15 +136,15 @@ all_climatology[9,6:19] <- Valday_ag$ANN
 write.csv(all_climatology,"all_param_30y.csv", row.names = F)
 
 #PCA
-setwd("")
-all_climatology <- read.csv("all_param_30y.csv")
-all_climatology <- all_climatology[,6:19]
+#setwd("")
+#all_climatology <- read.csv("all_param_30y.csv")
 rownames(all_climatology) <- c("Recarei", "Gimenells", "Karensminde", "Munich", "Mauternbach", "Akaa", "Uman", "Yesiloz", "Valday")
 
 library("FactoMineR")
 library("factoextra")
 options(ggrepel.max.overlaps = Inf)
-all_ann_clim_pca <- PCA(all_climatology, scale.unit = TRUE, graph = TRUE)
+# Don't use long, lat, alt or 2 location variables in PCA
+all_ann_clim_pca <- PCA(all_climatology[,6:19], scale.unit = TRUE, graph = TRUE)
 print(all_ann_clim_pca)
 
 # matrix with eigenvalues
@@ -152,7 +153,7 @@ eig.val <- get_eigenvalue(all_ann_clim_pca)
 eig.val #first 2 PCs >1
 
 #Scree plot
-fviz_eig(all_ann_clim_pca, addlabels = TRUE, xlab = "principal components")
+fviz_eig(all_ann_clim_pca, addlabels = TRUE, xlab = "principal components", ncp= 8)
 
 fviz_pca_ind(all_ann_clim_pca, axes = c(1, 2), col.ind = "coord", 
              title = "Principal Component Analysis",
@@ -409,7 +410,7 @@ for (i in 1:nrow(F9maxP_data)){
     F9maxP_data[i, 7:12] <- clim[8,]
   }
   if (F9maxP_data[i,"Population"] == "VA"){ #Russia
-    F9maxP_data[i, 7:11] <- clim[9,]
+    F9maxP_data[i, 7:12] <- clim[9,]
   }
 } 
 write.csv(F9maxP_data,"F9maxP_30y_data.csv", row.names =F)
@@ -429,3 +430,6 @@ summary(F9maxP_PC2_1)
 #PC3
 F9maxP_PC3_1 <- glm(F9maxP_data$PC3_F9maxP ~ F9maxP_data$PC1_clim + F9maxP_data$PC2_clim,data = F9maxP_data)
 summary(F9maxP_PC3_1)
+
+
+save.image(file = "all_traits_30y_WS.RData")

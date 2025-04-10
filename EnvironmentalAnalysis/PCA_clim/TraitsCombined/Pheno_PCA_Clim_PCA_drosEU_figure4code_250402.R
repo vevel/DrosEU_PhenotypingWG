@@ -10,7 +10,7 @@ library(ggpubr)
 ### F9max - 30 day
 ### Load FMax Trait PC
 
-workingDir = "C://Users//ewanh//Dropbox//Barcelona_IBE//DrosEU//";
+workingDir = "C://Users//ewanh//Dropbox//Barcelona_IBE//DrosEU";
 setwd(workingDir); 
 getwd();
 
@@ -60,12 +60,10 @@ d30_envPC[,trait:=rownames(d30_pca$var$coord)]
 d30_envPC[,ordDim1:=rank(Dim.1)]
 d30_envPC[,ordDim2:=rank(Dim.2)]
 
-d30_envPC$trait<-c("Mean temp (earth skin)","Mean temp (2m)",
-                   "Specific humidity","Relative humidity","Dew/frost point (2m)",
-                   "Wet bulb temp (2m)","Max temp (earth skin)","Min temp (earth skin)",
-                   "Max temp (2m)","Min temp (2m)",
-                   "Temp range (2m)","Frost days","Precipitation",
-                   "Longwave irradiance")
+d30_envPC$trait<-c("Longwave irradiance", "Frost days","Precipitation","Specific humidity",
+                   "Relative humidity","Mean temp (2m)","Dew/frost point (2m)",
+                   "Wet bulb temp (2m)","Max temp (2m)","Min temp (2m)","Temp range (2m)",
+                   "Mean temp (earth skin)","Max temp (earth skin)","Min temp (earth skin)")
 
 ### load y30
 load("all_traits_30y_WS.RData")
@@ -79,12 +77,10 @@ y30_envPC[,trait:=rownames(all_ann_clim_pca$var$coord)]
 y30_envPC[,ordDim1:=rank(Dim.1)]
 y30_envPC[,ordDim2:=rank(Dim.2)]
 
-y30_envPC$trait<-c("Mean temp (earth skin)","Mean temp (2m)",
-                     "Specific humidity","Relative humidity","Dew/frost point (2m)",
-                     "Wet bulb temp (2m)","Max temp (earth skin)","Min temp (earth skin)",
-                     "Max temp (2m)","Min temp (2m)",
-                     "Temp range (2m)","Frost days","Precipitation",
-                     "Longwave irradiance")
+y30_envPC$trait<-c("Longwave irradiance", "Frost days","Precipitation","Specific humidity",
+                   "Relative humidity","Mean temp (2m)","Dew/frost point (2m)",
+                   "Wet bulb temp (2m)","Max temp (2m)","Min temp (2m)","Temp range (2m)",
+                   "Mean temp (earth skin)","Max temp (earth skin)","Min temp (earth skin)")
 
 ### general layout
 layout <- "
@@ -115,9 +111,7 @@ palette =c("#E38800","#D04E00","#A00E00","#F6C200","#7BA354","#095888","#B82E00"
 ### Various objects for final plot
 ###
 
-
-load("all_traits_30y_WS.RData")
-
+#load("all_traits_30y_WS.RData")
 
 Fmp_traitPC_Sig <- subset(Fmp_traitPC, Dim.2 > 0.4 | Dim.2 < -0.4)
 y30_envPC_sig <- subset(y30_envPC, Dim.2 > 0.65 | Dim.2 < -0.65)
@@ -378,7 +372,7 @@ M9_pc2_y30_pc2_mega <-
 ### F13
 ###
 
-load("all_traits_30d_WS.RData")
+#load("all_traits_30d_WS.RData")
 
 Fmp_traitPC_Sig <- subset(Fmp_traitPC, Dim.2 > 0.4 | Dim.2 < -0.4)
 d30_envPC_sig <- subset(d30_envPC, Dim.2 > 0.65 | Dim.2 < -0.65)

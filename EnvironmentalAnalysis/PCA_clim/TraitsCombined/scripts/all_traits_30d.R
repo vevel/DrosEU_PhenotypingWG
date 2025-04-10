@@ -18,9 +18,9 @@ library(nasapower)
 #preparing a dataframe
 d30_df <- data.frame(matrix(NA, nrow = 9, ncol = 19))
 col_names <- c("Longitude", "Latitude", "Altitude", "Population", "Country", 
-               "TS", "T2M", "QV2M", "RH2M", "T2MDEW", "T2MWET", "TS_MAX", 
-               "TS_MIN", "T2M_MAX", "T2M_MIN", "T2M_RANGE", "FROST_DAYS",
-               "PRECTOTCORR", "ALLSKY_SFC_LW_DWN")
+               "ALLSKY_SFC_LW_DWN", "FROST_DAYS", "PRECTOTCORR",
+               "QV2M", "RH2M","T2M","T2MDEW","T2MWET", "T2M_MAX", "T2M_MIN", "T2M_RANGE",  
+               "TS", "TS_MAX", "TS_MIN")
 
 colnames(d30_df) <-c(col_names)
 
@@ -35,9 +35,9 @@ d30_df$Country <- c("Portugal", "Spain", "Denmark", "Germany", "Austria", "Finla
 Recarei_ag <- get_power(
   community = "ag",
   lonlat = c(-8.410, 41.150),
-  pars = c("TS", "T2M", "QV2M", "RH2M", "T2MDEW", "T2MWET", "TS_MAX", 
-           "TS_MIN",   "T2M_MAX", "T2M_MIN", "T2M_RANGE", "FROST_DAYS", 
-           "PRECTOTCORR", "ALLSKY_SFC_LW_DWN"),
+  pars = c("ALLSKY_SFC_LW_DWN", "FROST_DAYS", "PRECTOTCORR",
+           "QV2M", "RH2M","T2M","T2MDEW","T2MWET", "T2M_MAX", "T2M_MIN", "T2M_RANGE",  
+           "TS", "TS_MAX", "TS_MIN"),
   dates = c("2018-09-06", "2018-10-05"),
   temporal_api = "daily"
 )
@@ -91,9 +91,9 @@ rm(a, b, c, d, i)
 Gimenells_ag <- get_power(
   community = "ag",
   lonlat = c(0.62, 41.618),
-  pars = c("TS", "T2M", "QV2M", "RH2M", "T2MDEW", "T2MWET", "TS_MAX", 
-           "TS_MIN",   "T2M_MAX", "T2M_MIN", "T2M_RANGE", "FROST_DAYS", 
-           "PRECTOTCORR", "ALLSKY_SFC_LW_DWN"),
+  pars = c("ALLSKY_SFC_LW_DWN", "FROST_DAYS", "PRECTOTCORR",
+           "QV2M", "RH2M","T2M","T2MDEW","T2MWET", "T2M_MAX", "T2M_MIN", "T2M_RANGE",  
+           "TS", "TS_MAX", "TS_MIN"),
   dates = c("2018-07-27", "2018-08-25"),
   temporal_api = "daily"
 )
@@ -148,9 +148,9 @@ rm(a, b, c, d, i)
 Karensminde_ag <- get_power(
   community = "ag",
   lonlat = c(10.213, 55.945),
-  pars = c("TS", "T2M", "QV2M", "RH2M", "T2MDEW", "T2MWET", "TS_MAX", 
-           "TS_MIN",   "T2M_MAX", "T2M_MIN", "T2M_RANGE", "FROST_DAYS", 
-           "PRECTOTCORR", "ALLSKY_SFC_LW_DWN"),
+  pars = c("ALLSKY_SFC_LW_DWN", "FROST_DAYS", "PRECTOTCORR",
+           "QV2M", "RH2M","T2M","T2MDEW","T2MWET", "T2M_MAX", "T2M_MIN", "T2M_RANGE",  
+           "TS", "TS_MAX", "TS_MIN"),
   dates = c("2018-09-06", "2018-10-05"),
   temporal_api = "daily"
 )
@@ -205,9 +205,9 @@ rm(a, b, c, d, i)
 Munich_ag <- get_power(
   community = "ag",
   lonlat = c(11.61, 48.18),
-  pars = c("TS", "T2M", "QV2M", "RH2M", "T2MDEW", "T2MWET", "TS_MAX", 
-           "TS_MIN",   "T2M_MAX", "T2M_MIN", "T2M_RANGE", "FROST_DAYS", 
-           "PRECTOTCORR", "ALLSKY_SFC_LW_DWN"),
+  pars = c("ALLSKY_SFC_LW_DWN", "FROST_DAYS", "PRECTOTCORR",
+           "QV2M", "RH2M","T2M","T2MDEW","T2MWET", "T2M_MAX", "T2M_MIN", "T2M_RANGE",  
+           "TS", "TS_MAX", "TS_MIN"),
   dates = c("2018-09-06", "2018-10-05"),
   temporal_api = "daily"
 )
@@ -262,9 +262,9 @@ rm(a, b, c, d, i)
 Mauternbach_ag <- get_power(
   community = "ag",
   lonlat = c(15.560, 48.375),
-  pars = c("TS", "T2M", "QV2M", "RH2M", "T2MDEW", "T2MWET", "TS_MAX", 
-           "TS_MIN",   "T2M_MAX", "T2M_MIN", "T2M_RANGE", "FROST_DAYS", 
-           "PRECTOTCORR", "ALLSKY_SFC_LW_DWN"),
+  pars = c("ALLSKY_SFC_LW_DWN", "FROST_DAYS", "PRECTOTCORR",
+           "QV2M", "RH2M","T2M","T2MDEW","T2MWET", "T2M_MAX", "T2M_MIN", "T2M_RANGE",  
+           "TS", "TS_MAX", "TS_MIN"),
   dates = c("2018-09-06", "2018-10-05"),
   temporal_api = "daily"
 )
@@ -318,9 +318,9 @@ rm(a, b, c, d, i)
 Akaa_ag <- get_power(
   community = "ag",
   lonlat = c(23.520, 61.100),
-  pars = c("TS", "T2M", "QV2M", "RH2M", "T2MDEW", "T2MWET", "TS_MAX", 
-           "TS_MIN",   "T2M_MAX", "T2M_MIN", "T2M_RANGE", "FROST_DAYS", 
-           "PRECTOTCORR", "ALLSKY_SFC_LW_DWN"),
+  pars = c("ALLSKY_SFC_LW_DWN", "FROST_DAYS", "PRECTOTCORR",
+           "QV2M", "RH2M","T2M","T2MDEW","T2MWET", "T2M_MAX", "T2M_MIN", "T2M_RANGE",  
+           "TS", "TS_MAX", "TS_MIN"),
   dates = c("2018-06-21", "2018-07-20"),
   temporal_api = "daily"
 )
@@ -374,9 +374,9 @@ rm(a,b,c,d,i)
 Uman_ag <- get_power(
   community = "ag",
   lonlat = c(30.206, 48.753),
-  pars = c("TS", "T2M", "QV2M", "RH2M", "T2MDEW", "T2MWET", "TS_MAX", 
-           "TS_MIN",   "T2M_MAX", "T2M_MIN", "T2M_RANGE", "FROST_DAYS", 
-           "PRECTOTCORR", "ALLSKY_SFC_LW_DWN"),
+  pars = c("ALLSKY_SFC_LW_DWN", "FROST_DAYS", "PRECTOTCORR",
+           "QV2M", "RH2M","T2M","T2MDEW","T2MWET", "T2M_MAX", "T2M_MIN", "T2M_RANGE",  
+           "TS", "TS_MAX", "TS_MIN"),
   dates = c("2018-07-20", "2018-08-18"),
   temporal_api = "daily"
 )
@@ -430,9 +430,9 @@ rm(a,b,c,d,i)
 Yesiloz_ag <- get_power(
   community = "ag",
   lonlat = c(32.26, 40.231),
-  pars = c("TS", "T2M", "QV2M", "RH2M", "T2MDEW", "T2MWET", "TS_MAX", 
-           "TS_MIN",   "T2M_MAX", "T2M_MIN", "T2M_RANGE", "FROST_DAYS", 
-           "PRECTOTCORR", "ALLSKY_SFC_LW_DWN"),
+  pars = c("ALLSKY_SFC_LW_DWN", "FROST_DAYS", "PRECTOTCORR",
+           "QV2M", "RH2M","T2M","T2MDEW","T2MWET", "T2M_MAX", "T2M_MIN", "T2M_RANGE",  
+           "TS", "TS_MAX", "TS_MIN"),
   dates = c("2018-08-29", "2018-09-27"),
   temporal_api = "daily"
 )
@@ -486,9 +486,9 @@ rm(a,b,c,d,i)
 Valday_ag <- get_power(
   community = "ag",
   lonlat = c(33.244, 57.979),
-  pars = c("TS", "T2M", "QV2M", "RH2M", "T2MDEW", "T2MWET", "TS_MAX", 
-           "TS_MIN",   "T2M_MAX", "T2M_MIN", "T2M_RANGE", "FROST_DAYS", 
-           "PRECTOTCORR", "ALLSKY_SFC_LW_DWN"),
+  pars = c("ALLSKY_SFC_LW_DWN", "FROST_DAYS", "PRECTOTCORR",
+           "QV2M", "RH2M","T2M","T2MDEW","T2MWET", "T2M_MAX", "T2M_MIN", "T2M_RANGE",  
+           "TS", "TS_MAX", "TS_MIN"),
   dates = c("2018-07-22", "2018-08-20"),
   temporal_api = "daily"
 )
@@ -539,15 +539,15 @@ write.csv(d30_df,"all_30d.csv", row.names =F)
 
 
 #PCA
-setwd("")
+# setwd("")
 d30_df <- read.csv("all_30d.csv")
-d30_df <- d30_df[,6:19]
 rownames(d30_df) <- c("Recarei", "Gimenells", "Karensminde", "Munich", "Mauternbach", "Akaa", "Uman", "Yesiloz", "Valday")
 
 library("FactoMineR")
 library("factoextra")
 options(ggrepel.max.overlaps = Inf)
-d30_pca <- PCA(d30_df, scale.unit = TRUE, graph = TRUE)
+# Don't use long, lat, alt or 2 location variables in PCA
+d30_pca <- PCA(d30_df[,6:19], scale.unit = TRUE, graph = TRUE)
 print(d30_pca)
 
 # matrix with eigenvalues
@@ -556,7 +556,7 @@ eig.val <- get_eigenvalue(d30_pca)
 eig.val #first 2 PCs >1
 
 #Scree plot
-fviz_eig(d30_pca, addlabels = TRUE, xlab = "principal components")
+fviz_eig(d30_pca, addlabels = TRUE, xlab = "principal components", ncp=8)
 
 fviz_pca_ind(d30_pca, axes = c(1, 2), col.ind = "coord", 
              title = "Principal Component Analysis",
@@ -605,7 +605,7 @@ corrplot(cor(cor_df), type = "upper", order = "hclust", tl.col = "black", tl.srt
 #
 #females 9 traits
 #
-setwd("")
+#setwd("")
 F9_all_PC <- read.csv("F9_drosEU_PCcoords.csv")
 F9_data <- F9_all_PC[,1:6]
 colnames(F9_data) <- c("Country", "Population", "Line", "PC1_F9", "PC2_F9", "PC3_F9")
@@ -844,3 +844,5 @@ F9maxP_PC3_1 <- glm(F9maxP_data$PC3_F9maxP ~ F9maxP_data$PC1_clim + F9maxP_data$
 summary(F9maxP_PC3_1)
 F9maxP_PC3_2 <- glm(F9maxP_data$PC3_F9maxP ~ F9maxP_data$PC2_clim,data = F9maxP_data)
 summary(F9maxP_PC3_2)
+
+save.image(file = "all_traits_30d_WS.RData")
