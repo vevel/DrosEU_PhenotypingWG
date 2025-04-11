@@ -199,7 +199,7 @@ for (i in seq_along(droseu_lab_trait_sex)) {
   ggsave(
     p,
     filename = file.path(out_file_png),
-    width = 7, height = 4.5
+    width = 7, height = 4.5, dpi = 150
   )
 
   dir.create(
@@ -210,7 +210,7 @@ for (i in seq_along(droseu_lab_trait_sex)) {
   ggsave(
     p,
     filename = file.path(batch_pops_plots_dir, out_file_png),
-    width = 7, height = 4.5
+    width = 7, height = 4.5, dpi = 150
   )
 }
 
@@ -254,7 +254,7 @@ for (i in seq_along(droseu_lab_trait_sex)) {
   ggsave(
     p,
     filename = file.path(out_file_png),
-    width = 7, height = 4.5
+    width = 7, height = 4.5, dpi = 150
   )
 
   dir.create(
@@ -265,6 +265,6 @@ for (i in seq_along(droseu_lab_trait_sex)) {
   ggsave(
     p,
     filename = file.path(batch_pops_plots_dir, out_file_png),
-    width = 7, height = 4.5
+    width = 7, height = 4.5, dpi = 150
   )
 }
