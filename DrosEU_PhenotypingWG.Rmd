@@ -279,12 +279,13 @@ To analyze effects of environmental factors on phenotypic traits, we downloaded 
 
 # 2 - Results
 
-```{r load_Rdas, include=FALSE}
-droseu <- readRDS("Data/droseu_master_list_2022-05-02.rds")
+```{r load_Rds, include=FALSE}
+droseu <- readRDS("Data/droseu_master_list_2025-03-24.rds")
 lmers_anova <- readRDS("LinearModelsPop/all_lmers_pop_anova_list.rds")
 glmers_anova <- readRDS("LinearModelsPop/all_glmers_pop_anova_list.rds")
 lmers_tukey <- readRDS("LinearModelsPop/all_lmers_pop_tukey_list.rds")
 lmers_sum <- readRDS("LinearModelsPop/all_lmers_pop_summary_list.rds")
+glmers_sum <- readRDS("LinearModelsPop/all_glmers_pop_summary_list.rds")
 table_line_wbatch <- readRDS("DescriptiveStatistics/all_table_Line_wbatch.rds")
 table_line_wobatch <- readRDS("DescriptiveStatistics/all_table_Line_wobatch.rds")
 table_pop_wbatch <- readRDS("DescriptiveStatistics/all_table_Pop_wbatch.rds")
@@ -2851,11 +2852,11 @@ knitr::include_graphics("Diapause/p_Dia_F_pop_lab.png")
 
 ##### Bergland Lab
 ```{r}
-lmers_anova$Dia_Bergland_lmer_pop
+glmers_anova$Dia_Bergland_glmer_pop
 ```
 
 ```{r}
-lmers_sum$Dia_Bergland_lmer_pop
+glmers_sum$Dia_Bergland_glmer_pop
 ```
 
 ```{r echo=FALSE, fig.show = "hold", out.width = "49%"}
@@ -2866,11 +2867,11 @@ knitr::include_graphics("Diapause/p_Dia_F_pop_lm_Bergland.png")
 ##### Flatt Lab
 
 ```{r}
-lmers_anova$Dia_Flatt_lm_pop
+glmers_anova$Dia_Flatt_glmer_pop
 ```
 
 ```{r}
-lmers_sum$Dia_Flatt_lm_pop
+glmers_sum$Dia_Flatt_glmer_pop
 ```
 
 ```{r echo=FALSE, fig.show = "hold", out.width = "49%"}
@@ -2881,11 +2882,11 @@ knitr::include_graphics("Diapause/p_Dia_F_pop_lm_Flatt.png")
 ##### Schlotterer Lab
 
 ```{r}
-lmers_anova$Dia_Schlotterer_lmer_pop
+glmers_anova$Dia_Schlotterer_glmer_pop
 ```
 
 ```{r}
-lmers_sum$Dia_Schlotterer_lmer_pop
+glmers_sum$Dia_Schlotterer_glmer_pop
 ```
 
 ```{r echo=FALSE, fig.show = "hold", out.width = "49%"}
@@ -2898,25 +2899,25 @@ knitr::include_graphics("Diapause/p_Dia_F_pop_lm_Schlotterer.png")
 ##### Bergland Lab
 
 ```{r fig.show = "hold", out.width = "49%", fig.align = "default", echo = FALSE}
-knitr::include_graphics("LinearModelsPop/Diapause/by_lab_models_residuals/Dia_Bergland_lmer_pop_hist_residuals.png")
+knitr::include_graphics("LinearModelsPop/Diapause/by_lab_models_residuals/Dia_Bergland_glmer_pop_hist_residuals.png")
 
-knitr::include_graphics("LinearModelsPop/Diapause/by_lab_models_residuals/Dia_Bergland_lmer_pop_qq_plot_residuals.png")
+knitr::include_graphics("LinearModelsPop/Diapause/by_lab_models_residuals/Dia_Bergland_glmer_pop_qq_plot_residuals.png")
 ```
 
 ##### Flatt Lab
 
 ```{r fig.show = "hold", out.width = "49%", fig.align = "default", echo = FALSE}
-knitr::include_graphics("LinearModelsPop/Diapause/by_lab_models_residuals/Dia_Flatt_lm_pop_hist_residuals.png")
+knitr::include_graphics("LinearModelsPop/Diapause/by_lab_models_residuals/Dia_Flatt_glmer_pop_hist_residuals.png")
 
-knitr::include_graphics("LinearModelsPop/Diapause/by_lab_models_residuals/Dia_Flatt_lm_pop_qq_plot_residuals.png")
+knitr::include_graphics("LinearModelsPop/Diapause/by_lab_models_residuals/Dia_Flatt_glmer_pop_qq_plot_residuals.png")
 ```
 
 ##### Schlotterer Lab
 
 ```{r fig.show = "hold", out.width = "49%", fig.align = "default", echo = FALSE}
-knitr::include_graphics("LinearModelsPop/Diapause/by_lab_models_residuals/Dia_Schlotterer_lmer_pop_hist_residuals.png")
+knitr::include_graphics("LinearModelsPop/Diapause/by_lab_models_residuals/Dia_Schlotterer_glmer_pop_hist_residuals.png")
 
-knitr::include_graphics("LinearModelsPop/Diapause/by_lab_models_residuals/Dia_Schlotterer_lmer_pop_qq_plot_residuals.png")
+knitr::include_graphics("LinearModelsPop/Diapause/by_lab_models_residuals/Dia_Schlotterer_glmer_pop_qq_plot_residuals.png")
 ```
 
 
@@ -3338,8 +3339,8 @@ max_SR <- max(droseu$sr$AgeAtDeath_hours)
 ```
 
 ```{r echo=FALSE}
-knitr::include_graphics("Starvation/p_SR_F.pdf")
-knitr::include_graphics("Starvation/p_SR_M.pdf")
+knitr::include_graphics("Starvation/p_SR_F_pop_lab.png")
+knitr::include_graphics("Starvation/p_SR_M_pop_lab.png")
 ```
 
 ##### Gonzalez Lab
@@ -3360,14 +3361,14 @@ lmers_anova$SR_M_Gonzalez_lmer_pop
 lmers_sum$SR_M_Gonzalez_lmer_pop
 ```
 
-```{r echo=FALSE}
-knitr::include_graphics("Starvation/p_SR_F_Gonzalez.pdf")
-knitr::include_graphics("Starvation/p_SR_F_pop_Gonzalez.pdf")
+```{r echo=FALSE, fig.show = "hold", out.width = "49%"}
+knitr::include_graphics("Starvation/p_SR_F_pop_batch_Gonzalez.png")
+knitr::include_graphics("Starvation/p_SR_F_pop_lm_Gonzalez.png")
 ```
 
-```{r echo=FALSE}
-knitr::include_graphics("Starvation/p_SR_M_Gonzalez.pdf")
-knitr::include_graphics("Starvation/p_SR_M_pop_Gonzalez.pdf")
+```{r echo=FALSE, fig.show = "hold", out.width = "49%"}
+knitr::include_graphics("Starvation/p_SR_M_pop_batch_Gonzalez.png")
+knitr::include_graphics("Starvation/p_SR_M_pop_lm_Gonzalez.png")
 ```
 
 ##### Onder Lab
@@ -3388,14 +3389,14 @@ lmers_anova$SR_M_Onder_lmer_pop
 lmers_sum$SR_M_Onder_lmer_pop
 ```
 
-```{r echo=FALSE}
-knitr::include_graphics("Starvation/p_SR_F_Onder.pdf")
-knitr::include_graphics("Starvation/p_SR_F_pop_Onder.pdf")
+```{r echo=FALSE, fig.show = "hold", out.width = "49%"}
+knitr::include_graphics("Starvation/p_SR_F_pop_batch_Onder.png")
+knitr::include_graphics("Starvation/p_SR_F_pop_lm_Onder.png")
 ```
 
-```{r echo=FALSE}
-knitr::include_graphics("Starvation/p_SR_M_Onder.pdf")
-knitr::include_graphics("Starvation/p_SR_M_pop_Onder.pdf")
+```{r echo=FALSE, fig.show = "hold", out.width = "49%"}
+knitr::include_graphics("Starvation/p_SR_M_pop_batch_Onder.png")
+knitr::include_graphics("Starvation/p_SR_M_pop_lm_Onder.png")
 ```
 
 ##### Pasyukova Lab
@@ -3416,14 +3417,14 @@ lmers_anova$SR_M_Pasyukova_lmer_pop
 lmers_sum$SR_M_Pasyukova_lmer_pop
 ```
 
-```{r echo=FALSE}
-knitr::include_graphics("Starvation/p_SR_F_Pasyukova.pdf")
-knitr::include_graphics("Starvation/p_SR_F_pop_Pasyukova.pdf")
+```{r echo=FALSE, fig.show = "hold", out.width = "49%"}
+knitr::include_graphics("Starvation/p_SR_F_pop_batch_Pasyukova.png")
+knitr::include_graphics("Starvation/p_SR_F_pop_lm_Pasyukova.png")
 ```
 
-```{r echo=FALSE}
-knitr::include_graphics("Starvation/p_SR_M_Pasyukova.pdf")
-knitr::include_graphics("Starvation/p_SR_M_pop_Pasyukova.pdf")
+```{r echo=FALSE, fig.show = "hold", out.width = "49%"}
+knitr::include_graphics("Starvation/p_SR_M_pop_batch_Pasyukova.png")
+knitr::include_graphics("Starvation/p_SR_M_pop_lm_Pasyukova.png")
 ```
 
 #### Survival Analyses
@@ -3673,9 +3674,9 @@ lmers_anova$Pgm_T4_Abbott_lmer_pop
 lmers_sum$Pgm_T4_Abbott_lmer_pop
 ```
 
-```{r echo=FALSE}
-knitr::include_graphics("Pigmentation/p_Pgm_Abbott_PercT4.pdf")
-knitr::include_graphics("Pigmentation/p_Pgm_pop_Abbott_PercT4.pdf")
+```{r echo=FALSE, fig.show = "hold", out.width = "49%"}
+knitr::include_graphics("Pigmentation/p_Pgm_T4_F_pop_batch_Abbott.png")
+knitr::include_graphics("Pigmentation/p_Pgm_T4_F_pop_lm_Abbott.png")
 ```
 
 _PercT5_
@@ -3688,9 +3689,9 @@ lmers_anova$Pgm_T5_Abbott_lmer_pop
 lmers_sum$Pgm_T5_Abbott_lmer_pop
 ```
 
-```{r echo=FALSE}
-knitr::include_graphics("Pigmentation/p_Pgm_Abbott_PercT5.pdf")
-knitr::include_graphics("Pigmentation/p_Pgm_pop_Abbott_PercT5.pdf")
+```{r echo=FALSE, fig.show = "hold", out.width = "49%"}
+knitr::include_graphics("Pigmentation/p_Pgm_T5_F_pop_batch_Abbott.png")
+knitr::include_graphics("Pigmentation/p_Pgm_T5_F_pop_lm_Abbott.png")
 ```
 
 _PercT6_
@@ -3703,9 +3704,9 @@ lmers_anova$Pgm_T6_Abbott_lmer_pop
 lmers_sum$Pgm_T6_Abbott_lmer_pop
 ```
 
-```{r echo=FALSE}
-knitr::include_graphics("Pigmentation/p_Pgm_Abbott_PercT6.pdf")
-knitr::include_graphics("Pigmentation/p_Pgm_pop_Abbott_PercT6.pdf")
+```{r echo=FALSE, fig.show = "hold", out.width = "49%"}
+knitr::include_graphics("Pigmentation/p_Pgm_T6_F_pop_batch_Abbott.png")
+knitr::include_graphics("Pigmentation/p_Pgm_T6_F_pop_lm_Abbott.png")
 ```
 
 _TotalPerc_
@@ -3718,9 +3719,9 @@ lmers_anova$Pgm_Total_Abbott_lmer_pop
 lmers_sum$Pgm_Total_Abbott_lmer_pop
 ```
 
-```{r echo=FALSE}
-knitr::include_graphics("Pigmentation/p_Pgm_Abbott_TotalPerc.pdf")
-knitr::include_graphics("Pigmentation/p_Pgm_pop_Abbott_TotalPerc.pdf")
+```{r echo=FALSE, fig.show = "hold", out.width = "49%"}
+knitr::include_graphics("Pigmentation/p_Pgm_Total_F_pop_batch_Abbott.png")
+knitr::include_graphics("Pigmentation/p_Pgm_Total_F_pop_lm_Abbott.png")
 ```
 
 ##### Gibert Lab
@@ -3735,9 +3736,9 @@ lmers_anova$Pgm_T4_Gibert_lmer_pop
 lmers_sum$Pgm_T4_Gibert_lmer_pop
 ```
 
-```{r echo=FALSE}
-knitr::include_graphics("Pigmentation/p_Pgm_Gibert_PercT4.pdf")
-knitr::include_graphics("Pigmentation/p_Pgm_pop_Gibert_PercT4.pdf")
+```{r echo=FALSE, fig.show = "hold", out.width = "49%"}
+knitr::include_graphics("Pigmentation/p_Pgm_T4_F_pop_batch_Gibert.png")
+knitr::include_graphics("Pigmentation/p_Pgm_T4_F_pop_lm_Gibert.png")
 ```
 
 _PercT5_
@@ -3750,9 +3751,9 @@ lmers_anova$Pgm_T5_Gibert_lmer_pop
 lmers_sum$Pgm_T5_Gibert_lmer_pop
 ```
 
-```{r echo=FALSE}
-knitr::include_graphics("Pigmentation/p_Pgm_Gibert_PercT5.pdf")
-knitr::include_graphics("Pigmentation/p_Pgm_pop_Gibert_PercT5.pdf")
+```{r echo=FALSE, fig.show = "hold", out.width = "49%"}
+knitr::include_graphics("Pigmentation/p_Pgm_T5_F_pop_batch_Gibert.png")
+knitr::include_graphics("Pigmentation/p_Pgm_T5_F_pop_lm_Gibert.png")
 ```
 
 _PercT6_
@@ -3765,9 +3766,9 @@ lmers_anova$Pgm_T6_Gibert_lmer_pop
 lmers_sum$Pgm_T6_Gibert_lmer_pop
 ```
 
-```{r echo=FALSE}
-knitr::include_graphics("Pigmentation/p_Pgm_Gibert_PercT6.pdf")
-knitr::include_graphics("Pigmentation/p_Pgm_pop_Gibert_PercT6.pdf")
+```{r echo=FALSE, fig.show = "hold", out.width = "49%"}
+knitr::include_graphics("Pigmentation/p_Pgm_T6_F_pop_batch_Gibert.png")
+knitr::include_graphics("Pigmentation/p_Pgm_T6_F_pop_lm_Gibert.png")
 ```
 
 _TotalPerc_
@@ -3780,9 +3781,9 @@ lmers_anova$Pgm_Total_Gibert_lmer_pop
 lmers_sum$Pgm_Total_Gibert_lmer_pop
 ```
 
-```{r echo=FALSE}
-knitr::include_graphics("Pigmentation/p_Pgm_Gibert_TotalPerc.pdf")
-knitr::include_graphics("Pigmentation/p_Pgm_pop_Gibert_TotalPerc.pdf")
+```{r echo=FALSE, fig.show = "hold", out.width = "49%"}
+knitr::include_graphics("Pigmentation/p_Pgm_Total_F_pop_batch_Gibert.png")
+knitr::include_graphics("Pigmentation/p_Pgm_Total_F_pop_lm_Gibert.png")
 ```
 
 ##### Schmidt Lab
@@ -3797,9 +3798,9 @@ lmers_anova$Pgm_T4_Schmidt_lmer_pop
 lmers_sum$Pgm_T4_Schmidt_lmer_pop
 ```
 
-```{r echo=FALSE}
-knitr::include_graphics("Pigmentation/p_Pgm_Schmidt_PercT4.pdf")
-knitr::include_graphics("Pigmentation/p_Pgm_pop_Schmidt_PercT4.pdf")
+```{r echo=FALSE, fig.show = "hold", out.width = "49%"}
+knitr::include_graphics("Pigmentation/p_Pgm_T4_F_pop_batch_Schmidt.png")
+knitr::include_graphics("Pigmentation/p_Pgm_T4_F_pop_lm_Schmidt.png")
 ```
 
 _PercT5_
@@ -3811,9 +3812,9 @@ lmers_anova$Pgm_T5_Schmidt_lmer_pop
 lmers_sum$Pgm_T5_Schmidt_lmer_pop
 ```
 
-```{r echo=FALSE}
-knitr::include_graphics("Pigmentation/p_Pgm_Schmidt_PercT5.pdf")
-knitr::include_graphics("Pigmentation/p_Pgm_pop_Schmidt_PercT5.pdf")
+```{r echo=FALSE, fig.show = "hold", out.width = "49%"}
+knitr::include_graphics("Pigmentation/p_Pgm_T5_F_pop_batch_Schmidt.png")
+knitr::include_graphics("Pigmentation/p_Pgm_T5_F_pop_lm_Schmidt.png")
 ```
 
 _PercT6_
@@ -3825,9 +3826,9 @@ lmers_anova$Pgm_T6_Schmidt_lmer_pop
 lmers_sum$Pgm_T6_Schmidt_lmer_pop
 ```
 
-```{r echo=FALSE}
-knitr::include_graphics("Pigmentation/p_Pgm_Schmidt_PercT6.pdf")
-knitr::include_graphics("Pigmentation/p_Pgm_pop_Schmidt_PercT6.pdf")
+```{r echo=FALSE, fig.show = "hold", out.width = "49%"}
+knitr::include_graphics("Pigmentation/p_Pgm_T6_F_pop_batch_Schmidt.png")
+knitr::include_graphics("Pigmentation/p_Pgm_T6_F_pop_lm_Schmidt.png")
 ```
 
 _TotalPerc_
@@ -3840,9 +3841,9 @@ lmers_anova$Pgm_Total_Schmidt_lmer_pop
 lmers_sum$Pgm_Total_Schmidt_lmer_pop
 ```
 
-```{r echo=FALSE}
-knitr::include_graphics("Pigmentation/p_Pgm_Schmidt_TotalPerc.pdf")
-knitr::include_graphics("Pigmentation/p_Pgm_pop_Schmidt_TotalPerc.pdf")
+```{r echo=FALSE, fig.show = "hold", out.width = "49%"}
+knitr::include_graphics("Pigmentation/p_Pgm_Total_F_pop_batch_Schmidt.png")
+knitr::include_graphics("Pigmentation/p_Pgm_Total_F_pop_lm_Schmidt.png")
 ```
 
 #### Linear Models / Residuals
@@ -3937,6 +3938,69 @@ dir.create(file.path("ParasitoidResistance"), showWarnings = FALSE)
 Hrcek Lab: Vincent Montbel, Somayeh Rasouli Dogaheh, Jan Hrcek
 
 
+##### Data Reformatting
+
+```{r d_PR}
+str(droseu$pr)
+```
+
+##### Descriptive Statistics
+
+Descriptive statistics at the line level, with batch information:
+```{r, echo=FALSE}
+DT::datatable(table_line_wbatch$PR_HR, options = list(pageLength = 10)) %>% formatRound(6:12, 3)
+```
+
+Descriptive statistics at the line level, without batch information:
+```{r, echo=FALSE}
+DT::datatable(table_line_wobatch$PR_HR, options = list(pageLength = 10)) %>% formatRound(5:11, 3)
+```
+
+Descriptive statistics at the population level, with batch information:
+```{r, echo=FALSE}
+DT::datatable(table_pop_wbatch$PR_HR, options = list(pageLength = 10))  %>% formatRound(5:11, 3)
+```
+
+Descriptive statistics at the population level, without batch information:
+```{r, echo=FALSE}
+DT::datatable(table_pop_wobatch$PR_HR, options = list(pageLength = 10)) %>% formatRound(4:10, 3)
+```
+
+##### Plots and Linear Models by Lab
+
+```{r echo=FALSE, fig.show = "hold", out.width="49%"}
+knitr::include_graphics("ParasitoidResistance/p_PR_HR_pop_lab.png")
+```
+
+###### Hrcek Lab
+
+```{r}
+glmers_anova$PR_HR_Hrcek_glmer_pop
+```
+
+```{r}
+glmers_sum$PR_HR_Hrcek_glmer_pop
+```
+
+```{r echo=FALSE, fig.show = "hold", out.width="49%"}
+knitr::include_graphics("ParasitoidResistance/p_PR_HR_pop_batch_Hrcek.png")
+knitr::include_graphics("ParasitoidResistance/p_PR_HR_pop_lm_Hrcek.png")
+```
+
+##### Linear Models / Residuals
+
+###### Hrcek Lab
+
+```{r fig.show = "hold", out.width = "49%", fig.align = "default", echo = FALSE}
+knitr::include_graphics("LinearModelsPop/ParasitoidResistance/by_lab_models_residuals/PR_HR_Hrcek_glmer_pop_hist_residuals.png")
+
+knitr::include_graphics("LinearModelsPop/ParasitoidResistance/by_lab_models_residuals/PR_HR_Hrcek_glmer_pop_qq_plot_residuals.png")
+```
+
+
+
+
+
 ## 2.2 - Meta-Analyses
 
 ```{r echo=FALSE}
@@ -3951,7 +4015,7 @@ knitr::include_graphics("MetaAnalyses/all_models_pop_meta_pvalues.png")
 
 #### Viability
 
-```{r echo=FALSE, out.width="50%"}
+```{r echo=FALSE, out.width="49%"}
 knitr::include_graphics("MetaAnalyses/Viability/Via_NA_lmers_pop_meta_summary_effect.png")
 ```
 
