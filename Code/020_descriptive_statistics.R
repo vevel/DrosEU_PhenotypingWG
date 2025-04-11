@@ -89,12 +89,12 @@ for (i in 1:length(droseu_long)){
 
 ##### combine all traits into one data.frame
 
-droseu_long <- bind_rows(unlist(droseu_long, recursive = F)) 
+droseu_long <- bind_rows(unlist(droseu_long, recursive = F))
 
 
 #### define output names to match what was done previously in rmd file
 
-n <- unique(paste(droseu_long$Trait, droseu_long$Condition, droseu_long$Trait_name, sep ="_"))
+n <- unique(paste(droseu_long$Trait, droseu_long$Condition, droseu_long$Trait_name, sep = "_"))
 n <- sub("_NA", "", n)
 n[grep("CCRT_", n)] <- "CCRT"
 n[grep("CSM_", n)] <- "CSM"
@@ -112,7 +112,7 @@ n[grep("SR_", n)] <- "SR"
 n[grep("Via_", n)] <- "Via"
 n[grep("WA_CentroidSizeLeft", n)] <- "WA_Left"
 n[grep("WA_CentroidSizeRight", n)] <- "WA_Right"
-n[grep("PR_", n)] <- "PR_HR"
+n[grep("PR_H", n)] <- "PR_HR"
 
 
 ##### Line level with Batch
